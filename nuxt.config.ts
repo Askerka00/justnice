@@ -8,9 +8,6 @@ const prerenderRoutes = [
   '/brands/geely-monjaro',
   '/brands/changan',
   '/brands/toyota-china',
-  '/services/sim-telematics',
-  '/services/firmware-apps',
-  '/services/master-account',
   '/calculator',
   '/sitemap.xml',
   '/robots.txt'
@@ -37,7 +34,7 @@ export default defineNuxtConfig({
         { name: 'geo.placename', content: 'Алматы' },
         { name: 'geo.position', content: '43.238949;76.889709' },
         { name: 'ICBM', content: '43.238949, 76.889709' },
-        { property: 'og:site_name', content: 'JUSTNICE — Премиальная русификация и телематика в Алматы' },
+        { property: 'og:site_name', content: 'JUSTNICE — Профессиональная русификация китайских авто в Алматы' },
         { property: 'og:locale', content: 'ru_KZ' },
         { property: 'og:type', content: 'website' },
         { name: 'twitter:card', content: 'summary_large_image' }

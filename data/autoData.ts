@@ -20,7 +20,7 @@ export const CAR_MODELS: CarModel[] = [
     price: 180000,
     timeHours: '1.5–2 часа',
     chipset: 'Qualcomm Snapdragon 8155 / 8295',
-    image: '/images/cars/zeekr.jpg',
+    image: '/images/cars/zeekr-001.jpg',
     features: [
       'Полный перевод центрального экрана и HUD проекции',
       'Установка лицензионного 2GIS с камерами «Сергек»',
@@ -38,7 +38,7 @@ export const CAR_MODELS: CarModel[] = [
     price: 200000,
     timeHours: '2 часа',
     chipset: 'Qualcomm Snapdragon 8295',
-    image: '/images/cars/zeekr.jpg',
+    image: '/images/cars/zeekr-001.jpg',
     features: [
       'Локализация Zeekr OS 6.0 на русский язык',
       'Перевод приборной панели, дисплея и проекции',
@@ -56,7 +56,7 @@ export const CAR_MODELS: CarModel[] = [
     price: 220000,
     timeHours: '2–2.5 часа',
     chipset: 'Dual Qualcomm Snapdragon 8155 / 8295',
-    image: '/images/cars/lixiang.jpg',
+    image: '/images/cars/lixiang-l9.jpg',
     features: [
       'Перевод всех дисплеев: рулевой, центральный, пассажирский и потолочный',
       'Адаптация Li OS под русский язык без зависаний',
@@ -74,7 +74,7 @@ export const CAR_MODELS: CarModel[] = [
     price: 55000,
     timeHours: '45–60 минут',
     chipset: 'DiLink 4.0 / 5.0',
-    image: '/images/cars/byd.jpg',
+    image: '/images/cars/byd-song-plus.jpg',
     features: [
       'Полная русификация поворотного экрана DiLink',
       'Разблокировка свободного инсталлятора APK',
@@ -92,7 +92,7 @@ export const CAR_MODELS: CarModel[] = [
     price: 65000,
     timeHours: '1–1.5 часа',
     chipset: 'Geely Galaxy OS',
-    image: '/images/cars/geely.jpg',
+    image: '/images/cars/geely-monjaro.jpg',
     features: [
       'Перевод всех 3-х мониторов передней панели',
       'Голосовой помощник на русском языке',
@@ -110,7 +110,7 @@ export const CAR_MODELS: CarModel[] = [
     price: 45000,
     timeHours: '40–50 минут',
     chipset: 'Changan Smart Cockpit',
-    image: '/images/cars/geely.jpg',
+    image: '/images/cars/geely-monjaro.jpg',
     features: [
       'Русификация приборного щитка и мультимедиа',
       'Инсталляция 2GIS и Яндекс с базой камер «Сергек»',
@@ -128,7 +128,7 @@ export const CAR_MODELS: CarModel[] = [
     price: 160000,
     timeHours: '1.5 часа',
     chipset: 'Denso / Toyota Smart Connect',
-    image: '/images/cars/zeekr.jpg',
+    image: '/images/cars/zeekr-001.jpg',
     features: [
       'Перевод меню приборной панели и мультимедиа',
       'Перевод шкал в км/ч, литры/100 км, градусы °C',
