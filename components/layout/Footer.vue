@@ -1,55 +1,54 @@
 <template>
-  <footer id="contacts" class="bg-[#000000] text-white border-t border-white pt-12 pb-8">
+  <footer id="contacts" class="bg-[#050608] text-white border-t border-[#222222] pt-14 pb-8">
     <div class="container-audi">
       <!-- Footer Nav -->
-      <div class="flex flex-col md:flex-row items-start md:items-center justify-between py-6 gap-6">
+      <div class="flex flex-col md:flex-row items-start md:items-center justify-between pb-8 gap-6 border-b border-[#222222]">
         <NuxtLink to="/" class="flex items-center gap-3">
-          <span class="text-[2.2rem] font-medium tracking-tight text-white">JUSTNICE</span>
-          <span class="text-[1.1rem] font-medium tracking-widest text-[#f50537] border border-[#f50537] px-1.5 py-0.2 uppercase">AUTOTECH</span>
+          <span class="text-xl font-bold tracking-tight text-white">JUSTNICE</span>
+          <span class="text-[10px] font-bold tracking-widest text-[#f50537] border border-[#f50537] px-1.5 py-0.5 uppercase">AUTOTECH</span>
         </NuxtLink>
 
-        <div class="flex flex-wrap items-center gap-8 text-[1.6rem] font-normal text-white">
+        <div class="flex flex-wrap items-center gap-6 text-sm text-[#cccccc]">
           <a href="#models" class="h-opacity transition-opacity">Модельный ряд</a>
-          <a href="#technologies" class="h-opacity transition-opacity">Технологии</a>
-          <a href="#calculator" class="h-opacity transition-opacity">Конфигуратор</a>
-          <a href="#process" class="h-opacity transition-opacity">Стандарты</a>
+          <a href="#calculator" class="h-opacity transition-opacity">Калькулятор</a>
+          <a href="#technologies" class="h-opacity transition-opacity">О русификации</a>
+          <a href="#process" class="h-opacity transition-opacity">Регламент</a>
           <a href="#faq" class="h-opacity transition-opacity">FAQ</a>
           <a href="#contacts" class="h-opacity transition-opacity">Контакты</a>
         </div>
       </div>
 
-      <hr class="border-0 h-[1px] bg-[#d9d9d9] opacity-40 my-4" />
-
-      <!-- Disclaimer & Almaty Center Details -->
-      <div class="py-12 text-sm text-[#ffffff] font-light leading-relaxed grid grid-cols-1 md:grid-cols-2 gap-10">
+      <!-- Description & Center Details -->
+      <div class="py-10 text-xs text-[#888888] font-light leading-relaxed grid grid-cols-1 md:grid-cols-2 gap-8 border-b border-[#222222]">
         <div>
-          <p class="mb-4">
-            Специализированная инженерная лаборатория программной адаптации, русификации и телематики электромобилей и гибридных автомобилей в Республике Казахстан.
+          <p class="text-white font-medium text-sm mb-2">JUSTNICE AutoTech — Лаборатория русификации</p>
+          <p class="mb-3">
+            Специализированная программная адаптация и локализация китайских электромобилей и гибридов в Алматы. Прошивка интерфейсов, приборных панелей, проекций HUD, установка 2GIS и Яндекс с камерами «Сергек».
           </p>
-          <p class="text-[#888888] text-xs">
-            Все упомянутые товарные знаки (Zeekr, Li Auto, BYD, Geely, Changan, Toyota) принадлежат их соответствующим правообладателям и используются исключительно для идентификации моделей.
+          <p class="text-[#666666]">
+            Все торговые марки (Zeekr, Li Auto, BYD, Geely, Changan, Toyota) являются собственностью их владельцев и приведены исключительно для описания совместимости.
           </p>
         </div>
 
         <div>
-          <p class="font-medium mb-2 text-white">Инженерный центр в Алматы</p>
-          <p class="text-[#cccccc] text-xs mb-1">г. Алматы, пр. Абая / ул. Саина (выездные экипажи по всем районам Алматы)</p>
-          <p class="text-[#cccccc] text-xs mb-1">График работы: Ежедневно с 09:00 до 21:00 (по предварительной записи)</p>
-          <p class="text-[#cccccc] text-xs">Прямая связь: <a href="mailto:info@justnice.me" class="underline">info@justnice.me</a></p>
+          <p class="font-medium text-sm text-white mb-2">Инженерный центр в Алматы</p>
+          <p class="text-[#aaaaaa] mb-1">г. Алматы, пр. Абая / ул. Саина</p>
+          <p class="text-[#aaaaaa] mb-1">График работы: Ежедневно 09:00 – 21:00 (по предварительной записи)</p>
+          <p class="text-[#aaaaaa]">Консультация: <a href="tel:+77003003390" class="text-white font-normal hover:underline">+7 (700) 300-33-90</a></p>
         </div>
       </div>
 
-      <hr class="border-0 h-[1px] bg-[#d9d9d9] opacity-40 my-4" />
-
       <!-- Bottom Bar -->
-      <div class="py-8 flex flex-col sm:flex-row items-center justify-between gap-6">
-        <div class="flex items-center gap-4">
-          <div class="text-xs text-[#808080]">Инженерная линия / WhatsApp:</div>
-          <a href="tel:+77003003390" class="text-sm font-normal text-white h-opacity">+7 (700) 300-33-90</a>
+      <div class="pt-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-[#666666]">
+        <div>
+          2026 © justnice.me — Профессиональная русификация в Алматы
         </div>
 
-        <div class="text-xs text-white opacity-80">
-          2026 © justnice.me — Все права защищены
+        <div class="flex items-center gap-2">
+          <span>Связаться с инженером:</span>
+          <a href="https://wa.me/77003003390" target="_blank" rel="noopener noreferrer" class="text-white hover:text-[#f50537] transition-colors underline">
+            WhatsApp
+          </a>
         </div>
       </div>
     </div>
