@@ -29,15 +29,20 @@ export default defineNuxtConfig({
       meta: [
         { name: 'format-detection', content: 'telephone=no' },
         { name: 'theme-color', content: '#000000' },
+        { name: 'robots', content: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' },
         { name: 'author', content: 'JUSTNICE AutoTech Almaty' },
+        { name: 'keywords', content: 'русификация авто алматы, русификация zeekr 001 алматы, русификация lixiang l9 алматы, прошивка geely monjaro алматы, русификация byd song plus алматы, русификация changan алматы, русификация тойота камри 80 алматы, установка 2gis и яндекс навигатор алматы' },
         { name: 'geo.region', content: 'KZ-ALA' },
         { name: 'geo.placename', content: 'Алматы' },
-        { name: 'geo.position', content: '43.238949;76.889709' },
-        { name: 'ICBM', content: '43.238949, 76.889709' },
         { property: 'og:site_name', content: 'JUSTNICE — Профессиональная русификация китайских авто в Алматы' },
         { property: 'og:locale', content: 'ru_KZ' },
         { property: 'og:type', content: 'website' },
-        { name: 'twitter:card', content: 'summary_large_image' }
+        { property: 'og:image', content: 'https://justnice.me/images/hero-car.jpg' },
+        { property: 'og:image:width', content: '1376' },
+        { property: 'og:image:height', content: '768' },
+        { property: 'og:image:alt', content: 'JUSTNICE AutoTech — Русификация китайских авто в Алматы' },
+        { name: 'twitter:card', content: 'summary_large_image' },
+        { name: 'twitter:image', content: 'https://justnice.me/images/hero-car.jpg' }
       ],
       link: [
         { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' },

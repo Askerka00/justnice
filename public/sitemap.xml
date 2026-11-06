@@ -44,26 +44,8 @@
   </url>
   <url>
     <loc>https://justnice.me/brands/toyota-china</loc>
-    <lastmod>2026-11-06</lastmod>
+    <lastmod>2026-11-07</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://justnice.me/services/sim-telematics</loc>
-    <lastmod>2026-11-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://justnice.me/services/firmware-apps</loc>
-    <lastmod>2026-11-06</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://justnice.me/services/master-account</loc>
-    <lastmod>2026-11-06</lastmod>
-    <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
 </urlset>

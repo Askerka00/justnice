@@ -28,7 +28,7 @@
         <div>
           <p class="text-white font-medium text-sm mb-2">JUSTNICE AutoTech — Лаборатория русификации</p>
           <p class="mb-3">
-            Специализированная программная адаптация и локализация китайских электромобилей и гибридов в Алматы. Прошивка интерфейсов, приборных панелей, проекций HUD, установка 2GIS и Яндекс с камерами «Сергек».
+            Специализированная программная адаптация и локализация китайских электромобилей и гибридов в Алматы. Прошивка интерфейсов, приборных панелей, проекций HUD, лицензионный 2GIS и Яндекс Навигатор.
           </p>
           <p class="text-[#666666]">
             Все торговые марки (Zeekr, Li Auto, BYD, Geely, Changan, Toyota) являются собственностью их владельцев и приведены исключительно для описания совместимости.
@@ -37,9 +37,9 @@
 
         <div>
           <p class="font-medium text-sm text-white mb-2">Инженерный центр в Алматы</p>
-          <p class="text-[#aaaaaa] mb-1">г. Алматы, пр. Абая / ул. Саина</p>
-          <p class="text-[#aaaaaa] mb-1">График работы: Ежедневно 09:00 – 21:00 (по предварительной записи)</p>
-          <p class="text-[#aaaaaa]">Консультация: <a href="tel:+77003003390" class="text-white font-normal hover:underline">+7 (700) 300-33-90</a></p>
+          <p class="text-[#aaaaaa] mb-1">г. Алматы (выезд и прием по предварительной записи)</p>
+          <p class="text-[#aaaaaa] mb-1">График работы: Ежедневно 09:00 – 21:00</p>
+          <p class="text-[#aaaaaa]">Консультация: <a href="tel:+77772389939" class="text-white font-normal hover:underline">+7 (777) 238-99-39</a></p>
         </div>
       </div>
 
@@ -51,7 +51,7 @@
 
         <div class="flex items-center gap-2">
           <span>Связаться с инженером:</span>
-          <a href="https://wa.me/77003003390" target="_blank" rel="noopener noreferrer" class="text-white hover:text-[#f50537] transition-colors underline">
+          <a href="https://wa.me/77772389939" target="_blank" rel="noopener noreferrer" class="text-white hover:text-[#f50537] transition-colors underline">
             WhatsApp
           </a>
         </div>

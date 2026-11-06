@@ -27,13 +27,13 @@ const whatsappBookingUrl = computed(() => {
   const message = [
     `Здравствуйте! Заявка на русификацию с сайта justnice.me:`,
     `• Автомобиль: ${activeCar.value.name}`,
-    `• Услуга: Полная русификация под ключ (экраны, HUD, 2GIS, Яндекс, Сергек)`,
+    `• Услуга: Профессиональная русификация под ключ (экраны, HUD, 2GIS, Яндекс)`,
     `• Чипсет: ${activeCar.value.chipset}`,
     `• Стоимость: ${activeCar.value.price.toLocaleString('ru-RU')} тг.`,
     `Подскажите, когда ближайшее свободное окно для записи?`
   ].join('\n')
 
-  return `https://wa.me/77003003390?text=${encodeURIComponent(message)}`
+  return `https://wa.me/77772389939?text=${encodeURIComponent(message)}`
 })
 
 const selectCarAndScroll = (carId: string) => {
@@ -50,14 +50,83 @@ const toggleFaq = (index: number) => {
   openFaqIndex.value = openFaqIndex.value === index ? null : index
 }
 
+// Comprehensive Schema.org JSON-LD for Google Rich Results
+const schemaLocalBusiness = {
+  '@context': 'https://schema.org',
+  '@type': 'AutoRepair',
+  name: 'JUSTNICE AutoTech — Русификация китайских авто в Алматы',
+  image: 'https://justnice.me/images/hero-car.jpg',
+  logo: 'https://justnice.me/images/logo-flow.jpg',
+  url: 'https://justnice.me/',
+  telephone: '+77772389939',
+  priceRange: '40000 KZT - 140000 KZT',
+  address: {
+    '@type': 'PostalAddress',
+    addressLocality: 'Алматы',
+    addressCountry: 'KZ'
+  },
+  openingHoursSpecification: [
+    {
+      '@type': 'OpeningHoursSpecification',
+      dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
+      opens: '09:00',
+      closes: '21:00'
+    }
+  ],
+  areaServed: {
+    '@type': 'City',
+    name: 'Алматы'
+  },
+  description: 'Профессиональная русификация и программная адаптация китайских электромобилей и гибридов (Zeekr, LiXiang, BYD, Geely, Changan, Toyota) в Алматы.',
+  hasOfferCatalog: {
+    '@type': 'OfferCatalog',
+    name: 'Пакеты русификации',
+    itemListElement: CAR_MODELS.map(car => ({
+      '@type': 'Offer',
+      itemOffered: {
+        '@type': 'Service',
+        name: `Русификация ${car.name}`
+      },
+      price: car.price,
+      priceCurrency: 'KZT'
+    }))
+  }
+}
+
+const schemaFaq = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: FAQS.map(faq => ({
+    '@type': 'Question',
+    name: faq.q,
+    acceptedAnswer: {
+      '@type': 'Answer',
+      text: faq.a
+    }
+  }))
+}
+
 // SEO Head Meta
 useHead({
-  title: 'Официальная русификация китайских авто в Алматы — Zeekr, LiXiang, BYD, Geely | JUSTNICE AutoTech',
+  title: 'Русификация китайских авто в Алматы — Zeekr, LiXiang, BYD, Geely, Camry 80 | JUSTNICE',
   meta: [
     {
       name: 'description',
-      content: 'Профессиональная русификация китайских авто в Алматы. Перевод приборки, центральных дисплеев и HUD, лицензионный 2GIS и Яндекс с камерами «Сергек». Сохранение заводской гарантии.'
-    }
+      content: 'Профессиональная русификация и адаптация китайских авто в Алматы. Перевод приборки, центральных дисплеев и HUD, 2GIS и Яндекс Навигатор с предупреждением о дорожных камерах. 100% сохранение дилерской гарантии.'
+    },
+    { property: 'og:title', content: 'Русификация китайских авто в Алматы — Zeekr, LiXiang, BYD, Geely, Camry 80' },
+    { property: 'og:description', content: 'Официальная программная адаптация китайских авто в Алматы. 2GIS, Яндекс Навигатор, гарантия 12 месяцев. Онлайн-расчет стоимости.' },
+    { property: 'og:url', content: 'https://justnice.me/' },
+    { property: 'og:image', content: 'https://justnice.me/images/hero-car.jpg' },
+    { name: 'twitter:title', content: 'Русификация китайских авто в Алматы — JUSTNICE' },
+    { name: 'twitter:description', content: 'Профессиональный перевод мультимедиа и приборных панелей Zeekr, LiXiang, BYD, Geely, Camry 80 в Алматы.' }
+  ],
+  link: [
+    { rel: 'canonical', href: 'https://justnice.me/' }
+  ],
+  script: [
+    { type: 'application/ld+json', children: JSON.stringify(schemaLocalBusiness) },
+    { type: 'application/ld+json', children: JSON.stringify(schemaFaq) }
   ]
 })
 </script>
@@ -100,7 +169,7 @@ useHead({
               <span class="ml-2">→</span>
             </a>
             <a
-              href="https://wa.me/77003003390?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%A5%D0%BE%D1%87%D1%83%20%D1%83%D0%B7%D0%BD%D0%B0%D1%82%D1%8C%20%D1%81%D1%82%D0%BE%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D1%8C%20%D1%80%D1%83%D1%81%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D0%B8."
+              href="https://wa.me/77772389939?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%A5%D0%BE%D1%87%D1%83%20%D1%83%D0%B7%D0%BD%D0%B0%D1%82%D1%8C%20%D1%81%D1%82%D0%BE%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D1%8C%20%D1%80%D1%83%D1%81%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D0%B8."
               target="_blank"
               rel="noopener noreferrer"
               class="btn btn-default"
@@ -465,13 +534,13 @@ useHead({
             Записаться на русификацию
           </h2>
           <p class="text-sm text-[#aaaaaa] font-light mt-2 max-w-xl">
-            г. Алматы, пр. Абая / ул. Саина. Прием автомобилей ежедневно с 09:00 до 21:00 по предварительной записи.
+            г. Алматы. Прием автомобилей и выезд инженера ежедневно с 09:00 до 21:00 по предварительной записи.
           </p>
         </div>
 
         <div class="btn-group shrink-0">
           <a
-            href="https://wa.me/77003003390?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%80%D1%83%D1%81%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D1%8E%20%D0%B2%20%D0%90%D0%BB%D0%BC%D0%B0%D1%82%D1%8B."
+            href="https://wa.me/77772389939?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%B7%D0%B0%D0%BF%D0%B8%D1%81%D0%B0%D1%82%D1%8C%D1%81%D1%8F%20%D0%BD%D0%B0%20%D1%80%D1%83%D1%81%D0%B8%D1%84%D0%B8%D0%BA%D0%B0%D1%86%D0%B8%D1%8E%20%D0%B2%20%D0%90%D0%BB%D0%BC%D0%B0%D1%82%D1%8B."
             target="_blank"
             rel="noopener noreferrer"
             class="btn btn-primary"
@@ -479,8 +548,8 @@ useHead({
             <span>Написать в WhatsApp</span>
             <span class="ml-2">→</span>
           </a>
-          <a href="tel:+77003003390" class="btn btn-default">
-            <span>+7 (700) 300-33-90</span>
+          <a href="tel:+77772389939" class="btn btn-default">
+            <span>+7 (777) 238-99-39</span>
           </a>
         </div>
       </div>

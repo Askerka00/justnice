@@ -15,7 +15,7 @@ const whatsappBookingUrl = computed(() => {
     `Подскажите, когда можно записаться на русификацию?`
   ].join('\n')
 
-  return `https://wa.me/77003003390?text=${encodeURIComponent(parts)}`
+  return `https://wa.me/77772389939?text=${encodeURIComponent(parts)}`
 })
 
 useHead({
@@ -24,7 +24,15 @@ useHead({
     {
       name: 'description',
       content: 'Точный онлайн-расчет стоимости русификации для Zeekr, LiXiang, BYD, Geely, Changan в Алматы с фиксацией цены в WhatsApp.'
-    }
+    },
+    { property: 'og:title', content: 'Калькулятор стоимости русификации авто в Алматы — JUSTNICE' },
+    { property: 'og:description', content: 'Онлайн-расчет стоимости программной адаптации китайских автомобилей под ключ.' },
+    { property: 'og:url', content: 'https://justnice.me/calculator' },
+    { property: 'og:image', content: 'https://justnice.me/images/hero-car.jpg' },
+    { name: 'twitter:title', content: 'Калькулятор стоимости русификации авто в Алматы' }
+  ],
+  link: [
+    { rel: 'canonical', href: 'https://justnice.me/calculator' }
   ]
 })
 </script>

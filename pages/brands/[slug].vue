@@ -137,8 +137,32 @@ const currentBrand = computed(() => {
 
 const whatsappBrandUrl = computed(() => {
   const text = `Здравствуйте! Интересует русификация ${currentBrand.value.name} в Алматы. Подскажите детали и время записи?`
-  return `https://wa.me/77003003390?text=${encodeURIComponent(text)}`
+  return `https://wa.me/77772389939?text=${encodeURIComponent(text)}`
 })
+
+const schemaService = computed(() => ({
+  '@context': 'https://schema.org',
+  '@type': 'Service',
+  name: currentBrand.value.title,
+  serviceType: 'Русификация и прошивка мультимедиа',
+  provider: {
+    '@type': 'AutoRepair',
+    name: 'JUSTNICE AutoTech',
+    telephone: '+77772389939',
+    url: 'https://justnice.me/'
+  },
+  areaServed: {
+    '@type': 'City',
+    name: 'Алматы'
+  },
+  offers: {
+    '@type': 'Offer',
+    price: currentBrand.value.basePrice,
+    priceCurrency: 'KZT',
+    availability: 'https://schema.org/InStock'
+  },
+  description: currentBrand.value.summary
+}))
 
 useHead({
   title: computed(() => currentBrand.value.title),
@@ -146,7 +170,19 @@ useHead({
     {
       name: 'description',
       content: computed(() => currentBrand.value.metaDesc)
-    }
+    },
+    { property: 'og:title', content: computed(() => currentBrand.value.title) },
+    { property: 'og:description', content: computed(() => currentBrand.value.metaDesc) },
+    { property: 'og:url', content: computed(() => `https://justnice.me/brands/${slug.value}`) },
+    { property: 'og:image', content: 'https://justnice.me/images/hero-car.jpg' },
+    { name: 'twitter:title', content: computed(() => currentBrand.value.title) },
+    { name: 'twitter:description', content: computed(() => currentBrand.value.metaDesc) }
+  ],
+  link: [
+    { rel: 'canonical', href: computed(() => `https://justnice.me/brands/${slug.value}`) }
+  ],
+  script: [
+    { type: 'application/ld+json', children: computed(() => JSON.stringify(schemaService.value)) }
   ]
 })
 </script>
