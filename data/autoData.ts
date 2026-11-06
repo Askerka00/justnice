@@ -17,16 +17,16 @@ export const CAR_MODELS: CarModel[] = [
     brand: 'Zeekr',
     name: 'Zeekr 001 (Рестайл & Дорестайл)',
     year: '2023–2026',
-    price: 180000,
+    price: 120000,
     timeHours: '1.5–2 часа',
     chipset: 'Qualcomm Snapdragon 8155 / 8295',
     image: '/images/cars/zeekr-001.jpg',
     features: [
       'Полный перевод центрального экрана и HUD проекции',
-      'Установка лицензионного 2GIS с камерами «Сергек»',
+      'Установка лицензионного 2GIS с предупреждением о камерах «Сергек»',
       'Яндекс Навигатор с голосовым сопровождением Алисы',
       'Синхронизация часового пояса Алматы (UTC+5)',
-      'Сохранение дилерской гарантии и стабильности систем'
+      '100% сохранение дилерской гарантии и стабильности систем'
     ],
     popular: true
   },
@@ -35,14 +35,14 @@ export const CAR_MODELS: CarModel[] = [
     brand: 'Zeekr',
     name: 'Zeekr 007 / 7X',
     year: '2024–2026',
-    price: 200000,
+    price: 130000,
     timeHours: '2 часа',
     chipset: 'Qualcomm Snapdragon 8295',
     image: '/images/cars/zeekr-001.jpg',
     features: [
-      'Локализация Zeekr OS 6.0 на русский язык',
+      'Локализация Zeekr OS на русский язык',
       'Перевод приборной панели, дисплея и проекции',
-      '2GIS и Яндекс Навигатор с предупреждениями о камерах',
+      '2GIS и Яндекс Навигатор с предупреждениями о дорожных камерах',
       'YouTube, Spotify и интернет-радио',
       '12 месяцев официальной гарантии на софт'
     ],
@@ -53,7 +53,7 @@ export const CAR_MODELS: CarModel[] = [
     brand: 'Li Auto / LiXiang',
     name: 'LiXiang L6 / L7 / L8 / L9',
     year: '2023–2026',
-    price: 220000,
+    price: 140000,
     timeHours: '2–2.5 часа',
     chipset: 'Dual Qualcomm Snapdragon 8155 / 8295',
     image: '/images/cars/lixiang-l9.jpg',
@@ -71,7 +71,7 @@ export const CAR_MODELS: CarModel[] = [
     brand: 'BYD',
     name: 'BYD Song Plus / Champion / Han / Seal',
     year: '2022–2026',
-    price: 55000,
+    price: 45000,
     timeHours: '45–60 минут',
     chipset: 'DiLink 4.0 / 5.0',
     image: '/images/cars/byd-song-plus.jpg',
@@ -107,13 +107,13 @@ export const CAR_MODELS: CarModel[] = [
     brand: 'Changan',
     name: 'Changan UNI-K / UNI-V / UNI-T / CS55 Plus',
     year: '2023–2026',
-    price: 45000,
+    price: 40000,
     timeHours: '40–50 минут',
     chipset: 'Changan Smart Cockpit',
-    image: '/images/cars/geely-monjaro.jpg',
+    image: '/images/cars/changan-uni-k.jpg',
     features: [
       'Русификация приборного щитка и мультимедиа',
-      'Инсталляция 2GIS и Яндекс с базой камер «Сергек»',
+      'Инсталляция 2GIS и Яндекс с оповещением о камерах «Сергек»',
       'Apple CarPlay и Android Auto',
       'Без физического вмешательства в проводку',
       'Гарантия 12 месяцев'
@@ -125,16 +125,16 @@ export const CAR_MODELS: CarModel[] = [
     brand: 'Toyota / Lexus (КНР)',
     name: 'Toyota Camry 80 / RAV4 / Wildlander (Китай)',
     year: '2023–2026',
-    price: 160000,
+    price: 95000,
     timeHours: '1.5 часа',
     chipset: 'Denso / Toyota Smart Connect',
-    image: '/images/cars/zeekr-001.jpg',
+    image: '/images/cars/toyota-camry.jpg',
     features: [
       'Перевод меню приборной панели и мультимедиа',
       'Перевод шкал в км/ч, литры/100 км, градусы °C',
-      'Четные европейские частоты FM-радио',
+      'Европейская сетка FM-радио (четные частоты)',
       'Полная совместимость с Toyota Safety Sense',
-      'Надежная дилерская прошивка'
+      'Надежная заводская прошивка'
     ],
     popular: false
   }

@@ -4,6 +4,11 @@
       <!-- Footer Nav -->
       <div class="flex flex-col md:flex-row items-start md:items-center justify-between pb-8 gap-6 border-b border-[#222222]">
         <NuxtLink to="/" class="flex items-center gap-3">
+          <img
+            src="/images/logo-flow.jpg"
+            alt="JUSTNICE Emblem"
+            class="h-8 w-8 object-cover border border-white/20"
+          />
           <span class="text-xl font-bold tracking-tight text-white">JUSTNICE</span>
           <span class="text-[10px] font-bold tracking-widest text-[#f50537] border border-[#f50537] px-1.5 py-0.5 uppercase">AUTOTECH</span>
         </NuxtLink>

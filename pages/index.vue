@@ -91,7 +91,7 @@ useHead({
           </h1>
 
           <p class="text-lg text-[#cccccc] font-light leading-relaxed mb-10 max-w-xl">
-            Официальная программная адаптация <strong class="text-white font-medium">Zeekr, LiXiang, BYD, Geely, Changan и Toyota</strong>. Перевод экранов и проекции HUD, лицензионный 2GIS и Яндекс с камерами «Сергек» без потери дилерской гарантии.
+            Официальная программная адаптация <strong class="text-white font-medium">Zeekr, LiXiang, BYD, Geely, Changan и Toyota</strong>. Полный перевод экранов и проекции HUD, лицензионный 2GIS и Яндекс с предупреждением о камерах контроля скорости без потери дилерской гарантии.
           </p>
 
           <div class="btn-group">
@@ -119,8 +119,8 @@ useHead({
           </div>
           <div>
             <span class="text-xs font-semibold text-[#f50537] uppercase tracking-wider">02 / Навигация</span>
-            <h4 class="text-sm font-medium text-white mt-1">2GIS и камеры «Сергек»</h4>
-            <p class="text-xs text-[#999999] font-light mt-1">Лицензионный навигатор с актуальной базой камер контроля скорости и выделенных полос РК.</p>
+            <h4 class="text-sm font-medium text-white mt-1">2GIS и Яндекс Навигатор</h4>
+            <p class="text-xs text-[#999999] font-light mt-1">Официальные навигационные сервисы с онлайн-предупреждением о дорожных камерах контроля скорости («Сергек») и полосах Bus Lane.</p>
           </div>
           <div>
             <span class="text-xs font-semibold text-[#f50537] uppercase tracking-wider">03 / Надежность</span>

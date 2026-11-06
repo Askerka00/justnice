@@ -20,13 +20,13 @@ const brandMap: Record<string, {
   'zeekr': {
     name: 'Zeekr',
     title: 'Русификация Zeekr 001, 007, 7X, 009, X в Алматы — Прошивка Zeekr OS 2026',
-    metaDesc: 'Профессиональная русификация Zeekr 001/007/7X в Алматы. Перевод приборки, центрального экрана и проекции HUD. Навигатор 2GIS и Яндекс с камерами Сергек.',
+    metaDesc: 'Профессиональная русификация Zeekr 001/007/7X в Алматы. Перевод приборки, центрального экрана и проекции HUD. Навигатор 2GIS и Яндекс с оповещением о камерах Сергек.',
     h1: 'Русификация Zeekr',
     summary: 'Официальные программные пакеты для Zeekr 001, 007, 7X, X и 009. Без потери заводской гарантии и стабильности автопилота NZP.',
     models: ['Zeekr 001 (Рестайл и Дорестайл)', 'Zeekr 007', 'Zeekr 7X', 'Zeekr X', 'Zeekr 009'],
     chipset: 'Qualcomm Snapdragon 8155 / 8295',
     timeHours: '1.5 – 2 часа',
-    basePrice: 180000,
+    basePrice: 120000,
     features: [
       'Полный перевод центрального дисплея, приборной панели и HUD проекции',
       'Официальный Яндекс Навигатор и 2GIS со звуковыми подсказками',
@@ -39,13 +39,13 @@ const brandMap: Record<string, {
   'lixiang': {
     name: 'LiXiang (Li Auto)',
     title: 'Русификация LiXiang L6, L7, L8, L9 в Алматы — Полный перевод дисплеев',
-    metaDesc: 'Адаптация LiXiang L6/L7/L8/L9 в Алматы. Перевод 3-х дисплеев (включая потолочный экран), навигация 2GIS и Яндекс с камерами «Сергек».',
+    metaDesc: 'Адаптация LiXiang L6/L7/L8/L9 в Алматы. Перевод 3-х дисплеев (включая потолочный экран), навигация 2GIS и Яндекс с оповещением о камерах контроля скорости.',
     h1: 'Русификация LiXiang',
     summary: 'Комплексная программная локализация мультимедийной системы Li Auto. Русификация экранчика на руле, пассажирского монитора и развлекательного потолочного экрана.',
     models: ['LiXiang L6 Pro / Max', 'LiXiang L7 Pro / Max / Ultra', 'LiXiang L8 Pro / Max', 'LiXiang L9 Max / Ultra'],
     chipset: 'Dual Qualcomm Snapdragon 8155 / 8295',
     timeHours: '2 – 2.5 часа',
-    basePrice: 220000,
+    basePrice: 140000,
     features: [
       'Перевод всех дисплеев (приборка, центральный, пассажирский, потолочный)',
       'Официальный 2GIS Алматы с предупреждением о камерах контроля скорости',
@@ -64,7 +64,7 @@ const brandMap: Record<string, {
     models: ['BYD Song Plus DM-i / EV', 'BYD Song Champion', 'BYD Han EV', 'BYD Seal', 'BYD Destroyer 05', 'BYD Tang'],
     chipset: 'Qualcomm Snapdragon 665 / 690 / DiLink 5.0',
     timeHours: '45 – 60 минут',
-    basePrice: 55000,
+    basePrice: 45000,
     features: [
       'Полная русификация поворотного экрана и меню настроек',
       'Активация магазина приложений и свободная установка APK',
@@ -101,10 +101,10 @@ const brandMap: Record<string, {
     models: ['Changan UNI-K', 'Changan UNI-V', 'Changan UNI-T', 'Changan CS55 Plus / CS75 Plus'],
     chipset: 'Changan Smart Cockpit OS',
     timeHours: '40 – 60 минут',
-    basePrice: 45000,
+    basePrice: 40000,
     features: [
       'Русификация приборной панели и мультимедиа',
-      'Установка 2GIS и Яндекс с отображением камер Сергек',
+      'Установка 2GIS и Яндекс с оповещением о дорожных камерах',
       'Активация Apple CarPlay и Android Auto',
       'Выполнение работ без разбора передней панели салона',
       '100% сохранение заводской дилерской гарантии'
@@ -119,7 +119,7 @@ const brandMap: Record<string, {
     models: ['Toyota Camry 80 (2024–2026)', 'Toyota RAV4 / Wildlander', 'Toyota Frontlander', 'Lexus RX / NX (КНР)'],
     chipset: 'Denso / Toyota Smart Connect',
     timeHours: '1.5 часа',
-    basePrice: 160000,
+    basePrice: 95000,
     features: [
       'Полный перевод приборной панели и экрана мультимедиа',
       'Перевод единиц измерения: км/ч, литры/100км, температура в °C',

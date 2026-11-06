@@ -26,6 +26,11 @@ onUnmounted(() => {
     <div class="container-audi flex items-center justify-between h-[4.5rem]">
       <!-- Brand Logo -->
       <NuxtLink to="/" class="flex items-center gap-3 h-opacity">
+        <img
+          src="/images/logo-flow.jpg"
+          alt="JUSTNICE Emblem"
+          class="h-9 w-9 object-cover rounded-none border border-white/20 shadow-sm"
+        />
         <div class="flex items-center tracking-tight">
           <span class="text-xl font-bold tracking-tight">JUSTNICE</span>
           <span class="ml-2 text-[10px] font-bold tracking-widest text-[#f50537] border border-[#f50537] px-1.5 py-0.5 uppercase">AUTOTECH</span>
