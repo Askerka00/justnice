@@ -110,6 +110,8 @@ const schemaFaq = {
 useHead({
   title: 'Русификация и прошивка китайских авто в Алматы — Zeekr, Monjaro, Camry 80, BYD | JUSTNICE',
   meta: [
+    { name: 'google-site-verification', content: '8SC6DHDD0rc0_IKD_7cy8muEYWuTrMav6TxsogKTkW8' },
+    { name: 'yandex-verification', content: '72bce816922a2b27' },
     {
       name: 'description',
       content: 'Профессиональная русификация и прошивка мультимедиа китайских авто в Алматы. Перевод приборки, центральных дисплеев и HUD, 2GIS и Яндекс Навигатор с предупреждением о дорожных камерах «Сергек». 100% сохранение дилерской гарантии.'
