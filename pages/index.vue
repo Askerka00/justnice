@@ -275,7 +275,7 @@ useHead({
               </ul>
             </div>
 
-            <div class="pt-4 border-t border-[#e5e5e5]">
+            <div class="pt-4 border-t border-[#e5e5e5] space-y-2">
               <button
                 @click="selectCarAndScroll(car.id)"
                 type="button"
@@ -284,6 +284,12 @@ useHead({
                 <span>Выбрать для русификации</span>
                 <span class="ml-2">→</span>
               </button>
+              <NuxtLink
+                :to="'/brands/' + car.brandSlug"
+                class="text-[11px] text-[#666666] hover:text-black underline block text-center transition-colors py-1"
+              >
+                Подробнее о прошивке {{ car.brand }} →
+              </NuxtLink>
             </div>
           </div>
         </div>

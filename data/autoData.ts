@@ -1,6 +1,7 @@
 export interface CarModel {
   id: string
   brand: string
+  brandSlug: string
   name: string
   year: string
   price: number
@@ -15,6 +16,7 @@ export const CAR_MODELS: CarModel[] = [
   {
     id: 'zeekr-001',
     brand: 'Zeekr',
+    brandSlug: 'zeekr',
     name: 'Zeekr 001 (Рестайл & Дорестайл)',
     year: '2023–2026',
     price: 120000,
@@ -33,6 +35,7 @@ export const CAR_MODELS: CarModel[] = [
   {
     id: 'zeekr-007',
     brand: 'Zeekr',
+    brandSlug: 'zeekr',
     name: 'Zeekr 007 / 7X',
     year: '2024–2026',
     price: 130000,
@@ -51,6 +54,7 @@ export const CAR_MODELS: CarModel[] = [
   {
     id: 'lixiang-l7-l9',
     brand: 'Li Auto / LiXiang',
+    brandSlug: 'lixiang',
     name: 'LiXiang L6 / L7 / L8 / L9',
     year: '2023–2026',
     price: 140000,
@@ -69,6 +73,7 @@ export const CAR_MODELS: CarModel[] = [
   {
     id: 'byd-song-plus',
     brand: 'BYD',
+    brandSlug: 'byd',
     name: 'BYD Song Plus / Champion / Han / Seal',
     year: '2022–2026',
     price: 45000,
@@ -87,6 +92,7 @@ export const CAR_MODELS: CarModel[] = [
   {
     id: 'geely-monjaro',
     brand: 'Geely',
+    brandSlug: 'geely-monjaro',
     name: 'Geely Monjaro / Coolray / Atlas Pro',
     year: '2023–2026',
     price: 65000,
@@ -105,6 +111,7 @@ export const CAR_MODELS: CarModel[] = [
   {
     id: 'changan-uni',
     brand: 'Changan',
+    brandSlug: 'changan',
     name: 'Changan Q05 / UNI-K / UNI-V / UNI-Z / CS55',
     year: '2023–2026',
     price: 40000,
@@ -123,6 +130,7 @@ export const CAR_MODELS: CarModel[] = [
   {
     id: 'toyota-china',
     brand: 'Toyota (Китай)',
+    brandSlug: 'toyota-china',
     name: 'Toyota Camry 80 / RAV4 / Wildlander (Китай)',
     year: '2023–2026',
     price: 95000,

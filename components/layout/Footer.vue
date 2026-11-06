@@ -23,6 +23,19 @@
         </div>
       </div>
 
+      <!-- SEO Hub: Popular models in Almaty -->
+      <div class="py-6 border-b border-[#222222] text-xs text-[#777777]">
+        <p class="text-white font-medium mb-2">Русификация и прошивка мультимедиа авто в Алматы:</p>
+        <div class="flex flex-wrap gap-x-5 gap-y-2">
+          <NuxtLink to="/brands/zeekr" class="hover:text-white underline transition-colors">Русификация Zeekr 001 / 7X / 007</NuxtLink>
+          <NuxtLink to="/brands/geely-monjaro" class="hover:text-white underline transition-colors">Прошивка Geely Monjaro (2024–2026)</NuxtLink>
+          <NuxtLink to="/brands/changan" class="hover:text-white underline transition-colors">Русификация Changan Q05 / UNI-Z / UNI-K</NuxtLink>
+          <NuxtLink to="/brands/toyota-china" class="hover:text-white underline transition-colors">Русификация Toyota Camry 80 (Китай)</NuxtLink>
+          <NuxtLink to="/brands/lixiang" class="hover:text-white underline transition-colors">Прошивка LiXiang L6 / L7 / L8 / L9</NuxtLink>
+          <NuxtLink to="/brands/byd" class="hover:text-white underline transition-colors">Русификация BYD Song Plus / Han / Seal</NuxtLink>
+        </div>
+      </div>
+
       <!-- Description & Center Details -->
       <div class="py-10 text-xs text-[#888888] font-light leading-relaxed grid grid-cols-1 md:grid-cols-2 gap-8 border-b border-[#222222]">
         <div>
