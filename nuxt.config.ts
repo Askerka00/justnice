@@ -29,6 +29,8 @@ export default defineNuxtConfig({
       meta: [
         { name: 'format-detection', content: 'telephone=no' },
         { name: 'theme-color', content: '#000000' },
+        { name: 'google-site-verification', content: '8SC6DHDD0rc0_IKD_7cy8muEYWuTrMav6TxsogKTkW8' },
+        { name: 'yandex-verification', content: '72bce816922a2b27' },
         { name: 'robots', content: 'index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1' },
         { name: 'author', content: 'JUSTNICE AutoTech Almaty' },
         { name: 'keywords', content: 'русификация авто алматы, русификация zeekr 001 алматы, русификация lixiang l9 алматы, прошивка geely monjaro алматы, русификация byd song plus алматы, русификация changan алматы, русификация тойота камри 80 алматы, установка 2gis и яндекс навигатор алматы' },
