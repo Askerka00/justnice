@@ -1,5 +1,5 @@
 <template>
-  <footer id="contacts" class="bg-[#050608] text-white border-t border-[#222222] pt-14 pb-8">
+  <footer id="contacts" class="scroll-mt-24 bg-[#050608] text-white border-t border-[#222222] pt-14 pb-8">
     <div class="container-audi">
       <!-- Footer Nav -->
       <div class="flex flex-col md:flex-row items-start md:items-center justify-between pb-8 gap-6 border-b border-[#222222]">

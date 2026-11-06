@@ -11,7 +11,7 @@ const brandTabs = [
   { id: 'BYD', label: 'BYD' },
   { id: 'Geely', label: 'Geely' },
   { id: 'Changan', label: 'Changan' },
-  { id: 'Toyota / Lexus (КНР)', label: 'Toyota (КНР)' }
+  { id: 'Toyota', label: 'Toyota (Китай)' }
 ]
 
 const filteredCars = computed(() => {
@@ -201,7 +201,7 @@ useHead({
     </section>
 
     <!-- 2. AUDI MODEL RANGE SECTION WITH FLOW IMAGES -->
-    <section id="models" class="py-24 bg-white border-b border-[#f0f0f0]">
+    <section id="models" class="scroll-mt-24 py-24 bg-white border-b border-[#f0f0f0]">
       <div class="container-audi">
         <div class="flex flex-col md:flex-row md:items-end justify-between mb-12">
           <div>
@@ -291,7 +291,7 @@ useHead({
     </section>
 
     <!-- 3. CONFIGURATOR (FOCUSED 100% ON RUSSIFICATION ONLY) -->
-    <section id="calculator" class="py-24 bg-[#f8f8f8] border-b border-[#f0f0f0]">
+    <section id="calculator" class="scroll-mt-24 py-24 bg-[#f8f8f8] border-b border-[#f0f0f0]">
       <div class="container-audi">
         <div class="max-w-3xl mx-auto mb-14 text-center">
           <span class="text-xs font-semibold tracking-widest text-[#f50537] uppercase">Прямой расчет</span>
@@ -394,7 +394,7 @@ useHead({
     </section>
 
     <!-- 4. AUDI 3-COLUMN STANDARDS (#for__clients 100% Match) -->
-    <section id="technologies" class="py-24 bg-white border-b border-[#f0f0f0]">
+    <section id="technologies" class="scroll-mt-24 py-24 bg-white border-b border-[#f0f0f0]">
       <div class="container-audi">
         <div class="mb-14">
           <span class="text-xs font-semibold tracking-widest text-[#f50537] uppercase">Стандарты качества</span>
@@ -445,7 +445,7 @@ useHead({
     </section>
 
     <!-- 5. 4-STEP QUALITY PROCESS -->
-    <section id="process" class="py-24 bg-[#f8f8f8] border-b border-[#f0f0f0]">
+    <section id="process" class="scroll-mt-24 py-24 bg-[#f8f8f8] border-b border-[#f0f0f0]">
       <div class="container-audi">
         <div class="mb-14">
           <span class="text-xs font-semibold tracking-widest text-[#f50537] uppercase">Регламент</span>
@@ -489,7 +489,7 @@ useHead({
     </section>
 
     <!-- 6. AUDI FAQ ACCORDION -->
-    <section id="faq" class="py-24 bg-white border-b border-[#f0f0f0]">
+    <section id="faq" class="scroll-mt-24 py-24 bg-white border-b border-[#f0f0f0]">
       <div class="container-audi max-w-4xl mx-auto">
         <div class="text-center mb-14">
           <span class="text-xs font-semibold tracking-widest text-[#f50537] uppercase">Ответы на вопросы</span>

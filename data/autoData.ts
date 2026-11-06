@@ -122,7 +122,7 @@ export const CAR_MODELS: CarModel[] = [
   },
   {
     id: 'toyota-china',
-    brand: 'Toyota / Lexus (КНР)',
+    brand: 'Toyota (Китай)',
     name: 'Toyota Camry 80 / RAV4 / Wildlander (Китай)',
     year: '2023–2026',
     price: 95000,
