@@ -74,7 +74,7 @@ export const CAR_MODELS: CarModel[] = [
     id: 'byd-song-plus',
     brand: 'BYD',
     brandSlug: 'byd',
-    name: 'BYD Song Plus / Champion / Han / Seal',
+    name: 'BYD Song Plus / Champion / Han / Seal / Yuan',
     year: '2022–2026',
     price: 45000,
     timeHours: '45–60 минут',
@@ -93,11 +93,11 @@ export const CAR_MODELS: CarModel[] = [
     id: 'geely-monjaro',
     brand: 'Geely',
     brandSlug: 'geely-monjaro',
-    name: 'Geely Monjaro / Coolray / Atlas Pro',
+    name: 'Geely Monjaro / Coolray / Galaxy M9 / L7',
     year: '2023–2026',
     price: 65000,
     timeHours: '1–1.5 часа',
-    chipset: 'Geely Galaxy OS',
+    chipset: 'Geely Galaxy OS / Qualcomm 8155',
     image: '/images/cars/geely-monjaro.jpg',
     features: [
       'Перевод всех 3-х мониторов передней панели',
@@ -112,7 +112,7 @@ export const CAR_MODELS: CarModel[] = [
     id: 'changan-uni',
     brand: 'Changan',
     brandSlug: 'changan',
-    name: 'Changan Q05 / UNI-K / UNI-V / UNI-Z / CS55',
+    name: 'Changan Q05 / UNI-Z / UNI-K / X5 Plus / CS55',
     year: '2023–2026',
     price: 40000,
     timeHours: '40–50 минут',
@@ -125,13 +125,13 @@ export const CAR_MODELS: CarModel[] = [
       'Без физического вмешательства в проводку',
       'Гарантия 12 месяцев'
     ],
-    popular: false
+    popular: true
   },
   {
     id: 'toyota-china',
     brand: 'Toyota (Китай)',
     brandSlug: 'toyota-china',
-    name: 'Toyota Camry 80 / RAV4 / Wildlander (Китай)',
+    name: 'Toyota Camry 80 / Highlander / bZ3 / Wildlander',
     year: '2023–2026',
     price: 95000,
     timeHours: '1.5 часа',
@@ -143,6 +143,101 @@ export const CAR_MODELS: CarModel[] = [
       'Европейская сетка FM-радио (четные частоты)',
       'Полная совместимость с Toyota Safety Sense',
       'Надежная заводская прошивка'
+    ],
+    popular: false
+  },
+  {
+    id: 'deepal-s07',
+    brand: 'Deepal',
+    brandSlug: 'deepal',
+    name: 'Deepal S07 / SL03 (Changan New Energy)',
+    year: '2023–2026',
+    price: 60000,
+    timeHours: '1 час',
+    chipset: 'Qualcomm Snapdragon 8155 / Deepal OS',
+    image: '/images/cars/deepal-s07.jpg',
+    features: [
+      'Полная русификация мультимедиа и приборного дисплея',
+      'Установка 2GIS и Яндекс Навигатора с камерами «Сергек»',
+      'Активация Apple CarPlay и беспроводного соединения',
+      'Прошивка без механического разбора салона',
+      'Гарантия 12 месяцев на программное обеспечение'
+    ],
+    popular: true
+  },
+  {
+    id: 'tank-500',
+    brand: 'Tank',
+    brandSlug: 'tank',
+    name: 'Tank 300 / Tank 500 (GWM)',
+    year: '2023–2026',
+    price: 70000,
+    timeHours: '1.5 часа',
+    chipset: 'Qualcomm 8155 / GWM Coffee OS',
+    image: '/images/cars/tank-500.jpg',
+    features: [
+      'Полная прошивка мультимедиа и щитка приборов на русский язык',
+      'Установка Яндекс Навигатора, 2GIS и антирадара',
+      'Четные частоты FM-радио без помех',
+      'Сохранение всех режимов блокировок и внедорожного меню 4x4',
+      '100% сохранение дилерской гарантии'
+    ],
+    popular: false
+  },
+  {
+    id: 'hongqi-eqm5',
+    brand: 'Hongqi',
+    brandSlug: 'hongqi',
+    name: 'Hongqi E-QM5 / H5 / HS5 / H9',
+    year: '2022–2026',
+    price: 65000,
+    timeHours: '1 час',
+    chipset: 'Hongqi Smart System',
+    image: '/images/cars/hongqi-eqm5.jpg',
+    features: [
+      'Русификация главного экрана и системных настроек',
+      'Установка 2GIS, Яндекс, YouTube и интернет-радио',
+      'Адаптация часового пояса Алматы (UTC+5)',
+      'Стабильная заводская прошивка',
+      'Официальная гарантия 12 месяцев'
+    ],
+    popular: false
+  },
+  {
+    id: 'chevrolet-monza',
+    brand: 'Chevrolet (КНР)',
+    brandSlug: 'chevrolet-monza',
+    name: 'Chevrolet Monza / Tracker (Китай)',
+    year: '2022–2026',
+    price: 40000,
+    timeHours: '40–50 минут',
+    chipset: 'SAIC-GM MyLink',
+    image: '/images/cars/chevrolet-monza.jpg',
+    features: [
+      'Русификация сдвоенного дисплея приборки и мультимедиа',
+      'Активация проводного и беспроводного Apple CarPlay / Android Auto',
+      'Яндекс Навигатор и 2GIS со звуком в штатные колонки',
+      'Быстрая установка за 40 минут без разбора панели',
+      'Гарантия 12 месяцев'
+    ],
+    popular: true
+  },
+  {
+    id: 'hyundai-kia',
+    brand: 'Hyundai & Kia',
+    brandSlug: 'hyundai-kia',
+    name: 'Hyundai Palisade / Santa Fe & Kia Sorento / Carnival / K5',
+    year: '2020–2026',
+    price: 50000,
+    timeHours: '1 час',
+    chipset: 'Mobis Standard-class Gen5W / ccNC',
+    image: '/images/cars/hyundai-palisade.jpg',
+    features: [
+      'Перевод корейских и американских авто на чистый русский язык',
+      'Русификация приборной панели, климата и мультимедиа',
+      'Адаптация радио на европейскую сетку четных частот',
+      'Установка карт Казахстана, 2GIS и Яндекс Навигатора',
+      'Официальная гарантия 12 месяцев'
     ],
     popular: false
   }
@@ -159,7 +254,7 @@ export const FAQS = [
   },
   {
     q: 'Сколько времени занимает русификация?',
-    a: 'В зависимости от марки и модели: от 40 минут (BYD, Changan) до 1.5–2 часов (Zeekr 001/007, LiXiang L7/L9). Вы можете подождать автомобиль в комфортной зоне отдыха или забрать его сразу по готовности.'
+    a: 'В зависимости от марки и модели: от 40 минут (BYD, Changan, Chevrolet Monza) до 1.5–2 часов (Zeekr 001/007, LiXiang L7/L9, Tank 500). Вы можете подождать автомобиль в комфортной зоне отдыха или забрать его сразу по готовности.'
   },
   {
     q: 'Что происходит при обновлении прошивки автомобиля по воздуху (OTA)?',

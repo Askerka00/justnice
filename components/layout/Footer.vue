@@ -30,7 +30,12 @@
           <NuxtLink to="/brands/zeekr" class="hover:text-white underline transition-colors">Русификация Zeekr 001 / 7X / 007</NuxtLink>
           <NuxtLink to="/brands/geely-monjaro" class="hover:text-white underline transition-colors">Прошивка Geely Monjaro (2024–2026)</NuxtLink>
           <NuxtLink to="/brands/changan" class="hover:text-white underline transition-colors">Русификация Changan Q05 / UNI-Z / UNI-K</NuxtLink>
-          <NuxtLink to="/brands/toyota-china" class="hover:text-white underline transition-colors">Русификация Toyota Camry 80 (Китай)</NuxtLink>
+          <NuxtLink to="/brands/toyota-china" class="hover:text-white underline transition-colors">Русификация Toyota Camry 80 / bZ3</NuxtLink>
+          <NuxtLink to="/brands/deepal" class="hover:text-white underline transition-colors">Русификация Deepal S07 / SL03</NuxtLink>
+          <NuxtLink to="/brands/tank" class="hover:text-white underline transition-colors">Прошивка Tank 300 / Tank 500</NuxtLink>
+          <NuxtLink to="/brands/hongqi" class="hover:text-white underline transition-colors">Русификация Hongqi E-QM5 / H5</NuxtLink>
+          <NuxtLink to="/brands/chevrolet-monza" class="hover:text-white underline transition-colors">Русификация Chevrolet Monza (Китай)</NuxtLink>
+          <NuxtLink to="/brands/hyundai-kia" class="hover:text-white underline transition-colors">Русификация Hyundai & Kia (Корея / США)</NuxtLink>
           <NuxtLink to="/brands/lixiang" class="hover:text-white underline transition-colors">Прошивка LiXiang L6 / L7 / L8 / L9</NuxtLink>
           <NuxtLink to="/brands/byd" class="hover:text-white underline transition-colors">Русификация BYD Song Plus / Han / Seal</NuxtLink>
         </div>

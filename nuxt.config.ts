@@ -8,6 +8,11 @@ const prerenderRoutes = [
   '/brands/geely-monjaro',
   '/brands/changan',
   '/brands/toyota-china',
+  '/brands/deepal',
+  '/brands/tank',
+  '/brands/hongqi',
+  '/brands/chevrolet-monza',
+  '/brands/hyundai-kia',
   '/calculator',
   '/sitemap.xml',
   '/robots.txt'
@@ -51,6 +56,15 @@ export default defineNuxtConfig({
         { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
         { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: '' },
         { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600&display=swap' }
+      ],
+      script: [
+        {
+          src: 'https://www.googletagmanager.com/gtag/js?id=G-4VXRH1FJX6',
+          async: true
+        },
+        {
+          innerHTML: `window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-4VXRH1FJX6');`
+        }
       ]
     }
   },

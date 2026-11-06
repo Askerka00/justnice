@@ -7,11 +7,16 @@ const activeBrandFilter = ref('all')
 const brandTabs = [
   { id: 'all', label: 'Все модели' },
   { id: 'Zeekr', label: 'Zeekr' },
-  { id: 'LiXiang', label: 'LiXiang' },
-  { id: 'BYD', label: 'BYD' },
   { id: 'Geely', label: 'Geely' },
   { id: 'Changan', label: 'Changan' },
-  { id: 'Toyota', label: 'Toyota (Китай)' }
+  { id: 'Toyota', label: 'Toyota (Китай)' },
+  { id: 'Deepal', label: 'Deepal' },
+  { id: 'Tank', label: 'Tank' },
+  { id: 'Hongqi', label: 'Hongqi' },
+  { id: 'Chevrolet', label: 'Chevrolet (КНР)' },
+  { id: 'Hyundai', label: 'Hyundai & Kia' },
+  { id: 'BYD', label: 'BYD' },
+  { id: 'LiXiang', label: 'LiXiang' }
 ]
 
 const filteredCars = computed(() => {
