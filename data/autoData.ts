@@ -105,11 +105,11 @@ export const CAR_MODELS: CarModel[] = [
   {
     id: 'changan-uni',
     brand: 'Changan',
-    name: 'Changan UNI-K / UNI-V / UNI-T / CS55 Plus',
+    name: 'Changan Q05 / UNI-K / UNI-V / UNI-Z / CS55',
     year: '2023–2026',
     price: 40000,
     timeHours: '40–50 минут',
-    chipset: 'Changan Smart Cockpit',
+    chipset: 'Changan Smart Cockpit / Qiyuan OS',
     image: '/images/cars/changan-uni-k.jpg',
     features: [
       'Русификация приборного щитка и мультимедиа',

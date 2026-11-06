@@ -108,18 +108,18 @@ const schemaFaq = {
 
 // SEO Head Meta
 useHead({
-  title: 'Русификация китайских авто в Алматы — Zeekr, LiXiang, BYD, Geely, Camry 80 | JUSTNICE',
+  title: 'Русификация и прошивка китайских авто в Алматы — Zeekr, Monjaro, Camry 80, BYD | JUSTNICE',
   meta: [
     {
       name: 'description',
-      content: 'Профессиональная русификация и адаптация китайских авто в Алматы. Перевод приборки, центральных дисплеев и HUD, 2GIS и Яндекс Навигатор с предупреждением о дорожных камерах. 100% сохранение дилерской гарантии.'
+      content: 'Профессиональная русификация и прошивка мультимедиа китайских авто в Алматы. Перевод приборки, центральных дисплеев и HUD, 2GIS и Яндекс Навигатор с предупреждением о дорожных камерах «Сергек». 100% сохранение дилерской гарантии.'
     },
-    { property: 'og:title', content: 'Русификация китайских авто в Алматы — Zeekr, LiXiang, BYD, Geely, Camry 80' },
-    { property: 'og:description', content: 'Официальная программная адаптация китайских авто в Алматы. 2GIS, Яндекс Навигатор, гарантия 12 месяцев. Онлайн-расчет стоимости.' },
+    { property: 'og:title', content: 'Русификация и прошивка китайских авто в Алматы — Zeekr, Monjaro, Camry 80, BYD' },
+    { property: 'og:description', content: 'Официальная русификация и прошивка мультимедиа китайских авто в Алматы. 2GIS, Яндекс Навигатор, гарантия 12 месяцев. Онлайн-расчет стоимости.' },
     { property: 'og:url', content: 'https://justnice.me/' },
     { property: 'og:image', content: 'https://justnice.me/images/hero-car.jpg' },
-    { name: 'twitter:title', content: 'Русификация китайских авто в Алматы — JUSTNICE' },
-    { name: 'twitter:description', content: 'Профессиональный перевод мультимедиа и приборных панелей Zeekr, LiXiang, BYD, Geely, Camry 80 в Алматы.' }
+    { name: 'twitter:title', content: 'Русификация и прошивка китайских авто в Алматы — JUSTNICE' },
+    { name: 'twitter:description', content: 'Профессиональная русификация и прошивка приборных панелей и экранов Zeekr, Monjaro, Camry 80, BYD в Алматы.' }
   ],
   link: [
     { rel: 'canonical', href: 'https://justnice.me/' }
