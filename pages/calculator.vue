@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { ref, computed } from 'vue'
-import { CAR_MODELS, FAQS } from '~/data/autoData'
+import { CAR_MODELS } from '~/data/autoData'
 
 const selectedCarId = ref('zeekr-001')
 const optLocalization = ref(true)
@@ -31,7 +31,7 @@ const whatsappBookingUrl = computed(() => {
     `• Впайка 4G SIM-карты: ${optSim.value ? 'Да' : 'Нет'}`,
     activeCar.value.masterAccountPrice > 0 ? `• Мастер-аккаунт: ${optMasterAccount.value ? 'Да' : 'Нет'}` : '',
     optMobileService.value ? `• Выезд инженера по Алматы` : `• Запись в бокс`,
-    `• Итоговый расчет: ${calculatedTotal.value.toLocaleString('ru-RU')} ₸.`,
+    `• Итоговый расчет: ${calculatedTotal.value.toLocaleString('ru-RU')} тг.`,
     `Подскажите, когда можно записаться на русификацию?`
   ].filter(Boolean).join('\n')
 
@@ -39,7 +39,7 @@ const whatsappBookingUrl = computed(() => {
 })
 
 useHead({
-  title: 'Онлайн-калькулятор русификации авто в Алматы 2026 — JUSTNICE AutoTech',
+  title: 'Конфигуратор стоимости русификации авто в Алматы 2026 — JUSTNICE AutoTech',
   meta: [
     {
       name: 'description',
@@ -50,111 +50,128 @@ useHead({
 </script>
 
 <template>
-  <div class="py-16 px-6 max-w-7xl mx-auto">
-    <!-- Breadcrumb -->
-    <div class="flex items-center gap-2 text-xs text-gray-400 mb-8">
-      <NuxtLink to="/" class="hover:text-cyan-400">Главная</NuxtLink>
-      <span>/</span>
-      <span class="text-gray-200">Калькулятор стоимости</span>
-    </div>
+  <div class="py-20 bg-white">
+    <div class="container-audi">
+      <!-- Breadcrumb -->
+      <div class="flex items-center gap-2 text-xs color-gray mb-10">
+        <NuxtLink to="/" class="hover:text-black transition-colors">Главная</NuxtLink>
+        <span>/</span>
+        <span class="text-black font-medium">Конфигуратор</span>
+      </div>
 
-    <div class="text-center max-w-3xl mx-auto mb-12">
-      <span class="text-xs uppercase font-bold tracking-widest text-cyan-400 bg-cyan-400/10 px-3 py-1 rounded-full border border-cyan-400/20">Прозрачный прайс</span>
-      <h1 class="text-3xl md:text-5xl font-black text-white mt-4 tracking-tight">Калькулятор стоимости русификации</h1>
-      <p class="text-gray-400 mt-4 text-base">Выберите модель автомобиля и необходимые опции. Стоимость фиксируется и не меняется во время выполнения работ.</p>
-    </div>
+      <div class="max-w-4xl mx-auto mb-16 text-center">
+        <span class="text-xs font-semibold tracking-widest text-[#f50537] uppercase">Прайс-лист 2026</span>
+        <h1 class="title-md text-black mt-2">Конфигуратор стоимости</h1>
+        <p class="text-md color-gray fw-300 mt-4">
+          Выберите марку и опции дооснащения. Итоговая стоимость фиксируется и не меняется в ходе выполнения работ.
+        </p>
+      </div>
 
-    <!-- Calculator Card -->
-    <div class="rounded-3xl border border-white/10 bg-[#0E1116] p-6 md:p-10 shadow-2xl relative overflow-hidden max-w-4xl mx-auto">
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-        <div>
-          <label class="block text-xs uppercase tracking-wider text-gray-400 font-semibold mb-3">1. Выберите марку и модель авто</label>
-          <div class="space-y-2">
-            <button
-              v-for="car in CAR_MODELS"
-              :key="car.id"
-              @click="selectedCarId = car.id"
-              type="button"
-              :class="[
-                'w-full text-left p-4 rounded-xl border transition-all flex items-center justify-between',
-                selectedCarId === car.id
-                  ? 'border-cyan-400 bg-cyan-400/10 text-white shadow-lg shadow-cyan-500/10'
-                  : 'border-white/5 bg-white/[0.02] text-gray-300 hover:border-white/20'
-              ]"
-            >
-              <div>
-                <p class="font-bold text-sm">{{ car.name }}</p>
-                <p class="text-xs text-gray-400 mt-0.5">{{ car.chipset }} • {{ car.timeHours }}</p>
-              </div>
-              <span class="text-xs font-mono font-bold text-cyan-400">от {{ car.basePrice.toLocaleString('ru-RU') }} ₸</span>
-            </button>
-          </div>
-        </div>
-
-        <div>
-          <label class="block text-xs uppercase tracking-wider text-gray-400 font-semibold mb-3">2. Выберите опции адаптации</label>
-          <div class="space-y-3">
-            <label class="flex items-start gap-3 p-4 rounded-xl border border-white/5 bg-white/[0.02] cursor-pointer hover:border-cyan-500/30 transition-all">
-              <input type="checkbox" v-model="optLocalization" class="mt-1 h-4 w-4 rounded border-gray-700 text-cyan-500 focus:ring-cyan-400 bg-gray-900" />
-              <div class="flex-grow">
-                <div class="flex items-center justify-between">
-                  <span class="font-semibold text-sm text-white">Русификация экранов и меню</span>
-                  <span class="font-mono text-xs text-cyan-400 font-bold">+{{ activeCar.basePrice.toLocaleString('ru-RU') }} ₸</span>
-                </div>
-                <p class="text-xs text-gray-400 mt-1">Перевод на русский язык, разблокировка приложений 2GIS и Яндекс Навигатор.</p>
-              </div>
-            </label>
-
-            <label class="flex items-start gap-3 p-4 rounded-xl border border-white/5 bg-white/[0.02] cursor-pointer hover:border-cyan-500/30 transition-all">
-              <input type="checkbox" v-model="optSim" class="mt-1 h-4 w-4 rounded border-gray-700 text-cyan-500 focus:ring-cyan-400 bg-gray-900" />
-              <div class="flex-grow">
-                <div class="flex items-center justify-between">
-                  <span class="font-semibold text-sm text-white">Впайка слота Nano-SIM 4G</span>
-                  <span class="font-mono text-xs text-cyan-400 font-bold">+{{ activeCar.simPrice.toLocaleString('ru-RU') }} ₸</span>
-                </div>
-                <p class="text-xs text-gray-400 mt-1">Постоянный интернет в авто для навигации, онлайн-музыки и пробок.</p>
-              </div>
-            </label>
-
-            <label v-if="activeCar.masterAccountPrice > 0" class="flex items-start gap-3 p-4 rounded-xl border border-white/5 bg-white/[0.02] cursor-pointer hover:border-cyan-500/30 transition-all">
-              <input type="checkbox" v-model="optMasterAccount" class="mt-1 h-4 w-4 rounded border-gray-700 text-cyan-500 focus:ring-cyan-400 bg-gray-900" />
-              <div class="flex-grow">
-                <div class="flex items-center justify-between">
-                  <span class="font-semibold text-sm text-white">Активация мастер-аккаунта</span>
-                  <span class="font-mono text-xs text-cyan-400 font-bold">+{{ activeCar.masterAccountPrice.toLocaleString('ru-RU') }} ₸</span>
-                </div>
-                <p class="text-xs text-gray-400 mt-1">Привязка приложения на смартфон (дистанционный климат, ключ Bluetooth).</p>
-              </div>
-            </label>
-
-            <label class="flex items-start gap-3 p-4 rounded-xl border border-white/5 bg-white/[0.02] cursor-pointer hover:border-cyan-500/30 transition-all">
-              <input type="checkbox" v-model="optMobileService" class="mt-1 h-4 w-4 rounded border-gray-700 text-cyan-500 focus:ring-cyan-400 bg-gray-900" />
-              <div class="flex-grow">
-                <div class="flex items-center justify-between">
-                  <span class="font-semibold text-sm text-white">Выезд инженера по Алматы</span>
-                  <span class="font-mono text-xs text-cyan-400 font-bold">+15 000 ₸</span>
-                </div>
-                <p class="text-xs text-gray-400 mt-1">Приедем в ваш паркинг, офис или частный дом со всем оборудованием.</p>
-              </div>
-            </label>
-          </div>
-
-          <!-- Total Block -->
-          <div class="mt-8 p-6 rounded-2xl bg-cyan-950/30 border border-cyan-500/20 text-center">
-            <span class="text-xs text-gray-400 uppercase tracking-wider font-semibold">Итоговая расчетная стоимость</span>
-            <div class="text-4xl font-black text-cyan-400 my-2">
-              {{ calculatedTotal.toLocaleString('ru-RU') }} ₸
+      <!-- Calculator Box -->
+      <div class="bg-white border border-black p-8 md:p-14 max-w-5xl mx-auto shadow-sm">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-10">
+          <div class="lg:col-span-5 border-b lg:border-b-0 lg:border-r border-[#e5e5e5] pb-8 lg:pb-0 lg:pr-8">
+            <div class="text-xs font-bold uppercase tracking-wider text-black mb-4">
+              1. Выберите автомобиль
             </div>
-            <p class="text-xs text-gray-400 mb-5">Включает официальную гарантию 12 месяцев и техническую поддержку</p>
+            <div class="space-y-2">
+              <button
+                v-for="car in CAR_MODELS"
+                :key="car.id"
+                @click="selectedCarId = car.id"
+                type="button"
+                :class="[
+                  'w-full text-left p-4 border transition-all flex items-center justify-between',
+                  selectedCarId === car.id
+                    ? 'bg-black text-white border-black'
+                    : 'bg-white text-black border-[#e5e5e5] hover:border-black'
+                ]"
+              >
+                <div>
+                  <p class="font-medium text-sm">{{ car.name }}</p>
+                  <p :class="['text-xs font-light mt-0.5', selectedCarId === car.id ? 'text-[#cccccc]' : 'text-[#888888]']">
+                    {{ car.chipset }}
+                  </p>
+                </div>
+                <span :class="['text-xs font-medium', selectedCarId === car.id ? 'text-white' : 'text-[#f50537]']">
+                  от {{ car.basePrice.toLocaleString('ru-RU') }} тг
+                </span>
+              </button>
+            </div>
+          </div>
 
-            <a
-              :href="whatsappBookingUrl"
-              target="_blank"
-              rel="noopener noreferrer"
-              class="w-full flex items-center justify-center gap-2 rounded-xl bg-gradient-to-r from-emerald-500 to-emerald-600 px-6 py-4 text-sm font-bold uppercase tracking-wider text-white shadow-xl shadow-emerald-500/20 hover:from-emerald-400 hover:to-emerald-500 transition-all"
-            >
-              Зафиксировать цену и записаться в WhatsApp
-            </a>
+          <div class="lg:col-span-7 flex flex-col justify-between">
+            <div>
+              <div class="text-xs font-bold uppercase tracking-wider text-black mb-4">
+                2. Опции пакета
+              </div>
+
+              <div class="space-y-3">
+                <label class="flex items-start gap-4 p-4 border border-[#e5e5e5] bg-[#fafafa] cursor-pointer hover:border-black transition-all">
+                  <input type="checkbox" v-model="optLocalization" class="mt-1 h-4 w-4 rounded-none border-gray-400 text-black focus:ring-0" />
+                  <div class="flex-grow">
+                    <div class="flex items-center justify-between">
+                      <span class="font-medium text-sm text-black">Русификация экранов и меню</span>
+                      <span class="text-xs font-medium text-[#f50537]">+{{ activeCar.basePrice.toLocaleString('ru-RU') }} тг</span>
+                    </div>
+                    <p class="text-xs color-gray fw-300 mt-1">Перевод на русский язык, 2GIS и Яндекс Навигатор.</p>
+                  </div>
+                </label>
+
+                <label class="flex items-start gap-4 p-4 border border-[#e5e5e5] bg-[#fafafa] cursor-pointer hover:border-black transition-all">
+                  <input type="checkbox" v-model="optSim" class="mt-1 h-4 w-4 rounded-none border-gray-400 text-black focus:ring-0" />
+                  <div class="flex-grow">
+                    <div class="flex items-center justify-between">
+                      <span class="font-medium text-sm text-black">Впайка выносного слота Nano-SIM 4G</span>
+                      <span class="text-xs font-medium text-[#f50537]">+{{ activeCar.simPrice.toLocaleString('ru-RU') }} тг</span>
+                    </div>
+                    <p class="text-xs color-gray fw-300 mt-1">Металлический слот в бардачок. Быстрый интернет любого оператора РК.</p>
+                  </div>
+                </label>
+
+                <label v-if="activeCar.masterAccountPrice > 0" class="flex items-start gap-4 p-4 border border-[#e5e5e5] bg-[#fafafa] cursor-pointer hover:border-black transition-all">
+                  <input type="checkbox" v-model="optMasterAccount" class="mt-1 h-4 w-4 rounded-none border-gray-400 text-black focus:ring-0" />
+                  <div class="flex-grow">
+                    <div class="flex items-center justify-between">
+                      <span class="font-medium text-sm text-black">Мастер-аккаунт на номер РК (+7)</span>
+                      <span class="text-xs font-medium text-[#f50537]">+{{ activeCar.masterAccountPrice.toLocaleString('ru-RU') }} тг</span>
+                    </div>
+                    <p class="text-xs color-gray fw-300 mt-1">Дистанционный климат-контроль и Bluetooth-ключ со смартфона.</p>
+                  </div>
+                </label>
+
+                <label class="flex items-start gap-4 p-4 border border-[#e5e5e5] bg-[#fafafa] cursor-pointer hover:border-black transition-all">
+                  <input type="checkbox" v-model="optMobileService" class="mt-1 h-4 w-4 rounded-none border-gray-400 text-black focus:ring-0" />
+                  <div class="flex-grow">
+                    <div class="flex items-center justify-between">
+                      <span class="font-medium text-sm text-black">Выезд лаборатории по Алматы</span>
+                      <span class="text-xs font-medium text-[#f50537]">+15 000 тг</span>
+                    </div>
+                    <p class="text-xs color-gray fw-300 mt-1">Выезд инженера в ваш паркинг или офис со спецоборудованием.</p>
+                  </div>
+                </label>
+              </div>
+            </div>
+
+            <div class="mt-8 p-6 bg-[#f7f7f7] border border-[#e5e5e5] flex flex-col sm:flex-row items-center justify-between gap-6">
+              <div>
+                <span class="text-xs uppercase font-medium text-[#808080]">Итого к оплате</span>
+                <div class="text-3xl font-bold text-black tracking-tight mt-1">
+                  {{ calculatedTotal.toLocaleString('ru-RU') }} тг
+                </div>
+                <span class="text-xs color-gray fw-300">Гарантия 12 месяцев включена</span>
+              </div>
+
+              <a
+                :href="whatsappBookingUrl"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="btn btn-black-primary !min-w-[20rem]"
+              >
+                <span>Записаться в WhatsApp</span>
+                <span class="ml-2">→</span>
+              </a>
+            </div>
           </div>
         </div>
       </div>

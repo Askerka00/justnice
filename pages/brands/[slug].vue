@@ -1,7 +1,6 @@
 <script setup lang="ts">
 import { computed } from 'vue'
 import { useRoute } from 'vue-router'
-import { CAR_MODELS } from '~/data/autoData'
 
 const route = useRoute()
 const slug = computed(() => route.params.slug as string)
@@ -24,8 +23,8 @@ const brandMap: Record<string, {
     name: 'Zeekr',
     title: 'Русификация Zeekr 001, 007, 7X, 009, X в Алматы — Прошивка Zeekr OS 2026',
     metaDesc: 'Профессиональная русификация Zeekr 001/007/7X в Алматы. Перевод приборки, центрального экрана и проекции HUD. Впайка слота Nano-SIM 4G, привязка мастер-аккаунта и навигатор с камерами Сергек.',
-    h1: 'Русификация и телематика Zeekr в Алматы',
-    summary: 'Полная программная адаптация Zeekr OS 5.x / 6.x для Zeekr 001, 007, 7X, X и 009. Без потери дилерской гарантии и стабильности систем автопилота NZP.',
+    h1: 'Русификация и телематика Zeekr',
+    summary: 'Официальные программные пакеты для Zeekr 001, 007, 7X, X и 009. Без потери заводской гарантии и стабильности автопилота NZP.',
     models: ['Zeekr 001 (Рестайл и Дорестайл)', 'Zeekr 007', 'Zeekr 7X', 'Zeekr X', 'Zeekr 009'],
     chipset: 'Qualcomm Snapdragon 8155 / 8295',
     timeHours: '1.5 – 2 часа',
@@ -45,7 +44,7 @@ const brandMap: Record<string, {
     name: 'LiXiang (Li Auto)',
     title: 'Русификация LiXiang L6, L7, L8, L9 в Алматы — Впайка SIM и Мастер-аккаунт',
     metaDesc: 'Адаптация LiXiang L6/L7/L8/L9 в Алматы. Перевод 3-х дисплеев (включая потолочный экран), вывод слота под SIM-карту 4G, мастер-аккаунт на казахстанский номер и YouTube/Кинопоиск.',
-    h1: 'Русификация и адаптация LiXiang L6, L7, L8, L9 в Алматы',
+    h1: 'Русификация и адаптация LiXiang',
     summary: 'Комплексная локализация мультимедийной системы Li Auto. Русификация приборного экранчика на руле, пассажирского монитора и развлекательного потолочного экрана.',
     models: ['LiXiang L6 Pro / Max', 'LiXiang L7 Pro / Max / Ultra', 'LiXiang L8 Pro / Max', 'LiXiang L9 Max / Ultra'],
     chipset: 'Dual Qualcomm Snapdragon 8155 / 8295',
@@ -66,7 +65,7 @@ const brandMap: Record<string, {
     name: 'BYD',
     title: 'Русификация BYD Song Plus, Champion, Han, Seal в Алматы — DiLink 4.0/5.0',
     metaDesc: 'Русификация планшета BYD Song Plus, Han, Seal, Tang в Алматы. Разблокировка установки любых приложений (APK), Яндекс Карты, 2GIS, Waze, YouTube, Spotify и беспроводной CarPlay.',
-    h1: 'Русификация и разблокировка BYD в Алматы',
+    h1: 'Русификация и разблокировка BYD',
     summary: 'Локализация поворотного планшета DiLink для всей линейки гибридов и электрокаров BYD. Установка навигации с поддержкой дорожных камер Казахстана.',
     models: ['BYD Song Plus DM-i / EV', 'BYD Song Champion', 'BYD Han EV', 'BYD Seal', 'BYD Destroyer 05', 'BYD Tang'],
     chipset: 'Qualcomm Snapdragon 665 / 690 / DiLink 5.0',
@@ -87,7 +86,7 @@ const brandMap: Record<string, {
     name: 'Geely Monjaro',
     title: 'Русификация Geely Monjaro, Coolray, Atlas в Алматы — Galaxy OS',
     metaDesc: 'Качественная русификация Geely Monjaro и Coolray в Алматы. Перевод всех трех экранов торпедо, русский голосовой ассистент, Яндекс Навигатор, четные частоты FM радио.',
-    h1: 'Русификация Geely Monjaro и Coolray в Алматы',
+    h1: 'Русификация Geely Monjaro и Coolray',
     summary: 'Фирменная прошивка для китайских Geely Monjaro и Coolray. Полная адаптация всех трех дисплеев передней панели с установкой навигации и русского голосового помощника.',
     models: ['Geely Monjaro (все комплектации)', 'Geely Coolray 2023–2026', 'Geely Atlas Pro / Boyue L', 'Geely Preface'],
     chipset: 'Qualcomm 8155 / Geely Galaxy OS',
@@ -107,7 +106,7 @@ const brandMap: Record<string, {
     name: 'Changan',
     title: 'Русификация Changan UNI-K, UNI-V, UNI-T в Алматы — Smart Cockpit',
     metaDesc: 'Прошивка и русификация Changan UNI-K, UNI-V, CS55 Plus в Алматы. Установка 2GIS, Яндекс Навигатора, CarPlay без потери дилерской гарантии за 45 минут.',
-    h1: 'Русификация Changan UNI-серии в Алматы',
+    h1: 'Русификация Changan UNI-серии',
     summary: 'Безопасная адаптация головного устройства Changan UNI-K, UNI-V, UNI-T и CS55. Полный русский язык в меню и приборной панели, Яндекс и 2GIS.',
     models: ['Changan UNI-K', 'Changan UNI-V', 'Changan UNI-T', 'Changan CS55 Plus / CS75 Plus'],
     chipset: 'Changan Smart Cockpit OS',
@@ -127,7 +126,7 @@ const brandMap: Record<string, {
     name: 'Toyota & Lexus (КНР)',
     title: 'Русификация Toyota Camry 80, RAV4, Wildlander (Китай) в Алматы',
     metaDesc: 'Русификация новых китайских Toyota Camry 80, RAV4 и Wildlander в Алматы. Европейская шкала приборов, км/ч, цельсии, четные FM частоты и русское меню.',
-    h1: 'Русификация Toyota Camry 80 и RAV4 (КНР) в Алматы',
+    h1: 'Русификация Toyota Camry 80 (КНР)',
     summary: 'Перепрошивка головных устройств и щитков приборов для китайских версий Toyota Camry 80, RAV4, Wildlander и Frontlander. Полноценная русификация и адаптация параметров.',
     models: ['Toyota Camry 80 (2024–2026)', 'Toyota RAV4 / Wildlander', 'Toyota Frontlander', 'Lexus RX / NX (КНР)'],
     chipset: 'Denso / Toyota Smart Connect',
@@ -167,111 +166,89 @@ useHead({
 </script>
 
 <template>
-  <div class="py-16 px-6 max-w-7xl mx-auto">
-    <!-- Breadcrumb -->
-    <div class="flex items-center gap-2 text-xs text-gray-400 mb-8">
-      <NuxtLink to="/" class="hover:text-cyan-400">Главная</NuxtLink>
-      <span>/</span>
-      <span class="text-gray-400">Марки авто</span>
-      <span>/</span>
-      <span class="text-gray-200">{{ currentBrand.name }}</span>
-    </div>
+  <div class="py-20 bg-white">
+    <div class="container-audi">
+      <!-- Breadcrumb -->
+      <div class="flex items-center gap-2 text-xs color-gray mb-10">
+        <NuxtLink to="/" class="hover:text-black transition-colors">Главная</NuxtLink>
+        <span>/</span>
+        <span class="text-black font-medium">{{ currentBrand.name }}</span>
+      </div>
 
-    <!-- Hero for Brand -->
-    <div class="relative rounded-3xl border border-white/10 bg-[#0E1116] p-8 md:p-14 overflow-hidden mb-16 shadow-2xl">
-      <div class="pointer-events-none absolute -top-24 right-0 h-96 w-96 rounded-full bg-cyan-500/10 blur-[100px]"></div>
+      <!-- Hero for Brand -->
+      <div class="border border-black p-8 md:p-14 mb-16 bg-[#fafafa]">
+        <div class="max-w-4xl">
+          <span class="text-xs font-semibold tracking-widest text-[#f50537] uppercase">
+            Специализация {{ currentBrand.name }}
+          </span>
+          <h1 class="title-md text-black mt-3 mb-4">
+            {{ currentBrand.h1 }}
+          </h1>
+          <p class="text-lg text-[#555555] font-light leading-relaxed mb-8">
+            {{ currentBrand.summary }}
+          </p>
 
-      <div class="max-w-3xl relative z-10">
-        <span class="text-xs uppercase font-bold tracking-widest text-cyan-400 bg-cyan-400/10 px-3.5 py-1.5 rounded-full border border-cyan-400/20">
-          Специализация по марке {{ currentBrand.name }}
-        </span>
-        <h1 class="text-3xl md:text-5xl font-black text-white mt-6 tracking-tight leading-tight">
-          {{ currentBrand.h1 }}
-        </h1>
-        <p class="text-gray-300 mt-4 text-base md:text-lg leading-relaxed">
-          {{ currentBrand.summary }}
-        </p>
-
-        <!-- Quick Meta -->
-        <div class="grid grid-cols-2 sm:grid-cols-3 gap-4 mt-8 pt-8 border-t border-white/10 text-xs">
-          <div>
-            <p class="text-gray-500 uppercase font-medium">Процессор / Платформа</p>
-            <p class="text-white font-semibold mt-1">{{ currentBrand.chipset }}</p>
+          <div class="grid grid-cols-2 sm:grid-cols-3 gap-6 py-6 border-y border-[#e5e5e5] text-xs">
+            <div>
+              <p class="color-gray uppercase font-medium">Чипсет</p>
+              <p class="text-black font-medium text-sm mt-1">{{ currentBrand.chipset }}</p>
+            </div>
+            <div>
+              <p class="color-gray uppercase font-medium">Время работы</p>
+              <p class="text-black font-medium text-sm mt-1">{{ currentBrand.timeHours }}</p>
+            </div>
+            <div>
+              <p class="color-gray uppercase font-medium">Стоимость</p>
+              <p class="text-black font-bold text-base mt-1">от {{ currentBrand.basePrice.toLocaleString('ru-RU') }} тг</p>
+            </div>
           </div>
-          <div>
-            <p class="text-gray-500 uppercase font-medium">Время работы</p>
-            <p class="text-white font-semibold mt-1">{{ currentBrand.timeHours }}</p>
-          </div>
-          <div>
-            <p class="text-gray-500 uppercase font-medium">Базовая стоимость</p>
-            <p class="text-cyan-400 font-bold mt-1 text-sm">от {{ currentBrand.basePrice.toLocaleString('ru-RU') }} ₸</p>
+
+          <div class="mt-8 btn-group">
+            <a
+              :href="whatsappBrandUrl"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="btn btn-black-primary"
+            >
+              <span>Записаться в WhatsApp</span>
+              <span class="ml-2">→</span>
+            </a>
+            <NuxtLink to="/calculator" class="btn btn-black-default">
+              <span>Конфигуратор стоимости</span>
+            </NuxtLink>
           </div>
         </div>
+      </div>
 
-        <div class="mt-8 flex flex-wrap gap-4">
-          <a
-            :href="whatsappBrandUrl"
-            target="_blank"
-            rel="noopener noreferrer"
-            class="flex items-center gap-2 rounded-xl bg-gradient-to-r from-emerald-500 to-emerald-600 px-7 py-3.5 text-xs font-bold uppercase tracking-wider text-white shadow-lg shadow-emerald-500/25 hover:from-emerald-400 hover:to-emerald-500 transition-all"
-          >
-            Записаться на русификацию {{ currentBrand.name }}
-          </a>
-          <NuxtLink
-            to="/calculator"
-            class="flex items-center gap-2 rounded-xl border border-white/10 bg-white/5 px-7 py-3.5 text-xs font-bold uppercase tracking-wider text-white hover:border-cyan-400/30 transition-all"
-          >
-            Рассчитать точную стоимость
-          </NuxtLink>
+      <!-- Models & Features -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-10 mb-16">
+        <div class="border border-[#dedede] p-8">
+          <h3 class="text-xl font-medium text-black mb-6">Поддерживаемые модификации</h3>
+          <ul class="space-y-3">
+            <li
+              v-for="model in currentBrand.models"
+              :key="model"
+              class="flex items-center justify-between p-3.5 border border-[#eeeeee] text-sm"
+            >
+              <span class="font-medium text-black">{{ model }}</span>
+              <span class="text-xs text-[#808080] font-light">Доступно</span>
+            </li>
+          </ul>
         </div>
-      </div>
-    </div>
 
-    <!-- Supported Models & Features -->
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-10 mb-16">
-      <div class="rounded-3xl border border-white/5 bg-[#0B0D11] p-8">
-        <h3 class="text-lg font-bold text-white mb-6 flex items-center gap-2">
-          <span class="text-cyan-400">✦</span> Поддерживаемые модели {{ currentBrand.name }}
-        </h3>
-        <ul class="space-y-3">
-          <li
-            v-for="model in currentBrand.models"
-            :key="model"
-            class="flex items-center justify-between p-3.5 rounded-xl border border-white/5 bg-white/[0.02]"
-          >
-            <span class="text-sm font-semibold text-gray-200">{{ model }}</span>
-            <span class="text-xs px-2.5 py-1 rounded-full bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 font-medium">Поддерживается</span>
-          </li>
-        </ul>
-      </div>
-
-      <div class="rounded-3xl border border-white/5 bg-[#0B0D11] p-8">
-        <h3 class="text-lg font-bold text-white mb-6 flex items-center gap-2">
-          <span class="text-cyan-400">✦</span> Что входит в комплекс адаптации
-        </h3>
-        <ul class="space-y-3">
-          <li
-            v-for="feat in currentBrand.features"
-            :key="feat"
-            class="flex items-start gap-3 p-3.5 rounded-xl border border-white/5 bg-white/[0.02]"
-          >
-            <span class="text-cyan-400 mt-0.5">✓</span>
-            <span class="text-sm text-gray-300">{{ feat }}</span>
-          </li>
-        </ul>
-      </div>
-    </div>
-
-    <!-- Other Brands Nav -->
-    <div class="rounded-2xl border border-white/5 bg-white/[0.02] p-6 text-center">
-      <h4 class="text-xs uppercase font-bold tracking-wider text-gray-400 mb-4">Другие поддерживаемые бренды в лаборатории JUSTNICE</h4>
-      <div class="flex flex-wrap justify-center gap-3">
-        <NuxtLink to="/brands/zeekr" class="px-4 py-2 rounded-xl border border-white/5 text-xs text-gray-300 hover:border-cyan-400 hover:text-white transition-all">Zeekr</NuxtLink>
-        <NuxtLink to="/brands/lixiang" class="px-4 py-2 rounded-xl border border-white/5 text-xs text-gray-300 hover:border-cyan-400 hover:text-white transition-all">LiXiang</NuxtLink>
-        <NuxtLink to="/brands/byd" class="px-4 py-2 rounded-xl border border-white/5 text-xs text-gray-300 hover:border-cyan-400 hover:text-white transition-all">BYD</NuxtLink>
-        <NuxtLink to="/brands/geely-monjaro" class="px-4 py-2 rounded-xl border border-white/5 text-xs text-gray-300 hover:border-cyan-400 hover:text-white transition-all">Geely Monjaro</NuxtLink>
-        <NuxtLink to="/brands/changan" class="px-4 py-2 rounded-xl border border-white/5 text-xs text-gray-300 hover:border-cyan-400 hover:text-white transition-all">Changan UNI</NuxtLink>
-        <NuxtLink to="/brands/toyota-china" class="px-4 py-2 rounded-xl border border-white/5 text-xs text-gray-300 hover:border-cyan-400 hover:text-white transition-all">Toyota (КНР)</NuxtLink>
+        <div class="border border-[#dedede] p-8">
+          <h3 class="text-xl font-medium text-black mb-6">Комплекс оснащения</h3>
+          <ul class="space-y-3">
+            <li
+              v-for="feat in currentBrand.features"
+              :key="feat"
+              class="flex items-start gap-3 p-3.5 border border-[#eeeeee] text-xs text-[#444444] font-light"
+            >
+              <span class="text-[#f50537] font-bold">✓</span>
+              <span>{{ feat }}</span>
+            </li>
+          </ul>
+        </div>
       </div>
     </div>
   </div>

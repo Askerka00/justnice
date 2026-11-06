@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-screen bg-[#08090A] text-gray-100 flex flex-col font-sans antialiased selection:bg-cyan-500 selection:text-black">
+  <div class="min-h-screen bg-white text-black flex flex-col font-sans antialiased selection:bg-black selection:text-white">
     <LayoutNavbar />
     <main class="flex-grow">
       <NuxtPage />
