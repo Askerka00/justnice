@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /api/
 
-Sitemap: https://justnice.me/sitemap.xml
+Sitemap: https://www.justnice.me/sitemap.xml

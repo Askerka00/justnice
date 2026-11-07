@@ -27,12 +27,12 @@ useHead({
     },
     { property: 'og:title', content: 'Калькулятор стоимости русификации авто в Алматы — JUSTNICE' },
     { property: 'og:description', content: 'Онлайн-расчет стоимости программной адаптации китайских автомобилей под ключ.' },
-    { property: 'og:url', content: 'https://justnice.me/calculator' },
-    { property: 'og:image', content: 'https://justnice.me/images/hero-car.jpg' },
+    { property: 'og:url', content: 'https://www.justnice.me/calculator' },
+    { property: 'og:image', content: 'https://www.justnice.me/images/hero-car.jpg' },
     { name: 'twitter:title', content: 'Калькулятор стоимости русификации авто в Алматы' }
   ],
   link: [
-    { rel: 'canonical', href: 'https://justnice.me/calculator' }
+    { rel: 'canonical', href: 'https://www.justnice.me/calculator' }
   ]
 })
 </script>

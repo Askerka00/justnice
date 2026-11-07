@@ -467,7 +467,7 @@ const schemaService = computed(() => ({
     '@type': 'AutoRepair',
     name: 'JUSTNICE AutoTech',
     telephone: '+77772389939',
-    url: 'https://justnice.me/'
+    url: 'https://www.justnice.me/'
   },
   areaServed: {
     '@type': 'City',
@@ -503,13 +503,13 @@ const schemaBreadcrumbs = computed(() => ({
       '@type': 'ListItem',
       position: 1,
       name: 'Главная',
-      item: 'https://justnice.me/'
+      item: 'https://www.justnice.me/'
     },
     {
       '@type': 'ListItem',
       position: 2,
       name: currentBrand.value.name,
-      item: `https://justnice.me/brands/${slug.value}`
+      item: `https://www.justnice.me/brands/${slug.value}`
     }
   ]
 }))
@@ -523,13 +523,13 @@ useHead({
     },
     { property: 'og:title', content: computed(() => currentBrand.value.title) },
     { property: 'og:description', content: computed(() => currentBrand.value.metaDesc) },
-    { property: 'og:url', content: computed(() => `https://justnice.me/brands/${slug.value}`) },
-    { property: 'og:image', content: 'https://justnice.me/images/hero-car.jpg' },
+    { property: 'og:url', content: computed(() => `https://www.justnice.me/brands/${slug.value}`) },
+    { property: 'og:image', content: 'https://www.justnice.me/images/hero-car.jpg' },
     { name: 'twitter:title', content: computed(() => currentBrand.value.title) },
     { name: 'twitter:description', content: computed(() => currentBrand.value.metaDesc) }
   ],
   link: [
-    { rel: 'canonical', href: computed(() => `https://justnice.me/brands/${slug.value}`) }
+    { rel: 'canonical', href: computed(() => `https://www.justnice.me/brands/${slug.value}`) }
   ],
   script: [
     { type: 'application/ld+json', children: computed(() => JSON.stringify(schemaService.value)) },

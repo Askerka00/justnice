@@ -60,9 +60,9 @@ const schemaLocalBusiness = {
   '@context': 'https://schema.org',
   '@type': 'AutoRepair',
   name: 'JUSTNICE AutoTech — Русификация китайских авто в Алматы',
-  image: 'https://justnice.me/images/hero-car.jpg',
-  logo: 'https://justnice.me/images/logo-flow.jpg',
-  url: 'https://justnice.me/',
+  image: 'https://www.justnice.me/images/hero-car.jpg',
+  logo: 'https://www.justnice.me/images/logo-flow.jpg',
+  url: 'https://www.justnice.me/',
   telephone: '+77772389939',
   priceRange: '40000 KZT - 140000 KZT',
   address: {
@@ -123,13 +123,13 @@ useHead({
     },
     { property: 'og:title', content: 'Русификация и прошивка китайских авто в Алматы — Zeekr, Monjaro, Camry 80, BYD' },
     { property: 'og:description', content: 'Официальная русификация и прошивка мультимедиа китайских авто в Алматы. 2GIS, Яндекс Навигатор, гарантия 12 месяцев. Онлайн-расчет стоимости.' },
-    { property: 'og:url', content: 'https://justnice.me/' },
-    { property: 'og:image', content: 'https://justnice.me/images/hero-car.jpg' },
+    { property: 'og:url', content: 'https://www.justnice.me/' },
+    { property: 'og:image', content: 'https://www.justnice.me/images/hero-car.jpg' },
     { name: 'twitter:title', content: 'Русификация и прошивка китайских авто в Алматы — JUSTNICE' },
     { name: 'twitter:description', content: 'Профессиональная русификация и прошивка приборных панелей и экранов Zeekr, Monjaro, Camry 80, BYD в Алматы.' }
   ],
   link: [
-    { rel: 'canonical', href: 'https://justnice.me/' }
+    { rel: 'canonical', href: 'https://www.justnice.me/' }
   ],
   script: [
     { type: 'application/ld+json', children: JSON.stringify(schemaLocalBusiness) },
