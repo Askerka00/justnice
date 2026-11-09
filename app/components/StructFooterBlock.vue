@@ -74,7 +74,7 @@
             {{ pagesTitle }}
           </h4>
           <ul class="space-y-2.5 text-sm font-medium">
-            <li v-for="link in pagesLinks" :key="link.label">
+            <li v-for="link in resolvedPagesLinks" :key="link.label">
               <a :href="link.url" class="transition-colors duration-200 hover:text-white" :style="{ color: secondaryTextColor }">
                 {{ link.label }}
               </a>
@@ -165,6 +165,10 @@ const props = defineProps({
     type: String,
     default: ''
   },
+  logoText: {
+    type: String,
+    default: ''
+  },
   logoTextMain: {
     type: String,
     default: ''
@@ -205,6 +209,10 @@ const props = defineProps({
     type: String,
     default: 'НАВИГАЦИЯ'
   },
+  links: {
+    type: Array,
+    default: () => []
+  },
   pagesLinks: {
     type: Array,
     default: () => [
@@ -233,6 +241,7 @@ const props = defineProps({
 
 const resolvedLogoMain = computed(() => {
   if (props.logoTextMain) return props.logoTextMain
+  if (props.logoText) return props.logoText
   if (props.companyName) return props.companyName
   return 'КОМПАНИЯ'
 })
@@ -242,13 +251,18 @@ const resolvedLogoSub = computed(() => {
   return ''
 })
 
+const resolvedPagesLinks = computed(() => {
+  if (props.links && props.links.length > 0) return props.links
+  return props.pagesLinks
+})
+
 const resolvedAddress = computed(() => {
   return props.addressText || props.address || 'Республика Казахстан'
 })
 
 const resolvedCopyright = computed(() => {
   if (props.copyright) return props.copyright
-  const name = props.companyName || props.logoTextMain || 'Компания'
+  const name = props.companyName || props.logoTextMain || props.logoText || 'Компания'
   return `© ${new Date().getFullYear()} ${name}. Все права защищены.`
 })
 </script>

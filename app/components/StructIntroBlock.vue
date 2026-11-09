@@ -1,17 +1,35 @@
 <script setup lang="ts">
+import { computed } from 'vue'
+
 interface Props {
   tagText?: string
   textDark?: string
   textLight?: string
+  title?: string
+  description?: string
   ctaLabel?: string
   ctaUrl?: string
 }
 
 const props = withDefaults(defineProps<Props>(), {
-  textDark: "Мы предоставляем премиальный сервис, основанный на профессионализме, честности и внимании к каждой детали. ",
-  textLight: "Современное оборудование, проверенные материалы и команда мастеров с многолетним опытом позволяют нам гарантировать безупречный результат.",
+  textDark: '',
+  textLight: '',
+  title: '',
+  description: '',
   ctaLabel: 'Узнать подробнее',
   ctaUrl: '#services'
+})
+
+const resolvedDark = computed(() => {
+  if (props.textDark) return props.textDark.endsWith(' ') ? props.textDark : props.textDark + ' '
+  if (props.title) return props.title.endsWith(' ') ? props.title : props.title + ' — '
+  return 'Мы предоставляем профессиональные промышленные решения, основанные на точности, надежности и строгом соблюдении ГОСТ и СНиП. '
+})
+
+const resolvedLight = computed(() => {
+  if (props.textLight) return props.textLight
+  if (props.description) return props.description
+  return 'Собственная производственная база, сертифицированные материалы и команда квалифицированных инженеров позволяют нам гарантировать долговечный результат.'
 })
 </script>
 
@@ -30,8 +48,8 @@ const props = withDefaults(defineProps<Props>(), {
         data-aos-duration="1000" 
         data-aos-delay="100"
       >
-        <span class="struct-intro__text--dark">{{ textDark }}</span>
-        <span class="struct-intro__text--light">{{ textLight }}</span>
+        <span class="struct-intro__text--dark">{{ resolvedDark }}</span>
+        <span class="struct-intro__text--light">{{ resolvedLight }}</span>
       </h2>
 
       <!-- CTA Button -->

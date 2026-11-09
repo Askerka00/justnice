@@ -56,7 +56,7 @@
                   class="inline-flex items-center justify-center w-full py-3.5 px-6 rounded-xl bg-primary text-white font-bold text-[14px] hover:opacity-90 transition-all duration-200 shadow-md shadow-primary/10"
                 >
                   <Icon name="lucide:message-circle" class="w-4 h-4 mr-2" />
-                  {{ service.linkText || 'Записаться в WhatsApp' }}
+                  {{ service.linkText || 'Узнать стоимость в WhatsApp' }}
                 </a>
               </div>
             </div>
@@ -87,7 +87,7 @@
                   target="_blank" 
                   class="inline-flex items-center text-primary font-bold text-sm hover:opacity-85 transition-opacity"
                 >
-                  {{ service.linkText || service.tag || 'Записаться на прием' }}
+                  {{ service.linkText || service.tag || 'Запросить расчет' }}
                   <Icon name="lucide:arrow-right" class="w-4 h-4 ml-1.5 transition-transform group-hover:translate-x-0.5" />
                 </a>
               </div>

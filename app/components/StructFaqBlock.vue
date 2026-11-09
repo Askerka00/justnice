@@ -129,6 +129,10 @@ const props = defineProps({
     type: Array,
     default: () => []
   },
+  faqs: {
+    type: Array,
+    default: () => []
+  },
   faqItems: {
     type: Array,
     default: () => [
@@ -150,6 +154,7 @@ const props = defineProps({
 
 const resolvedFaqItems = computed(() => {
   if (props.items && props.items.length > 0) return props.items
+  if (props.faqs && props.faqs.length > 0) return props.faqs
   return props.faqItems
 })
 

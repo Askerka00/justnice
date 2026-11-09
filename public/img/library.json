@@ -269,6 +269,90 @@
           "type": "card",
           "tags": "галерея, здание, кран",
           "description": "Строящееся здание с краном"
+        },
+        {
+          "alias": "why-choose-us-no-people",
+          "file": "/img/construction/why-choose-us-no-people.png",
+          "type": "content",
+          "tags": "цех, металлоконструкции, кран-балка, сварка, завод, без людей",
+          "description": "Производственный цех металлоконструкций с мостовым краном и искрами сварки (без людей)"
+        },
+        {
+          "alias": "chema-hero-bg",
+          "file": "/img/construction/chema-hero-bg.png",
+          "type": "hero",
+          "tags": "химический завод, силосы, промышленная химия, огнезащита, лкм, без людей",
+          "description": "Промышленный комплекс резервуаров и силосов строительной химии на закате (без людей)"
+        },
+        {
+          "alias": "laser-cutting",
+          "file": "/img/construction/laser-cutting.png",
+          "type": "card",
+          "tags": "лазерная резка, чпу, металл, искры, раскрой, без людей",
+          "description": "Станок ЧПУ лазерной резки листовой стали с искрами (без людей)"
+        },
+        {
+          "alias": "metal-bending",
+          "file": "/img/construction/metal-bending.png",
+          "type": "card",
+          "tags": "гибка металла, листогиб, чпу, профиль, сэндвич-панели, без людей",
+          "description": "Высокоточная ЧПУ гибка стального листа на листогибочном прессе (без людей)"
+        },
+        {
+          "alias": "plasma-cutting",
+          "file": "/img/construction/plasma-cutting.png",
+          "type": "card",
+          "tags": "плазменная резка, чпу, толстый металл, сталь, без людей",
+          "description": "Плазменный раскрой толстолистовой конструкционной стали (без людей)"
+        },
+        {
+          "alias": "laser-tube-cutting",
+          "file": "/img/construction/laser-tube-cutting.png",
+          "type": "card",
+          "tags": "труборез, лазерная резка труб, профиль, металлокаркас, без людей",
+          "description": "Лазерная 3D-резка стальных профильных и круглых труб (без людей)"
+        },
+        {
+          "alias": "metal-shearing",
+          "file": "/img/construction/metal-shearing.png",
+          "type": "card",
+          "tags": "рубка металла, гильотина, стальной лист, заготовки, без людей",
+          "description": "Промышленные гильотинные ножницы для рубки стального проката (без людей)"
+        },
+        {
+          "alias": "angar-interior-crane",
+          "file": "/img/construction/angar-interior-crane.jpg",
+          "type": "hero",
+          "tags": "ангар, металлокаркас, склад, кран-балка, внутри, без людей",
+          "description": "Внутреннее пространство быстровозводимого прямостенного ангара с мостовым краном (без людей)"
+        },
+        {
+          "alias": "angar-arched-hangars",
+          "file": "/img/construction/angar-arched-hangars.jpg",
+          "type": "card",
+          "tags": "арочный ангар, бескаркасный ангар, зернохранилище, склад, без людей",
+          "description": "Комплекс быстровозводимых арочных ангаров из оцинкованной стали (без людей)"
+        },
+        {
+          "alias": "angar-abk-building",
+          "file": "/img/construction/angar-abk-building.jpg",
+          "type": "card",
+          "tags": "абк, модульное здание, сэндвич-панели, офис, бытовка, без людей",
+          "description": "Двухэтажное административно-бытовое здание (АБК) из сэндвич-панелей (без людей)"
+        },
+        {
+          "alias": "akskz-crane-steel",
+          "file": "/img/construction/akskz-crane-steel.jpg",
+          "type": "card",
+          "tags": "огнезащита, акз, антикоррозийная защита, металлоконструкции, кран, без людей",
+          "description": "Металлоконструкции промышленного крана с огнезащитным и антикоррозийным покрытием (без людей)"
+        },
+        {
+          "alias": "akskz-pipes-coating",
+          "file": "/img/construction/akskz-pipes-coating.jpg",
+          "type": "card",
+          "tags": "трубопровод, антикоррозийная эмаль, грунтовка, трубы, акз, без людей",
+          "description": "Стальные промышленные трубы с защитным антикоррозийным покрытием (без людей)"
         }
       ]
     },
@@ -383,6 +467,69 @@
           "type": "card",
           "tags": "полиэтиленовые трубы, трубы пнд, водоснабжение, синие полосы, вода, завод",
           "description": "Трубы ПЭ 100 для водоснабжения на заводе Спира-Берга"
+        },
+        {
+          "alias": "bpol-floor-parking",
+          "file": "/img/factory/bpol-floor-parking.jpg",
+          "type": "hero",
+          "tags": "наливной пол, эпоксидный пол, паркинг, топпинг, бетонный пол, без людей",
+          "description": "Бесшовный промышленный эпоксидный пол в паркинге с разметкой колонн (без людей)"
+        },
+        {
+          "alias": "bpol-floor-commercial",
+          "file": "/img/factory/bpol-floor-commercial.jpg",
+          "type": "card",
+          "tags": "полимерный пол, коммерческий пол, склад, шоурум, глянцевый пол, без людей",
+          "description": "Глянцевый износостойкий полимерный пол в коммерческом помещении (без людей)"
+        },
+        {
+          "alias": "bpol-floor-marked",
+          "file": "/img/factory/bpol-floor-marked.jpg",
+          "type": "card",
+          "tags": "разметка склада, полиуретановый пол, цех, антипылевое покрытие, без людей",
+          "description": "Промышленный пол с сигнальной разметкой в производственном цехе (без людей)"
+        },
+        {
+          "alias": "bpol-paint-bucket",
+          "file": "/img/factory/bpol-paint-bucket.png",
+          "type": "card",
+          "tags": "эпоксидная краска, грунтовка по бетону, bpol, полимерный состав, без людей",
+          "description": "Фирменная тара двухкомпонентного полимерного покрытия BPOL для бетона (без людей)"
+        },
+        {
+          "alias": "vestek-cas-bench",
+          "file": "/img/factory/vestek-cas-bench.jpg",
+          "type": "card",
+          "tags": "товарные весы, cas, напольные весы, весовое оборудование, без людей",
+          "description": "Электронные товарные весы CAS с платформой из нержавеющей стали (без людей)"
+        },
+        {
+          "alias": "vestek-cas-platform",
+          "file": "/img/factory/vestek-cas-platform.jpg",
+          "type": "card",
+          "tags": "платформенные весы, складские весы, 4 датчика, cas, без людей",
+          "description": "Промышленные четырехдатчиковые платформенные весы для склада и цеха (без людей)"
+        },
+        {
+          "alias": "vestek-cas-crane",
+          "file": "/img/factory/vestek-cas-crane.jpg",
+          "type": "card",
+          "tags": "крановые весы, cas caston, подвесные весы, металлобаза, без людей",
+          "description": "Тяжелые электронные крановые весы CAS Caston в защитном корпусе (без людей)"
+        },
+        {
+          "alias": "vestek-cas-counter",
+          "file": "/img/factory/vestek-cas-counter.jpg",
+          "type": "card",
+          "tags": "фасовочные весы, счетные весы, лабораторные весы, cas, без людей",
+          "description": "Высокоточные настольные счетные и фасовочные весы CAS (без людей)"
+        },
+        {
+          "alias": "demeu-deplex-warehouse",
+          "file": "/img/factory/demeu-deplex-warehouse.jpg",
+          "type": "card",
+          "tags": "сэндвич-панели, теплоизоляция, deplex, металлопрофиль, склад, без людей",
+          "description": "Складской комплекс теплоизоляционных материалов и профилей Deplex (без людей)"
         }
       ]
     },

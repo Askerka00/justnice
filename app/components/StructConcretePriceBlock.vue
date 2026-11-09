@@ -13,7 +13,7 @@
       <!-- Categories Tabs -->
       <div class="flex flex-wrap justify-center gap-2 md:gap-4" data-aos="fade-up">
         <button
-          v-for="(cat, idx) in categoriesData"
+          v-for="(cat, idx) in resolvedCategories"
           :key="idx"
           @click="activeTab = idx"
           class="px-5 py-3 rounded-xl font-bold text-sm uppercase tracking-wider transition-all duration-300 border font-outfit"
@@ -29,27 +29,27 @@
 
       <!-- Active Category Products Grid -->
       <div 
-        v-if="categoriesData[activeTab]" 
+        v-if="resolvedCategories[activeTab]" 
         class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6"
         data-aos="fade-up"
       >
         <div 
-          v-for="(item, itemIdx) in categoriesData[activeTab].items" 
+          v-for="(item, itemIdx) in resolvedCategories[activeTab].items" 
           :key="itemIdx"
           class="flex flex-col bg-white border-t-4 border-t-primary border-x border-b border-zinc-200/80 shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-300 rounded-b-2xl overflow-hidden p-6 justify-between space-y-6"
         >
           <!-- Product Title & Details -->
           <div class="space-y-4">
-            <div class="flex justify-between items-start">
-              <h3 class="text-2xl font-black text-zinc-900 font-outfit tracking-tight">
-                {{ item.title }}
-              </h3>
+            <div class="flex flex-col items-start gap-2">
               <span 
                 v-if="item.badge" 
-                class="bg-primary/10 text-primary text-xxs font-bold px-2 py-1 rounded uppercase tracking-wider"
+                class="bg-primary/10 text-primary text-xxs font-bold px-2.5 py-1 rounded-md uppercase tracking-wider shrink-0"
               >
                 {{ item.badge }}
               </span>
+              <h3 class="text-xl xl:text-2xl font-black text-zinc-900 font-outfit tracking-tight leading-snug break-words">
+                {{ item.title }}
+              </h3>
             </div>
             
             <p v-if="item.subtitle" class="text-xs text-zinc-400 font-medium">
@@ -113,6 +113,10 @@ const props = defineProps({
   categories: {
     type: Array,
     default: () => []
+  },
+  categoriesData: {
+    type: Array,
+    default: () => []
   }
 })
 
@@ -120,8 +124,10 @@ const activeTab = ref(0)
 
 const defaultCategories = []
 
-const categoriesData = computed(() => {
-  return props.categories && props.categories.length > 0 ? props.categories : defaultCategories
+const resolvedCategories = computed(() => {
+  if (props.categories && props.categories.length > 0) return props.categories
+  if (props.categoriesData && props.categoriesData.length > 0) return props.categoriesData
+  return defaultCategories
 })
 
 const getWhatsAppLink = (item) => {

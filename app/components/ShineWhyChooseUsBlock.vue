@@ -13,8 +13,8 @@
             <!-- Large Main Image -->
             <div class="w-[78%] h-[85%] rounded-[2.5rem] overflow-hidden bg-stone-100 shadow-md">
               <img 
-                :src="imageLargeUrl" 
-                alt="Clean room kitchen" 
+                :src="resolvedLargeImage" 
+                alt="Производство и объекты" 
                 class="w-full h-full object-cover object-center hover:scale-103 transition-transform duration-700"
               />
             </div>
@@ -23,8 +23,8 @@
             <div class="absolute right-0 bottom-4 w-[48%] aspect-square rounded-[2rem] overflow-hidden bg-white p-2 shadow-2xl border-4 border-white">
               <div class="w-full h-full rounded-[1.5rem] overflow-hidden bg-stone-50">
                 <img 
-                  :src="imageSmallUrl" 
-                  alt="Cleaning supplies" 
+                  :src="resolvedSmallImage" 
+                  alt="Контроль качества и оборудование" 
                   class="w-full h-full object-cover object-center hover:scale-105 transition-transform duration-500"
                 />
               </div>
@@ -174,11 +174,19 @@ const props = defineProps({
   },
   imageLargeUrl: {
     type: String,
-    default: '/img/demos/detailing-porsche.jpg'
+    default: ''
   },
   imageSmallUrl: {
     type: String,
-    default: '/img/demos/detailing-polish.jpg'
+    default: ''
+  },
+  mainImage: {
+    type: String,
+    default: ''
+  },
+  secondaryImage: {
+    type: String,
+    default: ''
   },
   features: {
     type: Array,
@@ -193,6 +201,14 @@ const props = defineProps({
       { title: 'Честные цены', subtitle: 'Никаких скрытых доплат и наценок', iconType: 'pricing' }
     ]
   }
+})
+
+const resolvedLargeImage = computed(() => {
+  return props.imageLargeUrl || props.mainImage || '/img/construction/why-choose-us-no-people.png'
+})
+
+const resolvedSmallImage = computed(() => {
+  return props.imageSmallUrl || props.secondaryImage || '/img/factory/card-precision.jpeg'
 })
 
 const resolvedFeatures = computed(() => {

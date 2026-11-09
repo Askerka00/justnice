@@ -123,11 +123,11 @@ const props = defineProps({
   },
   trustedText: {
     type: String,
-    default: 'Trusted by 5k+ companies'
+    default: 'Нам доверяют компании по всему Казахстану'
   },
   lovedText: {
     type: String,
-    default: 'Loved by our clients'
+    default: 'Высокая оценка заказчиков'
   },
   brands: {
     type: Array,
