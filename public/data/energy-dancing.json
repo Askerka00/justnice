@@ -1,0 +1,149 @@
+{
+  "theme": "red",
+  "themeColor": "#e11d48",
+  "font": "outfit",
+  "badgeStyle": "pill",
+  "meta": {
+    "title": "Energy School of Dancing | Performing Arts in Hemel Hempstead",
+    "description": "Inspiring dance and performing arts classes for ages 3-18 in Hemel Hempstead. Street dance, ballet, musical theatre, and acro. Book your free trial today.",
+    "image": "/img/demos/dance-hero.jpg"
+  },
+  "structure": [
+    {
+      "component": "VitalHeaderBlock",
+      "props": {
+        "logoText": "ENERGY DANCING",
+        "links": [
+          { "label": "Classes", "url": "#classes" },
+          { "label": "Why Us", "url": "#about" },
+          { "label": "Showcases", "url": "#showcases" },
+          { "label": "Contact", "url": "#contact" }
+        ],
+        "buttonText": "Book Free Trial",
+        "buttonUrl": "mailto:Energydancing@hotmail.co.uk"
+      }
+    },
+    {
+      "component": "ShineHeroBlock",
+      "props": {
+        "bgColor": "#0f172a",
+        "textColor": "#ffffff",
+        "accentColor": "#f43f5e",
+        "accentTextColor": "#ffffff",
+        "tagText": "PERFORMING ARTS & DANCE • HEMEL HEMPSTEAD",
+        "title": "Inspiring passion and confidence at",
+        "highlightText": "Energy Dancing",
+        "subtitle": "A vibrant performing arts school delivering high-energy classes in Street Dance, Musical Theatre, Ballet, and Acro for boys and girls aged 3 to 18.",
+        "ctaText": "Book a Free Trial Class",
+        "ctaUrl": "mailto:Energydancing@hotmail.co.uk?subject=Free%20Trial%20Booking",
+        "phoneLabel": "Email Enquiry",
+        "phoneValue": "Energydancing@hotmail.co.uk",
+        "imageUrl": "/img/demos/dance-hero.jpg",
+        "statsNumber": "250+",
+        "statsLabel": "Active students in Hertfordshire",
+        "trustBadges": [
+          {
+            "type": "trustpilot",
+            "name": "Community",
+            "label": "5.0 Rating",
+            "starsCount": 5
+          },
+          {
+            "type": "google",
+            "name": "Showcases",
+            "label": "Annual Theatres",
+            "starsCount": 5
+          }
+        ]
+      }
+    },
+    {
+      "component": "StructFeaturesBlock",
+      "props": {
+        "id": "about",
+        "tagText": "WHY ENERGY DANCING",
+        "title": "Where every dancer shines on and off stage",
+        "subtitle": "We nurture talent, build lifelong friendships, and create unforgettable performance opportunities across Hertfordshire.",
+        "items": [
+          {
+            "title": "Passionate Qualified Coaches",
+            "text": "DBS-checked, industry-trained dance educators dedicated to technique, safety, and encouragement in every session."
+          },
+          {
+            "title": "Annual West End-Style Showcases",
+            "text": "Every student gets to perform in full costume under professional theater lighting in our celebrated annual productions."
+          },
+          {
+            "title": "Free First Trial Session",
+            "text": "Come experience the energy with zero obligation. Try any class style before registering for the full term."
+          },
+          {
+            "title": "All Ages & Abilities (3–18)",
+            "text": "From preschool sensory movement to competitive advanced street crews, we have a class tailored for every skill level."
+          }
+        ]
+      }
+    },
+    {
+      "component": "StructServicesListBlock",
+      "props": {
+        "id": "classes",
+        "tagText": "OUR DANCE DISCIPLINES",
+        "title": "Exciting classes for every rhythm and style",
+        "description": "Weekly term-time sessions designed to develop coordination, musicality, stage presence, and lasting confidence.",
+        "buttonText": "Enrol For New Term",
+        "buttonUrl": "mailto:Energydancing@hotmail.co.uk",
+        "contactPhone": "Energydancing@hotmail.co.uk",
+        "contactTitle": "Admissions & Timetable",
+        "services": [
+          {
+            "title": "Street Dance & Commercial",
+            "description": "High-octane choreography featuring hip-hop, locking, and popping to current chart music. Great for stamina and groove.",
+            "price": "From £8.50 / session"
+          },
+          {
+            "title": "Musical Theatre & Performance",
+            "description": "Singing, acting, and Broadway-style dance combined into dynamic routines from favorite musicals and stage shows.",
+            "price": "From £9.00 / session"
+          },
+          {
+            "title": "Classical Ballet & Lyrical",
+            "description": "Grace, posture, core discipline, and expressive lyrical movement following certified syllabus guidelines.",
+            "price": "From £8.50 / session"
+          },
+          {
+            "title": "Acrobatic Arts & Tumbling",
+            "description": "Safe progressive tumbling, flexibility, cartwheels, and aerial tricks blended seamlessly with modern dance routines.",
+            "price": "From £9.50 / session"
+          }
+        ]
+      }
+    },
+    {
+      "component": "VitalContactBlock",
+      "props": {
+        "tagText": "JOIN THE FAMILY",
+        "title": "Reserve your dancer's free trial",
+        "subtitle": "Get in touch directly via email. We'll send you our current class timetable and reserve a spot in the upcoming session.",
+        "phone": "Energydancing@hotmail.co.uk",
+        "email": "Energydancing@hotmail.co.uk",
+        "address": "Hemel Hempstead & Dacorum, Hertfordshire, UK",
+        "ratingText": "5.0",
+        "ratingCount": "Hemel Hempstead community favorite",
+        "buttonText": "Email Us Now"
+      }
+    },
+    {
+      "component": "VitalFooterBlock",
+      "props": {
+        "logoText": "ENERGY SCHOOL OF DANCING",
+        "description": "Leading dance and performing arts academy based in Hemel Hempstead, Hertfordshire. Inspiring young performers through dance, creativity, and teamwork.",
+        "phone": "Energydancing@hotmail.co.uk",
+        "address": "Hemel Hempstead, Hertfordshire, UK",
+        "copyright": "© 2026 Energy School of Dancing. All rights reserved.",
+        "subscriptionTitle": "Stay in the loop with Energy Dancing",
+        "subscriptionText": "Get updates on new class launches, holiday workshops, and ticket releases for our annual showcases."
+      }
+    }
+  ]
+}

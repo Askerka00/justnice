@@ -1,0 +1,125 @@
+{
+  "themeColor": "#0f766e",
+  "font": "outfit",
+  "badgeStyle": "sharp",
+  "meta": {
+    "title": "Graf Detailing — Детейлинг и кузовной ремонт на Абая в Алматы",
+    "description": "Студия детейлинга и реставрации авто на пр. Абая 44/2: оценка 5.0 в 2ГИС. Оклейка антигравийной пленкой, полировка, кузовной ремонт и покраска в камере.",
+    "image": "/img/auto/hero-sportscar.png"
+  },
+  "structure": [
+    {
+      "component": "VitalHeaderBlock",
+      "props": {
+        "logoText": "GRAF DETAILING",
+        "buttonText": "+7 778 888-80-20",
+        "links": [
+          { "label": "О студии", "url": "#about" },
+          { "label": "Услуги", "url": "#services" },
+          { "label": "Преимущества", "url": "#features" },
+          { "label": "Контакты", "url": "#contacts" }
+        ]
+      }
+    },
+    {
+      "component": "StructHeroBlock",
+      "props": {
+        "tagText": "ДЕТЕЙЛИНГ & КУЗОВНОЙ ЦЕНТР",
+        "title": "Кузовной ремонт и оклейка<br/>премиальным полиуретаном",
+        "description": "Студия на пр. Абая, 44/2. Восстановление заводской геометрии, локальная покраска деталей в камере и бронирование полиуретаном с гарантией до 7 лет.",
+        "buttonText": "Оценка стоимости по фото в WhatsApp",
+        "buttonUrl": "https://wa.me/77788888020?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%A5%D0%BE%D1%87%D1%83%20%D0%BE%D1%86%D0%B5%D0%BD%D0%B8%D1%82%D1%8c%20%D1%81%D1%82%D0%BE%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D1%8c%20%D1%80%D0%B5%D0%BC%D0%BE%D0%BD%D1%82%D0%B0%20%D0%B8%20%D0%B4%D0%B5%D1%82%D0%B5%D0%B9%D0%BB%D0%B8%D0%BD%D0%B3%D0%B0",
+        "secondaryButtonText": "Смотреть услуги",
+        "secondaryButtonUrl": "#services",
+        "statNumber": "5.0",
+        "statLabel": "Рейтинг 2ГИС Алматы",
+        "heroImage": "@auto/hero-sportscar"
+      }
+    },
+    {
+      "component": "StructFeaturesBlock",
+      "props": {
+        "tagText": "ПОЧЕМУ GRAF",
+        "title": "Полный цикл восстановления и защиты кузова",
+        "features": [
+          {
+            "number": "01",
+            "title": "Собственная покрасочная камера",
+            "description": "Идеальное попадание в заводской цвет со спектрофотометром и сушкой при 60°C."
+          },
+          {
+            "number": "02",
+            "title": "Бронепленка 190+ мкм",
+            "description": "Полиуретан с жестким лаковым слоем защищает от сколов на трассе и мелких притертостей."
+          },
+          {
+            "number": "03",
+            "title": "Удобная локация в центре",
+            "description": "Пр. Абая, 44/2 (район Байтурсынова), удобный заезд и закрытая территория."
+          },
+          {
+            "number": "04",
+            "title": "Гарантия на все работы",
+            "description": "Официальная гарантия на ЛКП и бронепленки с актом выполненных работ."
+          }
+        ]
+      }
+    },
+    {
+      "component": "StructServicesListBlock",
+      "props": {
+        "tagText": "УСЛУГИ И ЦЕНЫ",
+        "title": "Прайс-лист Graf Detailing",
+        "description": "Оценка повреждений по фото в WhatsApp за 10 минут. Выполняем работы под ключ.",
+        "buttonText": "Оценить стоимость по фото",
+        "buttonUrl": "https://wa.me/77788888020",
+        "services": [
+          {
+            "title": "Оклейка антигравийной бронепленкой",
+            "description": "Защита кузова премиальным полиуретаном от сколов, царапин и реагентов.",
+            "price": "от 700 000 ₸",
+            "badge": "Хит"
+          },
+          {
+            "title": "Локальная покраска деталей в камере",
+            "description": "Компьютерный подбор цвета, подготовка и окрас детали с заводской шагренью.",
+            "price": "от 35 000 ₸ / деталь"
+          },
+          {
+            "title": "Восстановительная полировка кузова",
+            "description": "Трехэтапная полировка пастами Koch Chemie с удалением паутинки и голограмм.",
+            "price": "от 60 000 ₸"
+          },
+          {
+            "title": "Керамическая защита 9H",
+            "description": "Зеркальный блеск, мощный водоотталкивающий эффект и защита от выгорания.",
+            "price": "от 80 000 ₸"
+          }
+        ]
+      }
+    },
+    {
+      "component": "VitalMapContactBlock",
+      "props": {
+        "tagText": "КОНТАКТЫ",
+        "title": "Студия Graf Detailing в Алматы",
+        "address": "г. Алматы, пр. Абая, 44/2",
+        "phone": "+7 (778) 888-80-20",
+        "whatsappPhone": "77788888020",
+        "email": "info@grafdetailing.kz",
+        "workingHours": "Пн-Сб: 09:30 – 19:30",
+        "mapUrl": "https://yandex.ru/map-widget/v1/?ll=76.924821%2C43.240429&z=16"
+      }
+    },
+    {
+      "component": "StructFooterBlock",
+      "props": {
+        "companyName": "Graf Detailing & Body Repair",
+        "description": "Детейлинг и кузовной ремонт премиум-класса в центре Алматы.",
+        "phone": "+7 (778) 888-80-20",
+        "whatsappPhone": "77788888020",
+        "address": "Алматы, пр. Абая, 44/2"
+      }
+    }
+  ]
+}

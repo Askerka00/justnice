@@ -1,0 +1,140 @@
+{
+  "theme": "amber",
+  "themeColor": "#d97706",
+  "font": "outfit",
+  "badgeStyle": "pill",
+  "meta": {
+    "title": "Texas Legacy Epoxy Flooring Systems | Premium Garage & Commercial Epoxy Houston",
+    "description": "Houston & Galveston's premier garage epoxy, metallic marble, and polyaspartic flooring contractors. Lifetime adhesion warranty. Call (281) 968-8274.",
+    "image": "/img/construction/hero-modern.jpeg"
+  },
+  "structure": [
+    {
+      "component": "VitalHeaderBlock",
+      "props": {
+        "logoText": "TEXAS LEGACY EPOXY",
+        "links": [
+          { "label": "Services", "url": "#services" },
+          { "label": "Finishes", "url": "#finishes" },
+          { "label": "About", "url": "#about" },
+          { "label": "Contact", "url": "#contact" }
+        ],
+        "buttonText": "(281) 968-8274",
+        "buttonUrl": "tel:+12819688274"
+      }
+    },
+    {
+      "component": "ShineHeroBlock",
+      "props": {
+        "bgColor": "#14110b",
+        "textColor": "#ffffff",
+        "accentColor": "#f59e0b",
+        "accentTextColor": "#14110b",
+        "tagText": "LIFETIME WARRANTY • GREATER HOUSTON & GALVESTON",
+        "title": "Architectural epoxy & metallic concrete floors by",
+        "highlightText": "Texas Legacy Epoxy",
+        "subtitle": "Transforming dull concrete into showroom-grade, mirror-finish masterpieces. Specializing in decorative vinyl flake, custom metallic swirl, and high-traction quartz systems.",
+        "ctaText": "Get Free On-Site Quote",
+        "ctaUrl": "tel:+12819688274",
+        "phoneLabel": "Direct Line",
+        "phoneValue": "(281) 968-8274",
+        "imageUrl": "/img/construction/hero-modern.jpeg",
+        "statsNumber": "100%",
+        "statsLabel": "Solid commercial grade polyaspartic finish",
+        "trustBadges": [
+          {
+            "type": "google",
+            "name": "Craftsmanship",
+            "label": "Houston Custom Epoxy",
+            "starsCount": 5
+          },
+          {
+            "type": "trustpilot",
+            "name": "Adhesion Guarantee",
+            "label": "Lifetime Warranty",
+            "starsCount": 5
+          }
+        ]
+      }
+    },
+    {
+      "component": "StructFeaturesBlock",
+      "props": {
+        "tagText": "THE TEXAS LEGACY DIFFERENCE",
+        "title": "Precision Planetary Grinding and Extreme Adhesion Bonding",
+        "subtitle": "We never cut corners on surface prep. Every slab is diamond ground and moisture barrier sealed before the first drop of epoxy touches the floor.",
+        "features": [
+          {
+            "icon": "shield-check",
+            "title": "Vapor Barrier Base Coat",
+            "description": "Houston's heavy coastal humidity pushes ground moisture up through concrete. Our deep-penetrating epoxy primer blocks up to 25 lbs of hydrostatic pressure."
+          },
+          {
+            "icon": "sparkles",
+            "title": "Showroom Gloss Retention",
+            "description": "Our dual polyaspartic clear coats resist tire burn, battery acid, motor oils, and harsh household chemicals without yellowing."
+          },
+          {
+            "icon": "clock",
+            "title": "Seamless Turnkey Install",
+            "description": "We repair all cracks, divots, and spalled control joints with polyurea menders before applying your chosen designer finish."
+          }
+        ]
+      }
+    },
+    {
+      "component": "StructServicesListBlock",
+      "props": {
+        "tagText": "FLOORING SYSTEMS",
+        "title": "Designer Epoxy & High-Performance Polyaspartics",
+        "subtitle": "Custom formulated for residential garages, aircraft hangars, commercial warehouses, and luxury retail.",
+        "services": [
+          {
+            "title": "Decorative Vinyl Flake Garage Floors",
+            "price": "Full Broadcast",
+            "description": "Heavy-duty multi-coat flake system offering superior traction, stain defense, and modern aesthetic elegance."
+          },
+          {
+            "title": "Exotic Metallic 3D Epoxy Systems",
+            "price": "Custom Artisan",
+            "description": "High-gloss metallic pigments swirled by hand into one-of-a-kind marble veining, lava flows, and pearlescent waves."
+          },
+          {
+            "title": "Solid Color Commercial Polyaspartic",
+            "price": "Commercial Bid",
+            "description": "Heavy industrial solid-color protection engineered for auto shops, machine rooms, and commercial manufacturing floors."
+          },
+          {
+            "title": "Exterior Patio & Driveway Coatings",
+            "price": "Weather-Resistant",
+            "description": "Breathable, UV-stable decorative concrete coatings that withstand direct Gulf Coast tropical sun and driving rains."
+          },
+          {
+            "title": "Concrete Crack & Joint Restoration",
+            "price": "Included With System",
+            "description": "Structural joint shaving and elastomeric polyurea filling to create completely flat, seamless floor planes."
+          }
+        ]
+      }
+    },
+    {
+      "component": "VitalContactBlock",
+      "props": {
+        "title": "Schedule Your Free Houston Epoxy Estimate",
+        "subtitle": "Call or message us directly at (281) 968-8274 to view physical color samples and discuss your space.",
+        "phone": "(281) 968-8274",
+        "email": "contact@texaslegacyepoxy.com",
+        "address": "Houston, TX • Serving Harris, Galveston, Brazoria & Montgomery Counties",
+        "schedule": "Monday – Saturday: 7:00 AM – 6:30 PM • Flexible Weekend Booking"
+      }
+    },
+    {
+      "component": "VitalFooterBlock",
+      "props": {
+        "logoText": "TEXAS LEGACY EPOXY",
+        "copyright": "© 2026 Texas Legacy Epoxy Flooring Systems. All rights reserved.",
+        "disclaimer": "Providing custom decorative epoxy, metallic marbling, and polyaspartic surface solutions across Greater Houston and the Texas Gulf Coast."
+      }
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+<svg viewBox="0 0 300 300" xmlns="http://www.w3.org/2000/svg" width="100%" height="100%">
+  <!-- Темный фон для контраста -->
+  <circle cx="150" cy="150" r="140" fill="#141416" stroke="#fbbf24" stroke-width="8" />
+  
+  <!-- Замочная скважина (стилизованная в центре) -->
+  <g transform="translate(150, 130)" fill="#ef4444">
+    <!-- Верхний круг скважины -->
+    <circle cx="0" cy="-20" r="30" fill="#fbbf24" />
+    <!-- Нижняя расширяющаяся часть -->
+    <path d="M -15 -10 L 15 -10 L 25 35 L -25 35 Z" fill="#fbbf24" />
+    
+    <!-- Внутренний темный прорез замка -->
+    <circle cx="0" cy="-20" r="12" fill="#141416" />
+    <path d="M -6 -15 L 6 -15 L 10 20 L -10 20 Z" fill="#141416" />
+  </g>
+
+  <!-- Стилизованный Ключ, проходящий позади скважины -->
+  <g transform="translate(150, 130) rotate(-45)">
+    <!-- Головка ключа (кольцо) -->
+    <circle cx="-75" cy="0" r="22" fill="none" stroke="#ef4444" stroke-width="12" />
+    <!-- Стержень ключа -->
+    <rect x="-53" y="-5" width="110" height="10" fill="#ef4444" />
+    <!-- Бородка ключа (зубцы) -->
+    <path d="M 40 5 L 40 25 L 48 25 L 48 5 Z" fill="#ef4444" />
+    <path d="M 52 5 L 52 20 L 57 20 L 57 5 Z" fill="#ef4444" />
+  </g>
+
+  <!-- Текст ЗАМОЧНАЯ -->
+  <g transform="translate(150, 245)">
+    <text font-family="'Outfit', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif" 
+          font-size="28" 
+          font-weight="900" 
+          text-anchor="middle" 
+          letter-spacing="4">
+      <tspan fill="#fbbf24">ЗАМОЧ</tspan>
+      <tspan fill="#ef4444">НАЯ</tspan>
+    </text>
+  </g>
+</svg>

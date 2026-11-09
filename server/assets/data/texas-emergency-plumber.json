@@ -1,0 +1,140 @@
+{
+  "theme": "blue",
+  "themeColor": "#2563eb",
+  "font": "outfit",
+  "badgeStyle": "pill",
+  "meta": {
+    "title": "24/7 Texas Emergency Plumber | Rapid Drain Clearing & Burst Pipe Repair",
+    "description": "Licensed 24/7 emergency plumbing service across Houston, Dallas-Fort Worth, and Central Texas. 60-minute response, drain snaking, slab leaks, and water heaters. Call (888) 233-3995.",
+    "image": "/img/hvac/hero-boiler-room.jpeg"
+  },
+  "structure": [
+    {
+      "component": "VitalHeaderBlock",
+      "props": {
+        "logoText": "24/7 EMERGENCY PLUMBER",
+        "links": [
+          { "label": "Services", "url": "#services" },
+          { "label": "Drain Clearing", "url": "#drains" },
+          { "label": "Why Us", "url": "#about" },
+          { "label": "Contact", "url": "#contact" }
+        ],
+        "buttonText": "(888) 233-3995",
+        "buttonUrl": "tel:+18882333995"
+      }
+    },
+    {
+      "component": "ShineHeroBlock",
+      "props": {
+        "bgColor": "#0b192e",
+        "textColor": "#ffffff",
+        "accentColor": "#60a5fa",
+        "accentTextColor": "#0b192e",
+        "tagText": "60-MINUTE RAPID ARRIVAL • HOUSTON, DFW & CENTRAL TEXAS",
+        "title": "24/7 Emergency drain clearing & burst pipe repair by",
+        "highlightText": "Texas Emergency Plumber",
+        "subtitle": "Immediate plumbing rescue when every minute counts. Equipped with heavy motorized snakes, high-pressure hydro-jetters, and digital sewer inspection cameras to resolve severe backups on the spot.",
+        "ctaText": "Call Emergency Plumber Now",
+        "ctaUrl": "tel:+18882333995",
+        "phoneLabel": "24/7 Hotline",
+        "phoneValue": "(888) 233-3995",
+        "imageUrl": "/img/hvac/hero-boiler-room.jpeg",
+        "statsNumber": "60 Min",
+        "statsLabel": "Average emergency arrival window",
+        "trustBadges": [
+          {
+            "type": "google",
+            "name": "Rapid Rescue",
+            "label": "24/7 Master Plumbers",
+            "starsCount": 5
+          },
+          {
+            "type": "trustpilot",
+            "name": "Texas Service",
+            "label": "No Overtime Surprises",
+            "starsCount": 5
+          }
+        ]
+      }
+    },
+    {
+      "component": "StructFeaturesBlock",
+      "props": {
+        "tagText": "EMERGENCY RESPONSE PROTOCOL",
+        "title": "On-Site Within the Hour With Industrial Equipment",
+        "subtitle": "We arrive ready to stop flooding, unclog main sewer channels, and protect your home from devastating water damage.",
+        "features": [
+          {
+            "icon": "lightning-bolt",
+            "title": "60-Minute Arrival Target",
+            "description": "Our rolling dispatch centers are strategically stationed across major Texas metropolitan hubs to guarantee immediate response."
+          },
+          {
+            "icon": "shield-check",
+            "title": "Licensed Master Plumbers",
+            "description": "Every technician is background checked, state certified, and trained on advanced trenchless pipe inspection systems."
+          },
+          {
+            "icon": "clock",
+            "title": "24/7 Zero Call-Out Surcharge",
+            "description": "Emergencies don't wait for business hours. We provide clear, transparent flat-rate quotes day, night, weekends, or holidays."
+          }
+        ]
+      }
+    },
+    {
+      "component": "StructServicesListBlock",
+      "props": {
+        "tagText": "EMERGENCY SERVICES",
+        "title": "Comprehensive Emergency Plumbing & Sewer Solutions",
+        "subtitle": "Solving severe residential and commercial drainage nightmares across Texas.",
+        "services": [
+          {
+            "title": "Main Sewer Line Clog Clearing",
+            "price": "Rapid Dispatch",
+            "description": "Heavy motorized cable snaking and hydro-jetting to clear stubborn tree root intrusions, grease blockages, and full line clogs."
+          },
+          {
+            "title": "Burst Pipe & Sudden Leak Containment",
+            "price": "Immediate Response",
+            "description": "Fast water main shutoff, thermal leak pinpointing, and copper, CPVC, or PEX pipe sectional repairs."
+          },
+          {
+            "title": "Water Heater Failure & Tank Leaks",
+            "price": "Same-Day Swap",
+            "description": "Emergency repair of leaking pressure relief valves, heating elements, or complete same-day tank and tankless replacements."
+          },
+          {
+            "title": "High-Definition Sewer Camera Scans",
+            "price": "Included With Clearing",
+            "description": "Full-color digital video inspection inside your lines to identify root breaks, pipe bellies, and collapsed drains with exact depth."
+          },
+          {
+            "title": "Toilet, Sink & Fixture Overflow Relief",
+            "price": "Emergency Service",
+            "description": "Stopping immediate overflows, rebuilding wax seals, augering tough blockages, and restoring sanitary operation."
+          }
+        ]
+      }
+    },
+    {
+      "component": "VitalContactBlock",
+      "props": {
+        "title": "Plumbing Emergency Happening Right Now?",
+        "subtitle": "Call our 24/7 live dispatch hotline at (888) 233-3995 immediately for an emergency technician dispatch.",
+        "phone": "(888) 233-3995",
+        "email": "dispatch@texasemergencyplumbers.com",
+        "address": "Statewide Texas Operations • Serving Houston, DFW, Austin & San Antonio",
+        "schedule": "Open 24 Hours / 7 Days a Week / 365 Days a Year"
+      }
+    },
+    {
+      "component": "VitalFooterBlock",
+      "props": {
+        "logoText": "24/7 EMERGENCY PLUMBER",
+        "copyright": "© 2026 24/7 Emergency Plumber. Licensed Texas Plumbing Operations.",
+        "disclaimer": "Serving residential homeowners and commercial businesses throughout Texas with 24-hour emergency plumbing and drain clearing."
+      }
+    }
+  ]
+}

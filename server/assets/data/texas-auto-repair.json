@@ -1,0 +1,149 @@
+{
+  "theme": "orange",
+  "themeColor": "#ea580c",
+  "font": "outfit",
+  "badgeStyle": "pill",
+  "meta": {
+    "title": "Texas Auto & Industrial Repair | Diesel, Heavy Fleet & Classic Restoration Ennis TX",
+    "description": "5-star heavy diesel repair, industrial machinery maintenance, and classic vehicle restoration in Ennis and Greater Dallas, TX. Call (469) 517-4145.",
+    "image": "/img/auto/hero-repair-shop.jpeg"
+  },
+  "structure": [
+    {
+      "component": "VitalHeaderBlock",
+      "props": {
+        "logoText": "TEXAS AUTO & INDUSTRIAL",
+        "links": [
+          { "label": "Services", "url": "#services" },
+          { "label": "Fleet & Diesel", "url": "#fleet" },
+          { "label": "About", "url": "#about" },
+          { "label": "Contact", "url": "#contact" }
+        ],
+        "buttonText": "(469) 517-4145",
+        "buttonUrl": "tel:4695174145"
+      }
+    },
+    {
+      "component": "ShineHeroBlock",
+      "props": {
+        "bgColor": "#18181b",
+        "textColor": "#ffffff",
+        "accentColor": "#f97316",
+        "accentTextColor": "#ffffff",
+        "tagText": "5-STAR RATED • DIESEL & INDUSTRIAL EXPERTS",
+        "title": "Heavy diesel repair & classic builds at",
+        "highlightText": "Texas Auto & Industrial",
+        "subtitle": "Complete commercial fleet maintenance, industrial diesel powertrain overhauls, agricultural machinery repair, and custom classic vehicle restorations in Ennis, TX.",
+        "ctaText": "Call for Service Estimate",
+        "ctaUrl": "tel:4695174145",
+        "phoneLabel": "Direct Shop Line",
+        "phoneValue": "(469) 517-4145",
+        "imageUrl": "/img/auto/hero-repair-shop.jpeg",
+        "statsNumber": "25+ Years",
+        "statsLabel": "Mechanical experience in Dallas county",
+        "trustBadges": [
+          {
+            "type": "google",
+            "name": "Google",
+            "label": "5.0 Star Rated",
+            "starsCount": 5
+          },
+          {
+            "type": "trustpilot",
+            "name": "Certified",
+            "label": "Heavy Duty Techs",
+            "starsCount": 5
+          }
+        ]
+      }
+    },
+    {
+      "component": "StructFeaturesBlock",
+      "props": {
+        "id": "about",
+        "tagText": "BUILT TEXAS TOUGH",
+        "title": "Heavy-duty capability with old-school integrity",
+        "subtitle": "We keep commercial fleets running, agricultural machinery productive, and prized vintage projects running like champions.",
+        "items": [
+          {
+            "title": "Industrial & Heavy Diesel",
+            "text": "Cummins, Powerstroke, and Duramax diagnostic troubleshooting, turbo replacements, injection pumps, and complete rebuilds."
+          },
+          {
+            "title": "Commercial Fleet Maintenance",
+            "text": "Priority turnaround times, scheduled preventative maintenance, and DOT inspections for working commercial haulers."
+          },
+          {
+            "title": "Classic Restoration & Custom",
+            "text": "Dedicated bay for vintage GMCs, Jeeps, and classic American iron requiring custom fabrication and mechanical restoration."
+          },
+          {
+            "title": "Honest Texas Pricing",
+            "text": "Family-operated shop where a handshake means something. Transparent diagnostics and zero unnecessary parts replacement."
+          }
+        ]
+      }
+    },
+    {
+      "component": "StructServicesListBlock",
+      "props": {
+        "id": "services",
+        "tagText": "SHOP SERVICES",
+        "title": "Comprehensive mechanical & fleet solutions",
+        "description": "From single work trucks to commercial fleet accounts and classic rebuilds across Ennis and Greater Dallas.",
+        "buttonText": "Schedule Service",
+        "buttonUrl": "tel:4695174145",
+        "contactPhone": "(469) 517-4145",
+        "contactTitle": "Service Desk",
+        "services": [
+          {
+            "title": "Diesel Engine Overhaul & Rebuilds",
+            "description": "Head gaskets, EGR & emissions service, injectors, fuel rails, turbochargers, and complete engine block replacements.",
+            "price": "Custom Quote"
+          },
+          {
+            "title": "Industrial & Agricultural Equipment",
+            "description": "Hydraulic line repairs, heavy implement servicing, skid steers, tractors, and industrial generators.",
+            "price": "Call for Rates"
+          },
+          {
+            "title": "Classic Truck & Jeep Restoration",
+            "description": "Wiring harnesses, suspension lifts, carburetor tuning, custom exhaust, and drivetrain restoration.",
+            "price": "Custom Estimate"
+          },
+          {
+            "title": "Heavy Drivetrain & Differential",
+            "description": "Heavy transmission swaps, clutch replacements, drive shafts, transfer cases, and heavy axle rebuilds.",
+            "price": "From $650"
+          }
+        ]
+      }
+    },
+    {
+      "component": "VitalContactBlock",
+      "props": {
+        "tagText": "VISIT THE SHOP",
+        "title": "Bring your truck or machine by today",
+        "subtitle": "Call (469) 517-4145 or email texasautoandind@yahoo.com. Conveniently located at 478 Hornik Rd, Ennis, TX 75119.",
+        "phone": "(469) 517-4145",
+        "email": "texasautoandind@yahoo.com",
+        "address": "478 Hornik Rd, Ennis, TX 75119",
+        "ratingText": "5.0",
+        "ratingCount": "100% 5-Star Google feedback",
+        "buttonText": "Call (469) 517-4145"
+      }
+    },
+    {
+      "component": "VitalFooterBlock",
+      "props": {
+        "logoText": "TEXAS AUTO & INDUSTRIAL REPAIR",
+        "description": "Ennis and Greater Dallas trusted facility for commercial diesel, heavy machinery repairs, and custom vehicle restorations.",
+        "phone": "(469) 517-4145",
+        "address": "478 Hornik Rd, Ennis, TX 75119",
+        "copyright": "© 2026 Texas Auto and Industrial Repair. All rights reserved.",
+        "subscriptionTitle": "Fleet Maintenance Updates",
+        "subscriptionText": "Seasonal diesel maintenance recommendations and service specials for commercial fleet managers."
+      }
+    }
+  ]
+}

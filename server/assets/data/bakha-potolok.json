@@ -1,0 +1,233 @@
+{
+  "id": "bakha-potolok",
+  "theme": "indigo",
+  "themeColor": "#4f46e5",
+  "font": "outfit",
+  "badgeStyle": "pill",
+  "meta": {
+    "title": "Bakha Potolok Алматы — Натяжные потолки без запаха с установкой за 1 день",
+    "description": "Установка натяжных потолков в Алматы от Bakha Potolok: теневой профиль EuroKraab, парящие потолки, световые линии, треки. Честные цены без переплат.",
+    "image": "/img/almapotolok-hero.jpg"
+  },
+  "structure": [
+    {
+      "component": "CoverHeroBlock",
+      "props": {
+        "companyName": "Bakha Potolok",
+        "hideLogoText": false,
+        "whatsappPhone": "77784739587",
+        "headerButtonText": "+7 778 473 95 87",
+        "headerButtonUrl": "https://wa.me/77784739587",
+        "links": [
+          {
+            "label": "Каталог решений",
+            "url": "#services"
+          },
+          {
+            "label": "Цены",
+            "url": "#pricing"
+          },
+          {
+            "label": "Преимущества",
+            "url": "#features"
+          },
+          {
+            "label": "Контакты",
+            "url": "#contacts"
+          }
+        ],
+        "title": "Идеальные натяжные потолки<br/>в Алматы от Bakha Potolok",
+        "subtitle": "Теневой профиль, скрытые карнизы, магнитные трековые системы и бесщелевые потолки. Сертифицированные полотна MSD Premium без химического запаха. Установка за 1 день.",
+        "backgroundImage": "/img/almapotolok-hero.jpg",
+        "ratingText": "Рейтинг 4.9 в 2GIS • 159 отзывов • @bakha.potolok",
+        "avatars": [
+          "/img/landscaping/navu-avatar-1.png",
+          "/img/landscaping/navu-avatar-2.png",
+          "/img/landscaping/navu-avatar-3.png"
+        ],
+        "showForm": true,
+        "formTitle": "Рассчитать стоимость потолка со скидкой",
+        "formButtonText": "Получить расчет в WhatsApp",
+        "showSelectField": true,
+        "formSelectPlaceholder": "Желаемый стиль потолка",
+        "formSelectOptions": [
+          "Классический матовый / сатиновый белый",
+          "Теневой потолок EuroKraab (стиль лофт/минимализм)",
+          "Световые линии и контурная LED-подсветка",
+          "Встроенные магнитные трековые светильники",
+          "Скрытые карнизы для штор с подсветкой"
+        ]
+      }
+    },
+    {
+      "component": "ShineClientsBlock",
+      "props": {
+        "title": "РАБОТАЕМ ТОЛЬКО С БЕЗОПАСНЫМИ И СЕРТИФИЦИРОВАННЫМИ МАТЕРИАЛАМИ",
+        "bgColor": "#ffffff",
+        "textColor": "#71717a",
+        "speed": "26s",
+        "logos": [
+          {
+            "name": "MSD PREMIUM",
+            "icon": "lucide:shield-check"
+          },
+          {
+            "name": "EUROKRAAB",
+            "icon": "lucide:minimize-2"
+          },
+          {
+            "name": "LUMFER",
+            "icon": "lucide:sparkles"
+          },
+          {
+            "name": "DESCOR",
+            "icon": "lucide:award"
+          },
+          {
+            "name": "BAUF GERMANY",
+            "icon": "lucide:check-circle"
+          }
+        ]
+      }
+    },
+    {
+      "component": "VitalServicesBlock",
+      "props": {
+        "id": "services",
+        "tagline": "НАШИ ТЕХНОЛОГИИ",
+        "title": "Современные варианты натяжных потолков",
+        "subtitle": "Монтируем потолки любой геометрической сложности с чистым монтажом без строительной пыли.",
+        "services": [
+          {
+            "title": "Теневые потолки EuroKraab",
+            "description": "Эстетичный ровный теневой зазор 6 мм по периметру стен без использования резиновых заглушек и плинтусов.",
+            "image": "/img/almapotolok-shadow.jpg",
+            "price": "от 3 500 ₸ / п.м."
+          },
+          {
+            "title": "Световые линии и LED треки",
+            "description": "Встраиваемые полосы света служат основным или акцентным освещением, визуально расширяя комнату.",
+            "image": "/img/construction/hero-modern.jpeg",
+            "price": "от 4 000 ₸ / п.м."
+          },
+          {
+            "title": "Скрытые карнизы для штор",
+            "description": "Ниша ПК-5 или Lumfer для штор, струящихся прямо из потолка. Возможность установки мягкой ночной подсветки.",
+            "image": "/img/almapotolok-bedroom.jpg",
+            "price": "от 4 500 ₸ / п.м."
+          },
+          {
+            "title": "Матовые полотна MSD Premium",
+            "description": "Абсолютно гладкая поверхность, имитирующая идеальную гипсокартонную покраску. Экологично и пожаробезопасно.",
+            "image": "/img/construction/card-tools.jpeg",
+            "price": "от 1 800 ₸ / м²"
+          }
+        ]
+      }
+    },
+    {
+      "component": "StructConcretePriceBlock",
+      "props": {
+        "id": "pricing",
+        "tagline": "ПРОЗРАЧНЫЙ ПРАЙС",
+        "title": "Пакетные решения для квартир",
+        "description": "В стоимость каждого тарифа включены бесплатный замер, монтаж безопасным композитным баллоном и уборка пылесосом.",
+        "packages": [
+          {
+            "name": "Классика",
+            "price": "от 1 800 ₸ / м²",
+            "desc": "Идеально ровный белый матовый или сатиновый потолок.",
+            "features": [
+              "Полотно MSD Premium (белое)",
+              "Алюминиевый профиль",
+              "Установка люстры",
+              "Маскировочная лента в тон",
+              "Гарантия на полотно 10 лет"
+            ]
+          },
+          {
+            "name": "Теневой тренд (Хит)",
+            "price": "от 3 800 ₸ / м²",
+            "isPopular": true,
+            "desc": "Современный минималистичный дизайн с теневым зазором.",
+            "features": [
+              "Профиль теневой EuroKraab",
+              "Идеальные внешние углы",
+              "Установка точечных светильников",
+              "Беспылевой монтаж с пылесосом",
+              "Гарантия 10 лет"
+            ]
+          },
+          {
+            "name": "Дизайнерский свет",
+            "price": "от 5 500 ₸ / м²",
+            "desc": "Премиальное освещение со световыми линиями и треками.",
+            "features": [
+              "Интеграция световых линий",
+              "Магнитные трековые шинопроводы",
+              "Ниши для штор с подсветкой",
+              "Премиум полотно TEQTUM / BAUF",
+              "Гарантия 15 лет"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "component": "StructWhyChooseUsBlock",
+      "props": {
+        "id": "features",
+        "tagline": "ПРЕИМУЩЕСТВА",
+        "title": "Почему выбирают Bakha Potolok",
+        "items": [
+          {
+            "icon": "lucide:sparkles",
+            "title": "Чистый монтаж",
+            "desc": "Работаем с перфораторами с пылеудалением. Ваши обои и мебель останутся чистыми."
+          },
+          {
+            "icon": "lucide:flame",
+            "title": "Безопасные баллоны",
+            "desc": "Используем только взрывобезопасные полимерно-композитные газовые баллоны Ragasco."
+          },
+          {
+            "icon": "lucide:clock",
+            "title": "Монтаж за 1 день",
+            "desc": "Установка всей квартиры за 4-8 часов бригадой опытных монтажников со стажем от 6 лет."
+          },
+          {
+            "icon": "lucide:award",
+            "title": "10 лет гарантии",
+            "desc": "Полотна не желтеют, не провисают и легко выдерживают затопление до 100 л воды на м²."
+          }
+        ]
+      }
+    },
+    {
+      "component": "VitalMapContactBlock",
+      "props": {
+        "id": "contacts",
+        "tagline": "КОНТАКТЫ",
+        "title": "Вызовите замерщика Bakha Potolok с каталогом",
+        "address": "г. Алматы (оперативный бесплатный выезд во все районы)",
+        "phone": "+7 778 473 95 87",
+        "whatsapp": "77784739587",
+        "instagram": "bakha.potolok",
+        "gisLink": "https://2gis.kz/almaty/firm/70000001098071424",
+        "workHours": "Пн-Вс: 08:00 - 21:00",
+        "ctaTitle": "Запишитесь на бесплатный замер и расчет сегодня",
+        "ctaButtonText": "Написать в WhatsApp"
+      }
+    },
+    {
+      "component": "StructFooterBlock",
+      "props": {
+        "companyName": "Bakha Potolok",
+        "year": "2026",
+        "subtitle": "Монтаж натяжных потолков в г. Алматы с гарантией качества.",
+        "phone": "+7 778 473 95 87",
+        "instagram": "bakha.potolok"
+      }
+    }
+  ]
+}

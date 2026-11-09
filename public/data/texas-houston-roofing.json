@@ -1,0 +1,151 @@
+{
+  "theme": "navy",
+  "themeColor": "#1e3a8a",
+  "font": "outfit",
+  "badgeStyle": "pill",
+  "meta": {
+    "title": "Texas Houston Roofing | 23 Years Certified Roof Replacement & Repair Houston TX",
+    "description": "Houston's trusted roofing contractor for 23 years. Emergency leak repairs, storm & hail damage restoration, residential & commercial roof replacement. Call (832) 297-2204.",
+    "image": "/img/remont-kryshi-hero.jpg"
+  },
+  "structure": [
+    {
+      "component": "VitalHeaderBlock",
+      "props": {
+        "logoImage": "/img/logos/texas-houston-roofing-logo.jpg",
+        "logoText": "Texas Houston Roofing",
+        "links": [
+          { "label": "Services", "url": "#services" },
+          { "label": "Why Us", "url": "#about" },
+          { "label": "Storm Damage", "url": "#storm" },
+          { "label": "Contact", "url": "#contact" }
+        ],
+        "buttonText": "(832) 297-2204",
+        "buttonUrl": "tel:+18322972204"
+      }
+    },
+    {
+      "component": "ShineHeroBlock",
+      "props": {
+        "bgColor": "#090d16",
+        "textColor": "#ffffff",
+        "accentColor": "#3b82f6",
+        "accentTextColor": "#ffffff",
+        "tagText": "23 YEARS EXPERIENCE • HOUSTON & SURROUNDING AREAS",
+        "title": "Certified roof replacement & storm repair at",
+        "highlightText": "Texas Houston Roofing",
+        "subtitle": "Trusted architectural shingle installations, emergency leak detection, insurance storm claim assistance, and commercial roofing across Greater Houston.",
+        "ctaText": "Get a Free Roof Estimate",
+        "ctaUrl": "tel:+18322972204",
+        "phoneLabel": "Direct Call / WhatsApp",
+        "phoneValue": "(832) 297-2204",
+        "imageUrl": "/img/remont-kryshi-hero.jpg",
+        "statsNumber": "23+ Years",
+        "statsLabel": "Roofing experience across Houston",
+        "trustBadges": [
+          {
+            "type": "google",
+            "name": "Google",
+            "label": "5.0 Rating",
+            "starsCount": 5
+          },
+          {
+            "type": "trustpilot",
+            "name": "Facebook",
+            "label": "1,700+ Followers",
+            "starsCount": 5
+          }
+        ]
+      }
+    },
+    {
+      "component": "StructFeaturesBlock",
+      "props": {
+        "id": "about",
+        "tagText": "THE TEXAS HOUSTON ADVANTAGE",
+        "title": "Built tough to withstand extreme Gulf Coast weather",
+        "subtitle": "From scorching summer heat to hurricane winds and hail storms, our roofing systems are engineered with Owens Corning & GAF certified materials.",
+        "items": [
+          {
+            "title": "100% Satisfaction Guarantee",
+            "text": "Over two decades of dedication with best price guarantee and meticulous site cleanup after every installation."
+          },
+          {
+            "title": "Free Storm & Hail Inspection",
+            "text": "Thorough roof and attic inspections with detailed photographic reports for insurance claims."
+          },
+          {
+            "title": "Same-Day Emergency Tarping",
+            "text": "Rapid response team deployed across Houston to stop active leaks and prevent secondary drywall damage."
+          },
+          {
+            "title": "Bilingual Direct Support",
+            "text": "Fluent English and Spanish communication with transparent upfront written proposals."
+          }
+        ]
+      }
+    },
+    {
+      "component": "StructServicesListBlock",
+      "props": {
+        "id": "services",
+        "tagText": "OUR SERVICES",
+        "title": "Complete roofing solutions for homes & businesses",
+        "description": "Every roof is backed by manufacturer warranties and certified workmanship guarantees.",
+        "buttonText": "Schedule Free Inspection",
+        "buttonUrl": "tel:+18322972204",
+        "contactPhone": "(832) 297-2204",
+        "contactTitle": "Dispatch Desk",
+        "services": [
+          {
+            "title": "Complete Roof Replacement",
+            "text": "Full tear-off, decking inspection, synthetic underlayment, ice & water shield, and architectural shingles.",
+            "price": "Free Estimate"
+          },
+          {
+            "title": "Emergency Leak Repair",
+            "text": "Flashing repair, damaged shingle replacement, pipe boot sealing, and chimney leak resolution.",
+            "price": "From $250"
+          },
+          {
+            "title": "Storm & Hurricane Damage",
+            "text": "Immediate mitigation, wind uplift repairs, and full claim support with your insurance adjuster.",
+            "price": "Insurance Claim Assistance"
+          },
+          {
+            "title": "Commercial Flat Roofing",
+            "text": "TPO, EPDM, and elastomeric coating systems designed for warehouses, shopping centers, and offices.",
+            "price": "Custom Proposal"
+          }
+        ]
+      }
+    },
+    {
+      "component": "VitalContactBlock",
+      "props": {
+        "tagText": "CONTACT OUR TEAM",
+        "title": "Get your free roof estimate today",
+        "subtitle": "Serving Houston, Katy, Sugar Land, Cypress, and Spring. Call or WhatsApp +1 (832) 297-2204.",
+        "phone": "+1 (832) 297-2204",
+        "email": "htexas.roofing@gmail.com",
+        "address": "Houston, TX 77001",
+        "ratingText": "5.0",
+        "ratingCount": "1,700+ Facebook Community",
+        "buttonText": "Call (832) 297-2204"
+      }
+    },
+    {
+      "component": "VitalFooterBlock",
+      "props": {
+        "logoImage": "/img/logos/texas-houston-roofing-logo.jpg",
+        "logoText": "Texas Houston Roofing",
+        "description": "Houston's trusted roofing specialists providing premium shingle replacement, storm repair, and commercial roof maintenance.",
+        "phone": "+1 (832) 297-2204",
+        "address": "Houston, TX, United States",
+        "copyright": "© 2026 Texas Houston Roofing. All rights reserved.",
+        "subscriptionTitle": "Hurricane season protection",
+        "subscriptionText": "Sign up for seasonal roof maintenance reminders and free post-storm inspections."
+      }
+    }
+  ]
+}

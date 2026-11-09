@@ -1,0 +1,125 @@
+{
+  "themeColor": "#8b5cf6",
+  "font": "outfit",
+  "badgeStyle": "sharp",
+  "meta": {
+    "title": "Swag Detailing — Детейлинг-центр в Алматы на Райымбека",
+    "description": "Студия детейлинга в Алматы: оклейка бронепленкой, полировка ЛКП, керамика и химчистка салона. Оценка 5.0 в 2ГИС!",
+    "image": "/img/auto/hero-sportscar.png"
+  },
+  "structure": [
+    {
+      "component": "VitalHeaderBlock",
+      "props": {
+        "logoText": "SWAG DETAILING",
+        "buttonText": "+7 707 775-88-80",
+        "links": [
+          { "label": "О студии", "url": "#about" },
+          { "label": "Услуги", "url": "#services" },
+          { "label": "Преимущества", "url": "#features" },
+          { "label": "Контакты", "url": "#contacts" }
+        ]
+      }
+    },
+    {
+      "component": "StructHeroBlock",
+      "props": {
+        "tagText": "ДЕТЕЙЛИНГ В АЛМАТЫ",
+        "title": "Премиальная оклейка авто<br/>и зеркальный глянец кузова",
+        "description": "Оклейка антигравийной бронепленкой, профессиональная восстановительная полировка и керамическая защита кузова в Алматы.",
+        "buttonText": "Рассчитать стоимость в WhatsApp",
+        "buttonUrl": "https://wa.me/77077758880?text=%D0%97%D0%B4%D1%80%D0%B0%D0%B2%D1%81%D1%82%D0%B2%D1%83%D0%B9%D1%82%D0%B5!%20%D0%A5%D0%BE%D1%87%D1%83%20%D1%83%D0%B7%D0%BD%D0%B0%D1%82%D1%8c%20%D1%81%D1%82%D0%BE%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D1%8c%20%D0%BE%D0%BA%D0%BB%D0%B5%D0%B9%D0%BA%D0%B8%20%D0%B0%D0%B2%D1%82%D0%BE",
+        "secondaryButtonText": "Смотреть услуги",
+        "secondaryButtonUrl": "#services",
+        "statNumber": "5.0",
+        "statLabel": "98 отзывов в 2ГИС Алматы",
+        "heroImage": "@auto/hero-sportscar"
+      }
+    },
+    {
+      "component": "StructFeaturesBlock",
+      "props": {
+        "tagText": "ПОЧЕМУ SWAG",
+        "title": "Качество, проверенное временем",
+        "features": [
+          {
+            "number": "01",
+            "title": "Оценка 5.0 в 2ГИС",
+            "description": "Сотни довольных автовладельцев Алматы доверяют нам защиту своих авто."
+          },
+          {
+            "number": "02",
+            "title": "Полиуретан США",
+            "description": "Премиальные пленки с оптической прозрачностью и защитой от сколов."
+          },
+          {
+            "number": "03",
+            "title": "Гарантия на углы",
+            "description": "Глубокий подворот краев без отклеивания и задиров на автомойках."
+          },
+          {
+            "number": "04",
+            "title": "Скидки постоянным клиентам",
+            "description": "Приятные бонусы и спецпредложения на комплексные пакеты детейлинга."
+          }
+        ]
+      }
+    },
+    {
+      "component": "StructServicesListBlock",
+      "props": {
+        "tagText": "УСЛУГИ И ЦЕНЫ",
+        "title": "Прайс-лист Swag Detailing",
+        "description": "Работаем с любыми классами автомобилей. Запись по предварительному звонку или WhatsApp.",
+        "buttonText": "Записаться в WhatsApp",
+        "buttonUrl": "https://wa.me/77077758880",
+        "services": [
+          {
+            "title": "Оклейка кузова полиуретановой броней",
+            "description": "Абсолютная защита от гравия, пескоструя и мелких притертостей во дворе.",
+            "price": "от 700 000 ₸",
+            "badge": "Хит"
+          },
+          {
+            "title": "Оклейка зон риска (люкс пакет)",
+            "description": "Броня капота, бампера, фар, крыльев, зеркал и ручек дверей.",
+            "price": "от 200 000 ₸"
+          },
+          {
+            "title": "Глубокая восстановительная полировка",
+            "description": "Устранение паутинки и микроцарапин, зеркальный блеск кузова.",
+            "price": "от 55 000 ₸"
+          },
+          {
+            "title": "Нанокерамика 9H Ceramic",
+            "description": "Глубокий цвет, мощный гидрофоб и защита от реагентов.",
+            "price": "от 75 000 ₸"
+          }
+        ]
+      }
+    },
+    {
+      "component": "VitalMapContactBlock",
+      "props": {
+        "tagText": "КОНТАКТЫ",
+        "title": "Студия Swag Detailing",
+        "address": "г. Алматы, пр. Райымбека, 198Б/1",
+        "phone": "+7 (707) 775-88-80",
+        "whatsappPhone": "77077758880",
+        "email": "info@swagdetailing.kz",
+        "workingHours": "Ежедневно: 10:00 – 20:00",
+        "mapUrl": "https://yandex.ru/map-widget/v1/?ll=76.911221%2C43.268429&z=16"
+      }
+    },
+    {
+      "component": "StructFooterBlock",
+      "props": {
+        "companyName": "Swag Detailing Алматы",
+        "description": "Премиальный детейлинг и защита кузова в Алматы.",
+        "phone": "+7 (707) 775-88-80",
+        "whatsappPhone": "77077758880",
+        "address": "Алматы, пр. Райымбека, 198Б/1"
+      }
+    }
+  ]
+}

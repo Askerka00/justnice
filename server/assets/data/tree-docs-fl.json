@@ -1,0 +1,149 @@
+{
+  "theme": "emerald",
+  "themeColor": "#15803d",
+  "font": "outfit",
+  "badgeStyle": "pill",
+  "meta": {
+    "title": "Tree Docs FL | Certified Arborist & Emergency Tree Service South Florida",
+    "description": "Firefighter-owned certified arborists serving Broward, Fort Lauderdale and Miami. 24/7 emergency storm damage tree removal, crane assisted removals and trimming. Call (954) 793-5796.",
+    "image": "/img/spil-hero.jpg"
+  },
+  "structure": [
+    {
+      "component": "VitalHeaderBlock",
+      "props": {
+        "logoText": "TREE DOCS FL",
+        "links": [
+          { "label": "Services", "url": "#services" },
+          { "label": "Why Us", "url": "#about" },
+          { "label": "Emergency", "url": "#emergency" },
+          { "label": "Contact", "url": "#contact" }
+        ],
+        "buttonText": "(954) 793-5796",
+        "buttonUrl": "tel:9547935796"
+      }
+    },
+    {
+      "component": "ShineHeroBlock",
+      "props": {
+        "bgColor": "#052e16",
+        "textColor": "#ffffff",
+        "accentColor": "#22c55e",
+        "accentTextColor": "#ffffff",
+        "tagText": "FIREFIGHTER OWNED • SOUTH FLORIDA ARBORISTS",
+        "title": "Certified tree removal & storm care at",
+        "highlightText": "Tree Docs FL",
+        "subtitle": "Professional crane-assisted tree removal, emergency hurricane response, hazardous limb pruning, and stump grinding across Broward and Miami-Dade.",
+        "ctaText": "Request 24/7 Emergency Service",
+        "ctaUrl": "tel:9547935796",
+        "phoneLabel": "24/7 Direct Dispatch",
+        "phoneValue": "(954) 793-5796",
+        "imageUrl": "/img/spil-hero.jpg",
+        "statsNumber": "500+",
+        "statsLabel": "Emergency storm calls handled",
+        "trustBadges": [
+          {
+            "type": "google",
+            "name": "Google",
+            "label": "5.0 Rating",
+            "starsCount": 5
+          },
+          {
+            "type": "trustpilot",
+            "name": "Certified",
+            "label": "Licensed Arborist",
+            "starsCount": 5
+          }
+        ]
+      }
+    },
+    {
+      "component": "StructFeaturesBlock",
+      "props": {
+        "id": "about",
+        "tagText": "WHY TREE DOCS FL",
+        "title": "Safety first, precision always",
+        "subtitle": "Founded and operated by active firefighters with certified arborists, fully insured with multimillion-dollar coverage for high-risk removals.",
+        "items": [
+          {
+            "title": "Firefighter Owned & Operated",
+            "text": "Trained first responders who understand emergency safety protocols, risk assessment, and rapid incident mitigation."
+          },
+          {
+            "title": "24/7 Storm & Hurricane Dispatch",
+            "text": "Immediate emergency response after severe Florida weather to clear fallen trees from roofs, driveways, and power lines."
+          },
+          {
+            "title": "Heavy Crane & Rigging Equipment",
+            "text": "State-of-the-art heavy cranes and aerial bucket trucks to dismantle hazardous trees safely without property damage."
+          },
+          {
+            "title": "Complete Clean-Up Guaranteed",
+            "text": "Every limb, trunk, and woodchip is removed or recycled, leaving your lawn completely clean and manicured."
+          }
+        ]
+      }
+    },
+    {
+      "component": "StructServicesListBlock",
+      "props": {
+        "id": "services",
+        "tagText": "OUR SERVICES",
+        "title": "Full-service tree care for homes & estates",
+        "description": "Licensed and insured arborists delivering transparent pricing with free upfront estimates.",
+        "buttonText": "Call for Free Estimate",
+        "buttonUrl": "tel:9547935796",
+        "contactPhone": "(954) 793-5796",
+        "contactTitle": "Dispatch & Estimation",
+        "services": [
+          {
+            "title": "Hazardous Tree Removal",
+            "description": "Controlled sectional removal of dead, decaying, or dangerous trees near structures and utility wires.",
+            "price": "Free Estimate"
+          },
+          {
+            "title": "24/7 Emergency Storm Cleardown",
+            "description": "Rapid tree extraction from roofs, vehicles, and blocked roadways immediately following high winds and hurricanes.",
+            "price": "24/7 Rapid Response"
+          },
+          {
+            "title": "Canopy Thinning & Pruning",
+            "description": "Aesthetic tree trimming, hurricane-preparation wind reduction, and deadwood clearing to prolong tree health.",
+            "price": "From $350"
+          },
+          {
+            "title": "Commercial Stump Grinding",
+            "description": "Deep below-grade stump removal and root remediation so you can replant grass or lay new hardscaping.",
+            "price": "From $175"
+          }
+        ]
+      }
+    },
+    {
+      "component": "VitalContactBlock",
+      "props": {
+        "tagText": "EMERGENCY DISPATCH",
+        "title": "Get an immediate tree evaluation",
+        "subtitle": "Call (954) 793-5796 or email treedocs24@gmail.com. We service Fort Lauderdale, Broward County, and North Miami.",
+        "phone": "(954) 793-5796",
+        "email": "treedocs24@gmail.com",
+        "address": "Serving Broward, Fort Lauderdale & Miami-Dade, FL",
+        "ratingText": "5.0",
+        "ratingCount": "South Florida homeowner verified",
+        "buttonText": "Call (954) 793-5796"
+      }
+    },
+    {
+      "component": "VitalFooterBlock",
+      "props": {
+        "logoText": "TREE DOCS FL",
+        "description": "South Florida's trusted firefighter-owned tree service and certified arborist team. Dedicated to 24/7 emergency storm removals and healthy canopy care.",
+        "phone": "(954) 793-5796",
+        "address": "Broward & Miami-Dade, Florida",
+        "copyright": "© 2026 Tree Docs FL. All rights reserved.",
+        "subscriptionTitle": "Hurricane Season Readiness",
+        "subscriptionText": "Get seasonal tree health advisories and priority scheduling before severe storms hit South Florida."
+      }
+    }
+  ]
+}

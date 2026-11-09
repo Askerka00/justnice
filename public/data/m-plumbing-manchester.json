@@ -1,0 +1,151 @@
+{
+  "theme": "amber",
+  "themeColor": "#d97706",
+  "font": "outfit",
+  "badgeStyle": "pill",
+  "meta": {
+    "title": "M Plumbing | 24/7 Emergency Plumber & Boiler Repair Manchester",
+    "description": "Fast 24/7 emergency plumbers covering Greater Manchester, Bolton, and Wigan. No call out charge, burst pipes, boiler breakdowns, drain unblocking. Call 0800 434 6988.",
+    "image": "/img/hvac/hero-boiler-room.jpeg"
+  },
+  "structure": [
+    {
+      "component": "VitalHeaderBlock",
+      "props": {
+        "logoImage": "/img/logos/m-plumbing-logo.png",
+        "logoText": "M Plumbing",
+        "links": [
+          { "label": "Services", "url": "#services" },
+          { "label": "Emergency", "url": "#emergency" },
+          { "label": "Boilers", "url": "#boilers" },
+          { "label": "Contact", "url": "#contact" }
+        ],
+        "buttonText": "0800 434 6988",
+        "buttonUrl": "tel:08004346988"
+      }
+    },
+    {
+      "component": "ShineHeroBlock",
+      "props": {
+        "bgColor": "#111827",
+        "textColor": "#ffffff",
+        "accentColor": "#f59e0b",
+        "accentTextColor": "#111827",
+        "tagText": "NO CALL OUT CHARGE • 24/7 GREATER MANCHESTER",
+        "title": "Rapid emergency plumbing & boiler repairs at",
+        "highlightText": "M Plumbing",
+        "subtitle": "Local Gas Safe registered emergency plumbers responding across Manchester, Bolton, and Wigan for burst pipes, leaking boilers, and blocked drains.",
+        "ctaText": "Call 24/7 Emergency Dispatch",
+        "ctaUrl": "tel:08004346988",
+        "phoneLabel": "Freephone Emergency Line",
+        "phoneValue": "0800 434 6988",
+        "imageUrl": "/img/hvac/hero-boiler-room.jpeg",
+        "statsNumber": "30-60 Min",
+        "statsLabel": "Average emergency response time",
+        "trustBadges": [
+          {
+            "type": "google",
+            "name": "Reliability",
+            "label": "Zero Call-Out Fee",
+            "starsCount": 5
+          },
+          {
+            "type": "trustpilot",
+            "name": "Local",
+            "label": "Manchester Trusted",
+            "starsCount": 5
+          }
+        ]
+      }
+    },
+    {
+      "component": "StructFeaturesBlock",
+      "props": {
+        "id": "emergency",
+        "tagText": "WHY CALL M PLUMBING",
+        "title": "When an emergency strikes, seconds count",
+        "subtitle": "Based in Worsley, our fully stocked vans are dispatched across Manchester day and night to stop water damage in its tracks.",
+        "items": [
+          {
+            "title": "No Call Out Fee Guarantee",
+            "text": "You only pay for the repairs we carry out. Clear, fixed pricing with zero hidden attendance fees."
+          },
+          {
+            "title": "Rapid Local Dispatch",
+            "text": "Strategically positioned mobile units reaching your door within 30 to 60 minutes anywhere in Greater Manchester."
+          },
+          {
+            "title": "Gas Safe Registered Heating Techs",
+            "text": "Certified boiler fault-finding, emergency safety lockouts, gas leak testing, and radiator powerflushing."
+          },
+          {
+            "title": "Fully Stocked Mobile Vans",
+            "text": "Carrying copper fittings, valves, flexi-hoses, and common boiler components to resolve most issues on the first visit."
+          }
+        ]
+      }
+    },
+    {
+      "component": "StructServicesListBlock",
+      "props": {
+        "id": "services",
+        "tagText": "EMERGENCY SERVICES",
+        "title": "Complete plumbing, heating & drainage solutions",
+        "description": "Available 24 hours a day, 365 days a year for homes, landlords, and commercial premises.",
+        "buttonText": "Request Immediate Callout",
+        "buttonUrl": "tel:08004346988",
+        "contactPhone": "0800 434 6988",
+        "contactTitle": "Emergency Duty Desk",
+        "services": [
+          {
+            "title": "Burst Pipe & Water Leak Detection",
+            "text": "Immediate water shutoff, pipe isolation, soldering repairs, and pressure testing to prevent flood damage.",
+            "price": "No Call Out Charge"
+          },
+          {
+            "title": "Emergency Boiler Breakdown Repair",
+            "text": "Diagnostic error codes, pump failure, heat exchanger troubleshooting, and pilot ignition fixes.",
+            "price": "Same Day Service"
+          },
+          {
+            "title": "High-Pressure Drain Jetting",
+            "text": "CCTV camera surveys and mechanical unblocking of outdoor drains, sewer mains, and kitchen grease traps.",
+            "price": "From £69"
+          },
+          {
+            "title": "Toilet, Shower & Tap Repairs",
+            "text": "Leaking cisterns, faulty ball valves, mixer cartridge replacements, and waste macerator maintenance.",
+            "price": "Fixed Estimate"
+          }
+        ]
+      }
+    },
+    {
+      "component": "VitalContactBlock",
+      "props": {
+        "tagText": "DISPATCH A PLUMBER NOW",
+        "title": "Emergency help is only minutes away",
+        "subtitle": "Freephone 0800 434 6988 or Mobile 07838 187 672. Office: 17 Springburn Close, Worsley, Manchester M28 1XN.",
+        "phone": "0800 434 6988",
+        "email": "mlocks@live.co.uk",
+        "address": "17 Springburn Close, Worsley, Manchester, M28 1XN",
+        "ratingText": "5.0",
+        "ratingCount": "Greater Manchester Coverage",
+        "buttonText": "Call 0800 434 6988"
+      }
+    },
+    {
+      "component": "VitalFooterBlock",
+      "props": {
+        "logoImage": "/img/logos/m-plumbing-logo.png",
+        "logoText": "M Plumbing",
+        "description": "Greater Manchester's dependable 24-hour emergency plumbing, boiler repair, and drainage specialists.",
+        "phone": "0800 434 6988",
+        "address": "Manchester, Bolton, Wigan & Surrounding Areas",
+        "copyright": "© 2026 M Plumbing Manchester. All rights reserved.",
+        "subscriptionTitle": "Winter boiler protection",
+        "subscriptionText": "Get tips on protecting pipes against freezing temperatures and seasonal boiler servicing guides."
+      }
+    }
+  ]
+}

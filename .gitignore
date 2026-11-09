@@ -1,0 +1,10 @@
+.nuxt
+.output
+node_modules
+.env
+.vercel
+.DS_Store
+scratch
+_archive
+public/screenshots
+vercel_auth_daemon.py

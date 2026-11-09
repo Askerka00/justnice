@@ -1,0 +1,232 @@
+{
+  "id": "playmaster",
+  "theme": "blue",
+  "themeColor": "#2563eb",
+  "font": "outfit",
+  "badgeStyle": "pill",
+  "meta": {
+    "title": "PlayMaster Алматы — Ремонт пластиковых окон и москитные сетки",
+    "description": "Срочный ремонт и регулировка пластиковых и алюминиевых окон в Алматы. Замена уплотнителей, фурнитуры Roto, москитные сетки Антикошка за 1 день.",
+    "image": "/img/okna-remont-hero.jpg"
+  },
+  "structure": [
+    {
+      "component": "CoverHeroBlock",
+      "props": {
+        "companyName": "PlayMaster",
+        "hideLogoText": false,
+        "whatsappPhone": "77075002233",
+        "headerButtonText": "+7 707 500 22 33",
+        "headerButtonUrl": "https://wa.me/77075002233",
+        "links": [
+          {
+            "label": "Услуги",
+            "url": "#services"
+          },
+          {
+            "label": "Цены",
+            "url": "#pricing"
+          },
+          {
+            "label": "Сетки",
+            "url": "#screens"
+          },
+          {
+            "label": "Контакты",
+            "url": "#contacts"
+          }
+        ],
+        "title": "Ремонт пластиковых окон<br/>и москитные сетки в Алматы",
+        "subtitle": "Устраняем продувания, провисания и шум с улицы за 40 минут. Замена уплотнителей Schlegel, ручек с замком от детей и ремонт фурнитуры. Выезд мастера в течение 1 часа.",
+        "backgroundImage": "/img/okna-remont-hero.jpg",
+        "ratingText": "Рейтинг 5.0 в 2GIS • 222 отзыва • @playmaster.kz",
+        "avatars": [
+          "/img/landscaping/navu-avatar-1.png",
+          "/img/landscaping/navu-avatar-2.png",
+          "/img/landscaping/navu-avatar-3.png"
+        ],
+        "showForm": true,
+        "formTitle": "Вызвать мастера на бесплатную диагностику",
+        "formButtonText": "Вызвать мастера в WhatsApp",
+        "showSelectField": true,
+        "formSelectPlaceholder": "Что случилось с окном?",
+        "formSelectOptions": [
+          "Дует из окна / сквозняк и шум",
+          "Окно заклинило / не закрывается ручка",
+          "Разбился стеклопакет (нужна замена)",
+          "Заказ москитных сеток (Антикошка / Плиссе)",
+          "Детские замки безопасности и ручки с ключом"
+        ]
+      }
+    },
+    {
+      "component": "ShineClientsBlock",
+      "props": {
+        "title": "ОРИГИНАЛЬНАЯ НЕМЕЦКАЯ И ТУРЕЦКАЯ ФУРНИТУРА С ГАРАНТИЕЙ",
+        "bgColor": "#ffffff",
+        "textColor": "#71717a",
+        "speed": "26s",
+        "logos": [
+          {
+            "name": "ROTO NT",
+            "icon": "lucide:shield-check"
+          },
+          {
+            "name": "MACO GERMANY",
+            "icon": "lucide:wrench"
+          },
+          {
+            "name": "SCHLEGEL Q-LON",
+            "icon": "lucide:wind"
+          },
+          {
+            "name": "SIEGENIA",
+            "icon": "lucide:check-circle"
+          },
+          {
+            "name": "VORNE",
+            "icon": "lucide:award"
+          }
+        ]
+      }
+    },
+    {
+      "component": "VitalServicesBlock",
+      "props": {
+        "id": "services",
+        "tagline": "НАШИ УСЛУГИ",
+        "title": "Все виды ремонта окон и дверей",
+        "subtitle": "Мастер приезжает с полным комплектом запчастей и решает проблему за один визит.",
+        "services": [
+          {
+            "title": "Регулировка и устранение продуваний",
+            "description": "Геометрическая настройка прижима створок, смазка подвижных механизмов, устранение трения и продуваний.",
+            "image": "/img/okna-remont-hero.jpg",
+            "price": "от 3 000 ₸"
+          },
+          {
+            "title": "Замена уплотнителя на Schlegel Q-Lon",
+            "description": "Немецкий полиуретановый уплотнитель, который не дубеет на морозе до -50°C и служит более 15 лет.",
+            "image": "/img/construction/card-tools.jpeg",
+            "price": "от 800 ₸ / п.м."
+          },
+          {
+            "title": "Москитные сетки всех типов",
+            "description": "Классические рамочные, сверхпрочные сетки «Антикошка», «Антипыльца» и раздвижные сетки-плиссе.",
+            "image": "/img/construction/card-paint.jpeg",
+            "price": "от 5 000 ₸"
+          },
+          {
+            "title": "Замена стеклопакетов",
+            "description": "Срочное изготовление и замена 1-камерных, 2-камерных и энергосберегающих стеклопакетов за 24 часа.",
+            "image": "/img/construction/hero-modern.jpeg",
+            "price": "от 12 000 ₸"
+          }
+        ]
+      }
+    },
+    {
+      "component": "StructConcretePriceBlock",
+      "props": {
+        "id": "pricing",
+        "tagline": "ЦЕНЫ НА РЕМОНТ",
+        "title": "Прозрачный прайс на услуги PlayMaster",
+        "description": "Диагностика бесплатна при заказе любого вида ремонта.",
+        "packages": [
+          {
+            "name": "Регулировка створки",
+            "price": "от 3 000 ₸",
+            "desc": "Восстановление плавного хода и плотного прижима створки.",
+            "features": [
+              "Настройка диагоналей окна",
+              "Смазка фурнитуры силиконом",
+              "Устранение провисания",
+              "Регулировка прижима зима/лето",
+              "Гарантия 12 месяцев"
+            ]
+          },
+          {
+            "name": "Комплекс «Теплое окно»",
+            "price": "от 7 500 ₸",
+            "isPopular": true,
+            "desc": "Полное утепление створки для 100% защиты от продуваний.",
+            "features": [
+              "Замена старого уплотнителя по контуру",
+              "Немецкий уплотнитель Schlegel Q-Lon",
+              "Точная регулировка фурнитуры",
+              "Герметизация внешних швов",
+              "Тепловизионный контроль"
+            ]
+          },
+          {
+            "name": "Сетка «Антикошка»",
+            "price": "от 9 500 ₸",
+            "desc": "Особо прочное полотно, защищающее питомцев от падения.",
+            "features": [
+              "Нержавеющее армированное полотно",
+              "Металлические усиленные крепления Z",
+              "Устойчивость к когтям и клювам птиц",
+              "Защита от мошек и тополиного пуха",
+              "Замер и установка включены"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "component": "StructWhyChooseUsBlock",
+      "props": {
+        "tagline": "ПРЕИМУЩЕСТВА",
+        "title": "Почему жители Алматы доверяют PlayMaster",
+        "items": [
+          {
+            "icon": "lucide:clock",
+            "title": "Срочный выезд за 60 минут",
+            "desc": "Мастера дежурят во всех районах города и оперативно приедут в день заявки."
+          },
+          {
+            "icon": "lucide:award",
+            "title": "Опыт работы более 8 лет",
+            "desc": "Знаем конструкцию любых профилей: Rehau, KBE, Galwin, Aluplast, Veka."
+          },
+          {
+            "icon": "lucide:shield-check",
+            "title": "Гарантия на работы до 2 лет",
+            "desc": "Выдаем гарантийный талон на все замененные запчасти и узлы фурнитуры."
+          },
+          {
+            "icon": "lucide:check-circle",
+            "title": "Чистота после работы",
+            "desc": "Оставляем после себя чистые подоконники и убираем строительный мусор."
+          }
+        ]
+      }
+    },
+    {
+      "component": "VitalMapContactBlock",
+      "props": {
+        "id": "contacts",
+        "tagline": "КОНТАКТЫ",
+        "title": "Вызовите мастера PlayMaster прямо сейчас",
+        "address": "г. Алматы (выезд мастера во все районы города)",
+        "phone": "+7 707 500 22 33",
+        "whatsapp": "77075002233",
+        "instagram": "playmaster.kz",
+        "gisLink": "https://2gis.kz/almaty/firm/70000001105817089",
+        "workHours": "Ежедневно: 08:30 - 21:00 (без выходных)",
+        "ctaTitle": "Опишите проблему и получите расчет в WhatsApp",
+        "ctaButtonText": "Написать в WhatsApp"
+      }
+    },
+    {
+      "component": "StructFooterBlock",
+      "props": {
+        "companyName": "PlayMaster Ремонт Окон",
+        "year": "2026",
+        "subtitle": "Профессиональный ремонт окон и установка москитных сеток в г. Алматы.",
+        "phone": "+7 707 500 22 33",
+        "instagram": "playmaster.kz"
+      }
+    }
+  ]
+}

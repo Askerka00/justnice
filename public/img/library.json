@@ -1,0 +1,604 @@
+{
+  "version": 1,
+  "updated": "2026-06-16",
+  "description": "Глобальная медиатека ConveerSites. ИИ-агент использует алиасы @category/alias в JSON-конфигах проектов. Резолвер автоматически заменяет алиас на реальный путь к файлу.",
+  "usage": "В JSON проекта вместо длинного URL пишите: \"image\": \"@auto/hero-repair-shop\". Система автоматически подставит /img/auto/hero-repair-shop.jpeg",
+  "categories": [
+    {
+      "id": "auto",
+      "name": "Автосервис и автозапчасти",
+      "description": "Фото для автосервисов, магазинов запчастей, шиномонтажей, детейлинг-студий и автомоек.",
+      "tags": "автосервис, ремонт авто, запчасти, шиномонтаж, СТО, диагностика, мойка, детейлинг",
+      "images": [
+        {
+          "alias": "hero-repair-shop",
+          "file": "/img/auto/hero-repair-shop.jpeg",
+          "type": "hero",
+          "tags": "автосервис, мастерская, ремзона, внутри, общий план",
+          "description": "Чистый и аккуратный автосервис изнутри — отлично подходит для героического баннера"
+        },
+        {
+          "alias": "hero-tools",
+          "file": "/img/auto/hero-tools.jpeg",
+          "type": "hero",
+          "tags": "инструменты, мастерская, верстак, ключи, организация",
+          "description": "Организованный верстак механика с инструментами крупным планом"
+        },
+        {
+          "alias": "card-air-filter",
+          "file": "/img/auto/card-air-filter.jpeg",
+          "type": "card",
+          "tags": "воздушный фильтр, запчасть, расходник, замена",
+          "description": "Воздушный фильтр автомобиля крупным планом"
+        },
+        {
+          "alias": "card-diagnostics",
+          "file": "/img/auto/card-diagnostics.jpeg",
+          "type": "card",
+          "tags": "диагностика, OBD, сканер, компьютерная, ошибки",
+          "description": "OBD-сканер подключённый к разъёму — компьютерная диагностика"
+        },
+        {
+          "alias": "card-oil-check",
+          "file": "/img/auto/card-oil-check.jpeg",
+          "type": "card",
+          "tags": "масло, щуп, замена масла, ТО, двигатель",
+          "description": "Проверка уровня масла по щупу — замена масла и ТО"
+        },
+        {
+          "alias": "card-spark-plug",
+          "file": "/img/auto/card-spark-plug.jpeg",
+          "type": "card",
+          "tags": "свеча зажигания, двигатель, запчасть, макро",
+          "description": "Свеча зажигания макро-снимок — для секции запчастей"
+        },
+        {
+          "alias": "card-tire-change",
+          "file": "/img/auto/card-tire-change.jpeg",
+          "type": "card",
+          "tags": "шины, шиномонтаж, колёса, замена, сезонная",
+          "description": "Станция шиномонтажа — замена колёс, сезонная переобувка"
+        },
+        {
+          "alias": "card-parts-shelf",
+          "file": "/img/auto/card-parts-shelf.jpeg",
+          "type": "card",
+          "tags": "запчасти, полки, склад, ассортимент, магазин",
+          "description": "Ряд полок с аккуратно расставленными запчастями"
+        }
+      ]
+    },
+    {
+      "id": "construction",
+      "name": "Строительство и ремонт",
+      "description": "Фото для строительных компаний, бригад ремонта, магазинов стройматериалов.",
+      "tags": "строительство, ремонт, отделка, стройка, материалы, инструмент, плитка, покраска",
+      "images": [
+        {
+          "alias": "hero-abstract",
+          "file": "/img/construction/hero-abstract.jpeg",
+          "type": "hero",
+          "tags": "абстракт, фон, строительство, текстура, бетон",
+          "description": "Абстрактный фон с текстурой строительных материалов"
+        },
+        {
+          "alias": "hero-aerial",
+          "file": "/img/construction/hero-aerial.jpeg",
+          "type": "hero",
+          "tags": "вид сверху, стройплощадка, аэросъёмка, масштаб",
+          "description": "Вид сверху на строительную площадку — масштабные проекты"
+        },
+        {
+          "alias": "hero-building",
+          "file": "/img/construction/hero-building.jpeg",
+          "type": "hero",
+          "tags": "здание, стройка, низкий ракурс, высотка, кран",
+          "description": "Строящееся здание снизу — мощь и масштаб"
+        },
+        {
+          "alias": "hero-modern",
+          "file": "/img/construction/hero-modern.jpeg",
+          "type": "hero",
+          "tags": "современный, интерьер, чистый, белый, готовый",
+          "description": "Современный готовый интерьер — результат качественного ремонта"
+        },
+        {
+          "alias": "hero-renovation",
+          "file": "/img/construction/hero-renovation.jpeg",
+          "type": "hero",
+          "tags": "ремонт, интерьер, минимализм, процесс, до и после",
+          "description": "Минималистичный интерьер в процессе ремонта"
+        },
+        {
+          "alias": "hero-site",
+          "file": "/img/construction/hero-site.jpeg",
+          "type": "hero",
+          "tags": "стройплощадка, масштаб, техника, котлован",
+          "description": "Большая строительная площадка с техникой"
+        },
+        {
+          "alias": "hero-construa",
+          "file": "/img/construction/construa-hero-bg.png",
+          "type": "hero",
+          "tags": "construa, инженеры, чертеж, каски, стройка",
+          "description": "Инженеры изучают чертеж на стене строящегося здания"
+        },
+        {
+          "alias": "why-choose-us",
+          "file": "/img/construction/why_choose_us.png",
+          "type": "content",
+          "tags": "почему мы, строители, каски, каркас, доски, команда",
+          "description": "Строители в желтых касках работают с досками на стройплощадке"
+        },
+        {
+          "alias": "asphalt-roller",
+          "file": "/img/construction/asphalt_roller.png",
+          "type": "hero",
+          "tags": "каток, асфальтирование, укладка асфальта, спецтехника, bomag",
+          "description": "Дорожный каток Bomag на укладке асфальта"
+        },
+        {
+          "alias": "cherry-picker",
+          "file": "/img/construction/cherry_picker.png",
+          "type": "card",
+          "tags": "автовышка, вышка, аренда вышки, японская автовышка, спецтехника",
+          "description": "Японская автовышка Hino на белом фоне"
+        },
+        {
+          "alias": "roof-construction",
+          "file": "/img/construction/roof_construction.png",
+          "type": "card",
+          "tags": "кровля, крыша, монтаж кровли, металлочерепица, профлист, кровельные работы",
+          "description": "Монтаж металлочерепицы рабочими на крыше"
+        },
+        {
+          "alias": "scaffolding",
+          "file": "/img/construction/scaffolding.png",
+          "type": "hero",
+          "tags": "леса, строительные леса, лспд, монтаж лесов",
+          "description": "Строительные леса на фасаде строящегося здания"
+        },
+        {
+          "alias": "scaffolding-tower",
+          "file": "/img/construction/scaffolding_tower.png",
+          "type": "card",
+          "tags": "вышка-тура, вышка, тура, всп, колеса",
+          "description": "Мобильная вышка-тура на колесах"
+        },
+        {
+          "alias": "card-tools",
+          "file": "/img/construction/card-tools.jpeg",
+          "type": "card",
+          "tags": "инструменты, стройка, качественные, набор",
+          "description": "Набор качественных строительных инструментов"
+        },
+        {
+          "alias": "card-drill",
+          "file": "/img/construction/card-drill.jpeg",
+          "type": "card",
+          "tags": "дрель, перфоратор, сверление, инструмент, дерево",
+          "description": "Дрель на деревянной поверхности"
+        },
+        {
+          "alias": "card-paint",
+          "file": "/img/construction/card-paint.jpeg",
+          "type": "card",
+          "tags": "покраска, кисти, палитра, отделка, цвет",
+          "description": "Кисти и цветовая палитра — малярные работы"
+        },
+        {
+          "alias": "card-tiles",
+          "file": "/img/construction/card-tiles.jpeg",
+          "type": "card",
+          "tags": "плитка, образцы, керамика, отделка, выбор",
+          "description": "Стопка образцов плитки — для магазинов стройматериалов"
+        },
+        {
+          "alias": "concrete-mixer",
+          "file": "/img/construction/concrete_mixer.png",
+          "type": "hero",
+          "tags": "бетономешалка, миксер, бетон, доставка бетона, спецтехника",
+          "description": "Современная бетономешалка на строительной площадке"
+        },
+        {
+          "alias": "concrete-factory",
+          "file": "/img/construction/concrete_factory.png",
+          "type": "hero",
+          "tags": "бетонный завод, силосы, производство бетона, завод",
+          "description": "Современный бетонный завод с силосами цемента"
+        },
+        {
+          "alias": "concrete-lab",
+          "file": "/img/construction/concrete_lab.png",
+          "type": "card",
+          "tags": "лаборатория, контроль качества, испытание бетона, прочность",
+          "description": "Лаборатория контроля качества бетона"
+        },
+        {
+          "alias": "concrete-pump",
+          "file": "/img/construction/concrete_pump.png",
+          "type": "hero",
+          "tags": "автобетононасос, бетононасос, заливка бетона, фундамент, стройка",
+          "description": "Автобетононасос заливает бетонный фундамент на стройке"
+        },
+        {
+          "alias": "cran-hero",
+          "file": "/img/construction/concrete_pump.png",
+          "type": "hero",
+          "tags": "автокран, кран, стройка, спецтехника",
+          "description": "Автокран на строительной площадке (заглушка бетононасос)"
+        },
+        {
+          "alias": "cran-truck-25t",
+          "file": "/img/construction/cherry_picker.png",
+          "type": "card",
+          "tags": "автокран, 25 тонн, автовышка",
+          "description": "Автокран 25 тонн (заглушка автовышка)"
+        },
+        {
+          "alias": "cran-truck-50t",
+          "file": "/img/construction/concrete_pump.png",
+          "type": "card",
+          "tags": "автокран, 50 тонн",
+          "description": "Автокран 50 тонн (заглушка бетононасос)"
+        },
+        {
+          "alias": "cran-worker",
+          "file": "/img/construction/why_choose_us.png",
+          "type": "content",
+          "tags": "строитель, каска, девушка",
+          "description": "Строитель на площадке"
+        },
+        {
+          "alias": "cran-gallery-1",
+          "file": "/img/construction/hero-site.jpeg",
+          "type": "card",
+          "tags": "галерея, стройка",
+          "description": "Стройплощадка"
+        },
+        {
+          "alias": "cran-gallery-2",
+          "file": "/img/construction/hero-aerial.jpeg",
+          "type": "card",
+          "tags": "галерея, стройка, вид сверху",
+          "description": "Стройплощадка сверху"
+        },
+        {
+          "alias": "cran-gallery-3",
+          "file": "/img/construction/hero-building.jpeg",
+          "type": "card",
+          "tags": "галерея, здание, кран",
+          "description": "Строящееся здание с краном"
+        }
+      ]
+    },
+    {
+      "id": "electrical",
+      "name": "Электрика и электромонтаж",
+      "description": "Фото для электриков, электромонтажных организаций, магазинов электрики.",
+      "tags": "электрика, проводка, розетки, щиток, автоматы, электромонтаж, напряжение",
+      "images": [
+        {
+          "alias": "card-socket",
+          "file": "/img/electrical/card-socket.jpeg",
+          "type": "card",
+          "tags": "розетка, провода, монтаж, установка, подключение",
+          "description": "Установка электрической розетки с проводами"
+        },
+        {
+          "alias": "card-circuit-breaker",
+          "file": "/img/electrical/card-circuit-breaker.jpeg",
+          "type": "card",
+          "tags": "автомат, щиток, распределение, защита, выключатель",
+          "description": "Автоматический выключатель (circuit breaker) в электрощите"
+        },
+        {
+          "alias": "card-distribution-panel",
+          "file": "/img/electrical/card-distribution-panel.jpeg",
+          "type": "card",
+          "tags": "щит, распределительный, панель, электричество, промышленный",
+          "description": "Открытый распределительный электрощит premium-класса"
+        }
+      ]
+    },
+    {
+      "id": "factory",
+      "name": "Производство и промышленность",
+      "description": "Фото для заводов, фабрик, производственных компаний, металлообработки, фармацевтики.",
+      "tags": "завод, производство, станки, цех, металлообработка, фрезеровка, лазер, фармацевтика",
+      "images": [
+        {
+          "alias": "hero-automated",
+          "file": "/img/factory/hero-automated.jpeg",
+          "type": "hero",
+          "tags": "автоматизация, хай-тек, конвейер, робот, высокие технологии",
+          "description": "Интерьер высокотехнологичного автоматизированного цеха"
+        },
+        {
+          "alias": "hero-bright-factory",
+          "file": "/img/factory/hero-bright-factory.jpeg",
+          "type": "hero",
+          "tags": "светлый цех, чистое производство, общий план, фабрика",
+          "description": "Светлый и чистый производственный цех — общий план"
+        },
+        {
+          "alias": "hero-workshop",
+          "file": "/img/factory/hero-workshop.jpeg",
+          "type": "hero",
+          "tags": "мастерская, организованная, инструменты, верстак, чистота",
+          "description": "Чистая организованная мастерская с инструментами"
+        },
+        {
+          "alias": "card-precision",
+          "file": "/img/factory/card-precision.jpeg",
+          "type": "card",
+          "tags": "точность, деталь, обработка, металл, крупный план",
+          "description": "Прецизионная обработка металлической детали крупным планом"
+        },
+        {
+          "alias": "card-laser-cutting",
+          "file": "/img/factory/card-laser-cutting.jpeg",
+          "type": "card",
+          "tags": "лазер, резка, металл, искры, ЧПУ, станок",
+          "description": "Лазерная резка металла — искры и точность"
+        },
+        {
+          "alias": "card-caliper",
+          "file": "/img/factory/card-caliper.jpeg",
+          "type": "card",
+          "tags": "штангенциркуль, измерение, контроль качества, деталь",
+          "description": "Измерение металлической детали штангенциркулем — контроль качества"
+        },
+        {
+          "alias": "card-machined-parts",
+          "file": "/img/factory/card-machined-parts.jpeg",
+          "type": "card",
+          "tags": "детали, алюминий, партия, серийное производство, готовые",
+          "description": "Стопка обработанных алюминиевых деталей — серийное производство"
+        },
+        {
+          "alias": "card-pharmaceutical",
+          "file": "/img/factory/card-pharmaceutical.jpeg",
+          "type": "card",
+          "tags": "фармацевтика, лаборатория, чистая комната, медицина, производство",
+          "description": "Фармацевтическое производство — чистая комната и оборудование"
+        },
+        {
+          "alias": "card-hydraulic",
+          "file": "/img/factory/card-hydraulic.jpeg",
+          "type": "card",
+          "tags": "гидравлика, поршень, экскаватор, тяжёлая техника, жёлтый",
+          "description": "Гидравлический поршень экскаватора — тяжёлая техника"
+        },
+        {
+          "alias": "pe-pipes-hero",
+          "file": "/img/factory/pe-pipes-hero.png",
+          "type": "hero",
+          "tags": "полиэтиленовые трубы, трубы пнд, производство, спира берга, завод",
+          "description": "Полиэтиленовые трубы на заводе Спира-Берга"
+        },
+        {
+          "alias": "pe-pipes-water",
+          "file": "/img/factory/pe-pipes-water.png",
+          "type": "card",
+          "tags": "полиэтиленовые трубы, трубы пнд, водоснабжение, синие полосы, вода, завод",
+          "description": "Трубы ПЭ 100 для водоснабжения на заводе Спира-Берга"
+        }
+      ]
+    },
+    {
+      "id": "hvac",
+      "name": "Отопление, вентиляция и кондиционирование (HVAC)",
+      "description": "Фото для компаний по установке отопления, вентиляции, кондиционирования, тёплых полов.",
+      "tags": "отопление, вентиляция, кондиционирование, HVAC, котёл, радиатор, тёплый пол, термостат",
+      "images": [
+        {
+          "alias": "hero-ventilation-system",
+          "file": "/img/hvac/hero-ventilation-system.jpeg",
+          "type": "hero",
+          "tags": "вентиляция, потолок, система, воздуховод, промышленная",
+          "description": "Сложная потолочная система вентиляции и HVAC"
+        },
+        {
+          "alias": "hero-boiler-room",
+          "file": "/img/hvac/hero-boiler-room.jpeg",
+          "type": "hero",
+          "tags": "котельная, котёл, трубы, отопление, современная",
+          "description": "Современная чистая котельная с оборудованием"
+        },
+        {
+          "alias": "card-underfloor-heating",
+          "file": "/img/hvac/card-underfloor-heating.jpeg",
+          "type": "card",
+          "tags": "тёплый пол, трубы, монтаж, водяной, укладка",
+          "description": "Система тёплого пола крупным планом — трубы при монтаже"
+        },
+        {
+          "alias": "card-radiator-valve",
+          "file": "/img/hvac/card-radiator-valve.jpeg",
+          "type": "card",
+          "tags": "радиатор, вентиль, хром, терморегулятор, батарея",
+          "description": "Хромированный вентиль радиатора — терморегуляция"
+        },
+        {
+          "alias": "card-thermostat",
+          "file": "/img/hvac/card-thermostat.jpeg",
+          "type": "card",
+          "tags": "термостат, умный дом, управление, температура, цифровой",
+          "description": "Цифровой термостат на белой стене — умное управление температурой"
+        },
+        {
+          "alias": "card-ventilation-grille",
+          "file": "/img/hvac/card-ventilation-grille.jpeg",
+          "type": "card",
+          "tags": "решётка, вентиляция, потолок, белая, приточная",
+          "description": "Вентиляционная решётка на белом потолке — приточная вентиляция"
+        }
+      ]
+    },
+    {
+      "id": "logistics",
+      "name": "Логистика и складское хозяйство",
+      "description": "Фото для транспортных компаний, складов, курьерских служб, грузоперевозок.",
+      "tags": "логистика, склад, транспорт, грузовик, доставка, погрузчик, паллеты",
+      "images": [
+        {
+          "alias": "card-forklift",
+          "file": "/img/logistics/card-forklift.jpeg",
+          "type": "card",
+          "tags": "погрузчик, паллета, склад, погрузка, дерево",
+          "description": "Вилочный погрузчик поднимает деревянный поддон"
+        },
+        {
+          "alias": "card-truck",
+          "file": "/img/logistics/card-truck.jpeg",
+          "type": "card",
+          "tags": "фура, грузовик, кабина, белый, профиль, дальнобой",
+          "description": "Профиль белого грузовика — грузоперевозки"
+        },
+        {
+          "alias": "card-telematics",
+          "file": "/img/logistics/card-telematics.jpeg",
+          "type": "card",
+          "tags": "телематика, дисплей, цифровой, мониторинг, GPS, трекинг",
+          "description": "Цифровой дисплей телематики — мониторинг и GPS-трекинг"
+        }
+      ]
+    },
+    {
+      "id": "cleaning",
+      "name": "Клининг и уборка",
+      "description": "Фото для клининговых служб, уборки квартир, офисов, химчистки.",
+      "tags": "клининг, уборка, пылесос, швабра, окно, мойка, чистка",
+      "images": [
+        {
+          "alias": "hero-cleaner",
+          "file": "/img/cleaning/cleaner_hero.png",
+          "type": "hero",
+          "tags": "клинер, мужчина, ведро, средства, улыбка",
+          "description": "Улыбающийся клинер с ведром моющих средств"
+        },
+        {
+          "alias": "why-large",
+          "file": "/img/cleaning/why_large.png",
+          "type": "card",
+          "tags": "кухня, интерьер, чистота, комната, светлый",
+          "description": "Светлая чистая современная кухня"
+        },
+        {
+          "alias": "why-small",
+          "file": "/img/cleaning/why_small.png",
+          "type": "card",
+          "tags": "корзинка, моющие средства, перчатки, щетка",
+          "description": "Пластиковая корзинка с чистящими средствами"
+        },
+        {
+          "alias": "about-large",
+          "file": "/img/cleaning/about_large.png",
+          "type": "card",
+          "tags": "пылесос, ведро, вода, пол, уборка",
+          "description": "Пылесос и ведро с водой на чистом полу"
+        },
+        {
+          "alias": "about-small",
+          "file": "/img/cleaning/about_small.png",
+          "type": "card",
+          "tags": "таз, бутылки, перчатки, губка, средства",
+          "description": "Пластиковый таз со средствами для уборки"
+        }
+      ]
+    },
+    {
+      "id": "landscaping",
+      "name": "Благоустройство и ландшафтный дизайн",
+      "description": "Изображения ландшафтного дизайна, благоустройства территории, газонов, плит, до/после",
+      "tags": "ландшафт, газон, сад, благоустройство, озеленение",
+      "images": [
+        {
+          "alias": "navu-hero-after",
+          "file": "/img/landscaping/navu-hero-after.webp",
+          "type": "hero",
+          "tags": "после, газон, сад, благоустройство, дом",
+          "description": "Ландшафтный дизайн после благоустройства - идеальный газон и плиты"
+        },
+        {
+          "alias": "navu-hero-before",
+          "file": "/img/landscaping/navu-hero-before.webp",
+          "type": "hero",
+          "tags": "до, грунт, земля, стройка, благоустройство",
+          "description": "Территория до благоустройства - голая земля и плиты"
+        },
+        {
+          "alias": "navu-brand-1",
+          "file": "/img/landscaping/navu-brand-1.svg",
+          "type": "logo",
+          "tags": "brand, logo, lgpsmi",
+          "description": "Logoipsum Brand Logo 1"
+        },
+        {
+          "alias": "navu-brand-2",
+          "file": "/img/landscaping/navu-brand-2.svg",
+          "type": "logo",
+          "tags": "brand, logo",
+          "description": "Logoipsum Brand Logo 2"
+        },
+        {
+          "alias": "navu-brand-3",
+          "file": "/img/landscaping/navu-brand-3.svg",
+          "type": "logo",
+          "tags": "brand, logo",
+          "description": "Logoipsum Brand Logo 3"
+        },
+        {
+          "alias": "navu-brand-4",
+          "file": "/img/landscaping/navu-brand-4.svg",
+          "type": "logo",
+          "tags": "brand, logo",
+          "description": "Logoipsum Brand Logo 4"
+        },
+        {
+          "alias": "navu-brand-5",
+          "file": "/img/landscaping/navu-brand-5.svg",
+          "type": "logo",
+          "tags": "brand, logo",
+          "description": "Logoipsum Brand Logo 5"
+        },
+        {
+          "alias": "navu-avatar-1",
+          "file": "/img/landscaping/navu-avatar-1.png",
+          "type": "avatar",
+          "tags": "avatar, client",
+          "description": "Client Avatar 1"
+        },
+        {
+          "alias": "navu-avatar-2",
+          "file": "/img/landscaping/navu-avatar-2.png",
+          "type": "avatar",
+          "tags": "avatar, client",
+          "description": "Client Avatar 2"
+        },
+        {
+          "alias": "navu-avatar-3",
+          "file": "/img/landscaping/navu-avatar-3.png",
+          "type": "avatar",
+          "tags": "avatar, client",
+          "description": "Client Avatar 3"
+        },
+        {
+          "alias": "navu-avatar-4",
+          "file": "/img/landscaping/navu-avatar-4.png",
+          "type": "avatar",
+          "tags": "avatar, client",
+          "description": "Client Avatar 4"
+        },
+        {
+          "alias": "navu-avatar-5",
+          "file": "/img/landscaping/navu-avatar-5.png",
+          "type": "avatar",
+          "tags": "avatar, client",
+          "description": "Client Avatar 5"
+        }
+      ]
+    }
+  ]
+}

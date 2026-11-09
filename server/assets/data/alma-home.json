@@ -1,0 +1,233 @@
+{
+  "id": "alma-home",
+  "theme": "amber",
+  "themeColor": "#b45309",
+  "font": "outfit",
+  "badgeStyle": "pill",
+  "meta": {
+    "title": "Alma Home Алматы — Корпусная мебель и кухни на заказ от производителя",
+    "description": "Изготовление кухонь, шкафов-купе и гардеробных на заказ в Алматы. Фурнитура Blum, качественные фасады Egger и AGT. ТК Domillion, гарантия 3 года.",
+    "image": "/img/bamstroy-hero.jpg"
+  },
+  "structure": [
+    {
+      "component": "CoverHeroBlock",
+      "props": {
+        "companyName": "Мебельная фабрика Alma Home",
+        "hideLogoText": false,
+        "whatsappPhone": "77474227031",
+        "headerButtonText": "+7 747 422 70 31",
+        "headerButtonUrl": "https://wa.me/77474227031",
+        "links": [
+          {
+            "label": "Каталог",
+            "url": "#services"
+          },
+          {
+            "label": "Цены",
+            "url": "#pricing"
+          },
+          {
+            "label": "Материалы",
+            "url": "#features"
+          },
+          {
+            "label": "Шоурум",
+            "url": "#contacts"
+          }
+        ],
+        "title": "Премиальные кухни и мебель<br/>на заказ в Алматы от фабрики",
+        "subtitle": "Собственное производство без посредников. Фасады Egger, AGT и эмаль, фурнитура Blum с доводчиками. Бесплатный 3D дизайн-проект и выезд дизайнера на замер с образцами.",
+        "backgroundImage": "/img/bamstroy-hero.jpg",
+        "ratingText": "Рейтинг 5.0 в 2GIS • 209 отзывов • ТК Domillion • @alma.home.domillion",
+        "avatars": [
+          "/img/landscaping/navu-avatar-1.png",
+          "/img/landscaping/navu-avatar-2.png",
+          "/img/landscaping/navu-avatar-3.png"
+        ],
+        "showForm": true,
+        "formTitle": "Получить бесплатный 3D проект кухни или шкафа",
+        "formButtonText": "Заказать 3D проект в WhatsApp",
+        "showSelectField": true,
+        "formSelectPlaceholder": "Какая мебель вам нужна?",
+        "formSelectOptions": [
+          "Кухонный гарнитур под ключ (прямая / угловая / с островом)",
+          "Встроенный шкаф-купе или распашной шкаф",
+          "Гардеробная комната",
+          "Мебель для детской или спальни",
+          "Комплексная меблировка всей квартиры"
+        ]
+      }
+    },
+    {
+      "component": "ShineClientsBlock",
+      "props": {
+        "title": "МАТЕРИАЛЫ И ФУРНИТУРА ТОЛЬКО ЕВРОПЕЙСКИХ БРЕНДОВ",
+        "bgColor": "#ffffff",
+        "textColor": "#71717a",
+        "speed": "26s",
+        "logos": [
+          {
+            "name": "BLUM AUSTRIA",
+            "icon": "lucide:sparkles"
+          },
+          {
+            "name": "EGGER GERMANY",
+            "icon": "lucide:shield-check"
+          },
+          {
+            "name": "AGT TURKEY",
+            "icon": "lucide:award"
+          },
+          {
+            "name": "HETTICH",
+            "icon": "lucide:wrench"
+          },
+          {
+            "name": "KRONOSPAN",
+            "icon": "lucide:check-circle"
+          }
+        ]
+      }
+    },
+    {
+      "component": "VitalServicesBlock",
+      "props": {
+        "id": "services",
+        "tagline": "НАША ПРОДУКЦИЯ",
+        "title": "Индивидуальная корпусная мебель для дома",
+        "subtitle": "Создаем эргономичные интерьеры, в которых каждый сантиметр пространства продуман до мелочей.",
+        "services": [
+          {
+            "title": "Современные кухни под потолок",
+            "description": "Антресольные кухни с интегрированными ручками Gola, влагостойкими столешницами и скрытой подсветкой рабочей зоны.",
+            "image": "/img/bamstroy-marble.jpg",
+            "price": "от 120 000 ₸ / п.м."
+          },
+          {
+            "title": "Встроенные шкафы и гардеробные",
+            "description": "Идеальная интеграция в ниши без щелей. Продуманное наполнение: пантографы, брючницы, выдвижные ящики Blum.",
+            "image": "/img/bamstroy-louvers.jpg",
+            "price": "от 85 000 ₸ / п.м."
+          },
+          {
+            "title": "ТВ-зоны и подвесные тумбы",
+            "description": "Стильные реечные панели, подсветка, скрытая прокладка кабелей и консольные подвесные тумбы без видимых опор.",
+            "image": "/img/construction/hero-modern.jpeg",
+            "price": "от 95 000 ₸"
+          },
+          {
+            "title": "Мебель для санузлов",
+            "description": "Влагостойкие подвесные тумбы под накладные раковины, шкафы над инсталляцией из влагостойкого МДФ.",
+            "image": "/img/construction/hero-renovation.jpeg",
+            "price": "от 65 000 ₸"
+          }
+        ]
+      }
+    },
+    {
+      "component": "StructConcretePriceBlock",
+      "props": {
+        "id": "pricing",
+        "tagline": "СТОИМОСТЬ КУХОНЬ",
+        "title": "Прозрачные цены напрямую от фабрики",
+        "description": "Без магазинных наценок. Доставка, подъем на этаж и профессиональная сборка включены.",
+        "packages": [
+          {
+            "name": "Кухня «Стандарт»",
+            "price": "от 110 000 ₸ / п.м.",
+            "desc": "Качественная и долговечная кухня из экологичного ЛДСП Egger.",
+            "features": [
+              "Фасады ЛДСП Egger (Австрия)",
+              "Фурнитура с доводчиками Boyard / DTC",
+              "Влагостойкая столешница Slotex 38 мм",
+              "Сушка для посуды из нержавейки",
+              "Срок изготовления 14-20 дней"
+            ]
+          },
+          {
+            "name": "Кухня «Комфорт» (Хит)",
+            "price": "от 165 000 ₸ / п.м.",
+            "isPopular": true,
+            "desc": "Фасады МДФ AGT Soft Touch с австрийской фурнитурой Blum.",
+            "features": [
+              "Фасады МДФ AGT Supramat (не оставляет отпечатков)",
+              "Фурнитура Blum Blumotion (Австрия)",
+              "Профиль Gola (открытие без ручек)",
+              "Встроенная подсветка рабочей зоны",
+              "Гарантия фабрики 36 месяцев"
+            ]
+          },
+          {
+            "name": "Кухня «Премиум»",
+            "price": "от 230 000 ₸ / п.м.",
+            "desc": "Фасады крашеный МДФ эмаль или натуральный шпон со столешницей из камня.",
+            "features": [
+              "Крашеный МДФ (матовая / глянцевая эмаль)",
+              "Столешница из искусственного акрилового камня",
+              "Премиум фурнитура Blum Legrabox",
+              "Встроенные витрины с тонированным стеклом",
+              "Пожизненное сервисное обслуживание"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "component": "StructWhyChooseUsBlock",
+      "props": {
+        "id": "features",
+        "tagline": "НАШИ ПРЕИМУЩЕСТВА",
+        "title": "Почему заказывают мебель в Alma Home",
+        "items": [
+          {
+            "icon": "lucide:factory",
+            "title": "Собственный цех в Алматы",
+            "desc": "Высокоточные ЧПУ станки обеспечивают идеальную присадку и кромкооблицовку PUR-клеем без швов."
+          },
+          {
+            "icon": "lucide:monitor",
+            "title": "Бесплатный 3D проект",
+            "desc": "Дизайнер создаст реалистичную визуализацию вашей мебели с расстановкой техники и розеток."
+          },
+          {
+            "icon": "lucide:award",
+            "title": "Официальный договор",
+            "desc": "Фиксированная стоимость и четкие сроки изготовления с выплатой неустойки за каждый день задержки."
+          },
+          {
+            "icon": "lucide:store",
+            "title": "Шоурум в ТК Domillion",
+            "desc": "Приезжайте в наш салон, чтобы лично оценить качество сборки, фасадов и работу фурнитуры."
+          }
+        ]
+      }
+    },
+    {
+      "component": "VitalMapContactBlock",
+      "props": {
+        "id": "contacts",
+        "tagline": "ШОУРУМ И КОНТАКТЫ",
+        "title": "Посетите наш шоурум в ТК Domillion",
+        "address": "г. Алматы, пр. Рыскулова, ТК Domillion (выезд дизайнера по всему городу)",
+        "phone": "+7 747 422 70 31",
+        "whatsapp": "7474227031",
+        "instagram": "alma.home.domillion",
+        "gisLink": "https://2gis.kz/almaty/firm/70000001084016721",
+        "workHours": "Ежедневно: 10:00 - 20:00",
+        "ctaTitle": "Запишитесь на встречу с дизайнером в шоуруме или дома",
+        "ctaButtonText": "Написать в WhatsApp"
+      }
+    },
+    {
+      "component": "StructFooterBlock",
+      "props": {
+        "companyName": "Мебельная фабрика Alma Home",
+        "year": "2026",
+        "subtitle": "Производство корпусной мебели и кухонь на заказ в г. Алматы.",
+        "phone": "+7 747 422 70 31",
+        "instagram": "alma.home.domillion"
+      }
+    }
+  ]
+}

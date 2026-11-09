@@ -1,0 +1,462 @@
+{
+  "id": "kn-detailing",
+  "meta": {
+    "title": "Kn Detailing Studio — Детейлинг и оклейка авто пленкой в Алматы",
+    "description": "Антигравийная защита кузова PPF, полировка, керамика, химчистка и предпродажная подготовка авто в Алматы. Мкр. Мамыр-4.",
+    "theme": {
+      "primary": "#2563eb",
+      "secondary": "#1d4ed8"
+    }
+  },
+  "blocks": [
+    {
+      "type": "ShineHeaderBlock",
+      "props": {
+        "logoText": "KN DETAILING",
+        "phone": "+7 (700) 292-07-02",
+        "workingHours": "Ежедневно 10:00 – 20:00",
+        "serviceAreaText": "г. Алматы, мкр. Мамыр-4, 199в",
+        "bgColor": "#0f172a",
+        "topBarBgColor": "#2563eb",
+        "topBarTextColor": "#ffffff",
+        "links": [
+          {
+            "label": "О студии",
+            "url": "#about"
+          },
+          {
+            "label": "Услуги",
+            "url": "#services"
+          },
+          {
+            "label": "Преимущества",
+            "url": "#features"
+          },
+          {
+            "label": "Отзывы",
+            "url": "#reviews"
+          },
+          {
+            "label": "Контакты",
+            "url": "#contacts"
+          }
+        ],
+        "buttonText": "Написать в WhatsApp",
+        "buttonUrl": "https://wa.me/77002920702"
+      }
+    },
+    {
+      "type": "CoverHeroBlock",
+      "props": {
+        "hideNavbar": true,
+        "title": "Детейлинг-студия\nKN Detailing в Алматы",
+        "subtitle": "Возвращаем автомобилю состояние нового: от глубокой восстановительной полировки и многослойной керамики до полного бронирования полиуретаном.",
+        "backgroundImage": "/img/demos/detailing-hero-2.jpg",
+        "ratingText": "Рейтинг 5.0 в 2ГИС (30+ отзывов)",
+        "whatsappPhone": "77002920702",
+        "showForm": true,
+        "formTitle": "Рассчитать стоимость ухода за авто",
+        "formButtonText": "Получить расчет и скидку 10%",
+        "showEmailField": false,
+        "showSelectField": true,
+        "formSelectPlaceholder": "Выберите нужную услугу...",
+        "formSelectOptions": [
+          "Оклейка бронепленкой (PPF)",
+          "Полировка + Керамика 9H",
+          "Детейлинг-химчистка салона",
+          "Шумоизоляция автомобиля",
+          "Предпродажная подготовка"
+        ]
+      }
+    },
+    {
+      "type": "ShineAboutUsBlock",
+      "props": {
+        "tagText": "О СТУДИИ KN DETAILING",
+        "title": "Эталонное качество ухода за вашим автомобилем",
+        "description": "В KN Detailing Studio мы объединили передовые технологии защиты кузова, сертифицированные составы Krytex, Gyeon и Koch Chemie и опыт мастеров с 8-летним стажем.",
+        "aboutText": "Записаться на бесплатный осмотр",
+        "aboutUrl": "https://wa.me/77002920702",
+        "imageLargeUrl": "/img/demos/detailing-polish.jpg",
+        "imageSmallUrl": "/img/demos/detailing-porsche.jpg",
+        "stats": [
+          {
+            "value": "5.0 ★",
+            "label": "Оценка клиентов в 2ГИС"
+          },
+          {
+            "value": "900+",
+            "label": "Обслуженных автомобилей"
+          },
+          {
+            "value": "100%",
+            "label": "Гарантия безопасности"
+          }
+        ]
+      }
+    },
+    {
+      "type": "VitalServicesBlock",
+      "props": {
+        "tagText": "ПРАЙС-ЛИСТ И УСЛУГИ",
+        "title": "Популярные пакеты детейлинга",
+        "whatsappPhone": "77002920702",
+        "services": [
+          {
+            "image": "/img/demos/detailing-porsche.jpg",
+            "badge": "Хит сезона",
+            "title": "Бронирование пленкой (Зоны риска / Кузов)",
+            "description": "Невидимая защита капота, бампера, фар, крыльев и стоек от сколов, гравия и пескоструя на трассе.",
+            "price": "от 130 000 ₸",
+            "linkText": "Рассчитать на мое авто"
+          },
+          {
+            "image": "/img/demos/detailing-polish.jpg",
+            "badge": "Зеркальный блеск",
+            "title": "Трехэтапная полировка + Керамика 9H",
+            "description": "Восстановление глубины цвета, устранение паутинки и защита кузова от реагентов и ультрафиолета до 2 лет.",
+            "price": "от 70 000 ₸",
+            "linkText": "Записаться по акции"
+          },
+          {
+            "image": "/img/demos/detailing-hero-2.jpg",
+            "badge": "Свежесть салона",
+            "title": "Детейлинг-химчистка + Озонация",
+            "description": "Глубокая чистка всех поверхностей салона, консервация кожи защитным кремом и устранение запахов озоном.",
+            "price": "от 40 000 ₸",
+            "linkText": "Записаться в WhatsApp"
+          },
+          {
+            "image": "/img/demos/detailing-hero-2.jpg",
+            "badge": "Выгодная продажа",
+            "title": "Предпродажная подготовка под ключ",
+            "description": "Комплекс: химчистка салона, легкая полировка кузова, мойка подкапотного пространства диэлектрическим гелем.",
+            "price": "от 65 000 ₸",
+            "linkText": "Заказать комплекс"
+          },
+          {
+            "image": "/img/demos/detailing-polish.jpg",
+            "badge": "Антидождь в подарок",
+            "title": "Шумоизоляция салона и колесных арок",
+            "description": "Премиальная многослойная вибро- и звукоизоляция с полным фотоотчетом скрытых работ.",
+            "price": "от 160 000 ₸",
+            "linkText": "Узнать подробнее"
+          },
+          {
+            "image": "/img/demos/detailing-porsche.jpg",
+            "badge": "Эстетика",
+            "title": "Антихром и стайлинг элементов",
+            "description": "Оклейка хромированных молдингов и решеток радиатора в черный глянец или сатин (Shadow Line).",
+            "price": "от 35 000 ₸",
+            "linkText": "Рассчитать стоимость"
+          }
+        ],
+        "data-aos": "fade-up"
+      }
+    },
+    {
+      "type": "ShineWhyChooseUsBlock",
+      "props": {
+        "tagText": "ПРЕИМУЩЕСТВА KN DETAILING",
+        "title": "Почему автовладельцы Алматы выбирают нас",
+        "imageLargeUrl": "/img/demos/detailing-hero-2.jpg",
+        "imageSmallUrl": "/img/demos/detailing-polish.jpg",
+        "buttonText": "Записаться в WhatsApp",
+        "buttonUrl": "https://wa.me/77002920702",
+        "features": [
+          {
+            "title": "Безопасность для дилерской гарантии",
+            "description": "Все работы по оклейке и шумоизоляции выполняются аккуратно с сохранением заводской гарантии."
+          },
+          {
+            "title": "Профессиональный свет и чистота",
+            "description": "Специальные детейлинг-лампы позволяют увидеть и устранить мельчайшие дефекты на лаке."
+          },
+          {
+            "title": "Фото- и видеоотчет на каждом этапе",
+            "description": "Вы всегда видите процесс работы с вашим автомобилем в мессенджере."
+          },
+          {
+            "title": "Честная цена без скрытых доплат",
+            "description": "Фиксируем стоимость до начала работ и сдаем автомобиль точно в срок."
+          }
+        ]
+      }
+    },
+    {
+      "type": "StructTestimonialsBlock",
+      "props": {
+        "tagText": "ОТЗЫВЫ В 2ГИС",
+        "title": "Что говорят наши клиенты",
+        "testimonials": [
+          {
+            "quote": "Загонял свой Li L9 на полную оклейку матовым полиуретаном и керамику кожи. Сделали с подворотами, края вообще не видно! Уровень топ.",
+            "author": "Данияр К.",
+            "role": "Владелец LiXiang L9"
+          },
+          {
+            "quote": "Отличная студия в Мамыре! Сделали полировку и керамику на черную Camry 70 — машина горит как новая из салона. Ребята молодцы!",
+            "author": "Асхат М.",
+            "role": "Владелец Toyota Camry"
+          },
+          {
+            "quote": "После химчистки салон стал идеально чистым, убрали пятна на светлой коже и запах. Рекомендую KN Detailing!",
+            "author": "Айгерим Т.",
+            "role": "Владелица Lexus RX"
+          }
+        ],
+        "data-aos": "fade-up"
+      }
+    },
+    {
+      "type": "VitalMapContactBlock",
+      "props": {
+        "tagText": "НАША ЛОКАЦИЯ",
+        "title": "Приезжайте в KN Detailing Studio",
+        "subtitle": "Удобный заезд в мкр. Мамыр-4. Напишите нам в WhatsApp для записи.",
+        "address": "г. Алматы, мкр. Мамыр-4, 199в",
+        "phone": "+7 (700) 292-07-02",
+        "whatsappPhone": "77002920702",
+        "workingHours": "Ежедневно: 10:00 – 20:00",
+        "mapUrl": "https://www.google.com/maps?q=Алматы,+Мамыр-4,+199в&output=embed",
+        "data-aos": "fade-up"
+      }
+    },
+    {
+      "type": "VitalFooterBlock",
+      "props": {
+        "companyName": "KN DETAILING STUDIO",
+        "description": "Профессиональный детейлинг-центр в Алматы. Защита, блеск и безупречная чистота вашего авто.",
+        "phone": "+7 (700) 292-07-02",
+        "address": "г. Алматы, мкр. Мамыр-4, 199в"
+      }
+    }
+  ],
+  "structure": [
+    {
+      "component": "ShineHeaderBlock",
+      "props": {
+        "logoText": "KN DETAILING",
+        "phone": "+7 (700) 292-07-02",
+        "workingHours": "Ежедневно 10:00 – 20:00",
+        "serviceAreaText": "г. Алматы, мкр. Мамыр-4, 199в",
+        "bgColor": "#0f172a",
+        "topBarBgColor": "#2563eb",
+        "topBarTextColor": "#ffffff",
+        "links": [
+          {
+            "label": "О студии",
+            "url": "#about"
+          },
+          {
+            "label": "Услуги",
+            "url": "#services"
+          },
+          {
+            "label": "Преимущества",
+            "url": "#features"
+          },
+          {
+            "label": "Отзывы",
+            "url": "#reviews"
+          },
+          {
+            "label": "Контакты",
+            "url": "#contacts"
+          }
+        ],
+        "buttonText": "Написать в WhatsApp",
+        "buttonUrl": "https://wa.me/77002920702"
+      }
+    },
+    {
+      "component": "CoverHeroBlock",
+      "props": {
+        "hideNavbar": true,
+        "title": "Детейлинг-студия\nKN Detailing в Алматы",
+        "subtitle": "Возвращаем автомобилю состояние нового: от глубокой восстановительной полировки и многослойной керамики до полного бронирования полиуретаном.",
+        "backgroundImage": "/img/demos/detailing-hero-2.jpg",
+        "ratingText": "Рейтинг 5.0 в 2ГИС (30+ отзывов)",
+        "whatsappPhone": "77002920702",
+        "showForm": true,
+        "formTitle": "Рассчитать стоимость ухода за авто",
+        "formButtonText": "Получить расчет и скидку 10%",
+        "showEmailField": false,
+        "showSelectField": true,
+        "formSelectPlaceholder": "Выберите нужную услугу...",
+        "formSelectOptions": [
+          "Оклейка бронепленкой (PPF)",
+          "Полировка + Керамика 9H",
+          "Детейлинг-химчистка салона",
+          "Шумоизоляция автомобиля",
+          "Предпродажная подготовка"
+        ]
+      }
+    },
+    {
+      "component": "ShineAboutUsBlock",
+      "props": {
+        "tagText": "О СТУДИИ KN DETAILING",
+        "title": "Эталонное качество ухода за вашим автомобилем",
+        "description": "В KN Detailing Studio мы объединили передовые технологии защиты кузова, сертифицированные составы Krytex, Gyeon и Koch Chemie и опыт мастеров с 8-летним стажем.",
+        "aboutText": "Записаться на бесплатный осмотр",
+        "aboutUrl": "https://wa.me/77002920702",
+        "imageLargeUrl": "/img/demos/detailing-polish.jpg",
+        "imageSmallUrl": "/img/demos/detailing-porsche.jpg",
+        "stats": [
+          {
+            "value": "5.0 ★",
+            "label": "Оценка клиентов в 2ГИС"
+          },
+          {
+            "value": "900+",
+            "label": "Обслуженных автомобилей"
+          },
+          {
+            "value": "100%",
+            "label": "Гарантия безопасности"
+          }
+        ]
+      }
+    },
+    {
+      "component": "VitalServicesBlock",
+      "props": {
+        "tagText": "ПРАЙС-ЛИСТ И УСЛУГИ",
+        "title": "Популярные пакеты детейлинга",
+        "whatsappPhone": "77002920702",
+        "services": [
+          {
+            "image": "/img/demos/detailing-porsche.jpg",
+            "badge": "Хит сезона",
+            "title": "Бронирование пленкой (Зоны риска / Кузов)",
+            "description": "Невидимая защита капота, бампера, фар, крыльев и стоек от сколов, гравия и пескоструя на трассе.",
+            "price": "от 130 000 ₸",
+            "linkText": "Рассчитать на мое авто"
+          },
+          {
+            "image": "/img/demos/detailing-polish.jpg",
+            "badge": "Зеркальный блеск",
+            "title": "Трехэтапная полировка + Керамика 9H",
+            "description": "Восстановление глубины цвета, устранение паутинки и защита кузова от реагентов и ультрафиолета до 2 лет.",
+            "price": "от 70 000 ₸",
+            "linkText": "Записаться по акции"
+          },
+          {
+            "image": "/img/demos/detailing-hero-2.jpg",
+            "badge": "Свежесть салона",
+            "title": "Детейлинг-химчистка + Озонация",
+            "description": "Глубокая чистка всех поверхностей салона, консервация кожи защитным кремом и устранение запахов озоном.",
+            "price": "от 40 000 ₸",
+            "linkText": "Записаться в WhatsApp"
+          },
+          {
+            "image": "/img/demos/detailing-hero-2.jpg",
+            "badge": "Выгодная продажа",
+            "title": "Предпродажная подготовка под ключ",
+            "description": "Комплекс: химчистка салона, легкая полировка кузова, мойка подкапотного пространства диэлектрическим гелем.",
+            "price": "от 65 000 ₸",
+            "linkText": "Заказать комплекс"
+          },
+          {
+            "image": "/img/demos/detailing-polish.jpg",
+            "badge": "Антидождь в подарок",
+            "title": "Шумоизоляция салона и колесных арок",
+            "description": "Премиальная многослойная вибро- и звукоизоляция с полным фотоотчетом скрытых работ.",
+            "price": "от 160 000 ₸",
+            "linkText": "Узнать подробнее"
+          },
+          {
+            "image": "/img/demos/detailing-porsche.jpg",
+            "badge": "Эстетика",
+            "title": "Антихром и стайлинг элементов",
+            "description": "Оклейка хромированных молдингов и решеток радиатора в черный глянец или сатин (Shadow Line).",
+            "price": "от 35 000 ₸",
+            "linkText": "Рассчитать стоимость"
+          }
+        ],
+        "data-aos": "fade-up"
+      }
+    },
+    {
+      "component": "ShineWhyChooseUsBlock",
+      "props": {
+        "tagText": "ПРЕИМУЩЕСТВА KN DETAILING",
+        "title": "Почему автовладельцы Алматы выбирают нас",
+        "imageLargeUrl": "/img/demos/detailing-hero-2.jpg",
+        "imageSmallUrl": "/img/demos/detailing-polish.jpg",
+        "buttonText": "Записаться в WhatsApp",
+        "buttonUrl": "https://wa.me/77002920702",
+        "features": [
+          {
+            "title": "Безопасность для дилерской гарантии",
+            "description": "Все работы по оклейке и шумоизоляции выполняются аккуратно с сохранением заводской гарантии."
+          },
+          {
+            "title": "Профессиональный свет и чистота",
+            "description": "Специальные детейлинг-лампы позволяют увидеть и устранить мельчайшие дефекты на лаке."
+          },
+          {
+            "title": "Фото- и видеоотчет на каждом этапе",
+            "description": "Вы всегда видите процесс работы с вашим автомобилем в мессенджере."
+          },
+          {
+            "title": "Честная цена без скрытых доплат",
+            "description": "Фиксируем стоимость до начала работ и сдаем автомобиль точно в срок."
+          }
+        ]
+      }
+    },
+    {
+      "component": "StructTestimonialsBlock",
+      "props": {
+        "tagText": "ОТЗЫВЫ В 2ГИС",
+        "title": "Что говорят наши клиенты",
+        "testimonials": [
+          {
+            "quote": "Загонял свой Li L9 на полную оклейку матовым полиуретаном и керамику кожи. Сделали с подворотами, края вообще не видно! Уровень топ.",
+            "author": "Данияр К.",
+            "role": "Владелец LiXiang L9"
+          },
+          {
+            "quote": "Отличная студия в Мамыре! Сделали полировку и керамику на черную Camry 70 — машина горит как новая из салона. Ребята молодцы!",
+            "author": "Асхат М.",
+            "role": "Владелец Toyota Camry"
+          },
+          {
+            "quote": "После химчистки салон стал идеально чистым, убрали пятна на светлой коже и запах. Рекомендую KN Detailing!",
+            "author": "Айгерим Т.",
+            "role": "Владелица Lexus RX"
+          }
+        ],
+        "data-aos": "fade-up"
+      }
+    },
+    {
+      "component": "VitalMapContactBlock",
+      "props": {
+        "tagText": "НАША ЛОКАЦИЯ",
+        "title": "Приезжайте в KN Detailing Studio",
+        "subtitle": "Удобный заезд в мкр. Мамыр-4. Напишите нам в WhatsApp для записи.",
+        "address": "г. Алматы, мкр. Мамыр-4, 199в",
+        "phone": "+7 (700) 292-07-02",
+        "whatsappPhone": "77002920702",
+        "workingHours": "Ежедневно: 10:00 – 20:00",
+        "mapUrl": "https://www.google.com/maps?q=Алматы,+Мамыр-4,+199в&output=embed",
+        "data-aos": "fade-up"
+      }
+    },
+    {
+      "component": "VitalFooterBlock",
+      "props": {
+        "companyName": "KN DETAILING STUDIO",
+        "description": "Профессиональный детейлинг-центр в Алматы. Защита, блеск и безупречная чистота вашего авто.",
+        "phone": "+7 (700) 292-07-02",
+        "address": "г. Алматы, мкр. Мамыр-4, 199в"
+      }
+    }
+  ],
+  "themeColor": "#2563eb",
+  "font": "outfit",
+  "badgeStyle": "pill"
+}

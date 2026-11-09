@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 140" width="600" height="140" fill="none">
+  <defs>
+    <linearGradient id="goldGradWhite" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f3d9b1"/>
+      <stop offset="50%" stop-color="#dfb67c"/>
+      <stop offset="100%" stop-color="#b88e58"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Bamboo Leaf on top-left -->
+  <path d="M 32 46 C 24 38 18 26 24 20 C 32 20 40 28 44 38 Z" fill="url(#goldGradWhite)" opacity="0.95"/>
+  <path d="M 28 48 C 16 48 10 42 12 36 C 18 36 24 40 30 46 Z" fill="url(#goldGradWhite)" opacity="0.85"/>
+
+  <!-- Bamboo stalk segments -->
+  <rect x="36" y="32" width="7" height="18" rx="2" fill="url(#goldGradWhite)" opacity="0.9"/>
+  <rect x="36" y="53" width="7" height="20" rx="2" fill="url(#goldGradWhite)" opacity="0.9"/>
+  <rect x="36" y="76" width="7" height="20" rx="2" fill="url(#goldGradWhite)" opacity="0.9"/>
+  <rect x="36" y="99" width="7" height="18" rx="2" fill="url(#goldGradWhite)" opacity="0.9"/>
+
+  <!-- Golden Square Frame -->
+  <rect x="42" y="24" width="94" height="94" rx="1" stroke="url(#goldGradWhite)" stroke-width="4.5" fill="none"/>
+
+  <!-- Inside Buildings Lines -->
+  <path d="M 59 118 L 59 74 L 79 60 L 79 118" stroke="url(#goldGradWhite)" stroke-width="4" stroke-linejoin="round" fill="none"/>
+  <path d="M 83 118 L 83 50 L 112 32 L 112 118" stroke="url(#goldGradWhite)" stroke-width="4.5" stroke-linejoin="round" fill="none"/>
+  <line x1="97" y1="56" x2="97" y2="118" stroke="url(#goldGradWhite)" stroke-width="3" opacity="0.7"/>
+
+  <!-- Brand Typography: BAMSTROY (White) -->
+  <text x="175" y="76" font-family="'Outfit', 'Montserrat', 'Inter', -apple-system, sans-serif" font-size="52" font-weight="700" letter-spacing="9" fill="#ffffff">BAMSTROY</text>
+
+  <!-- Subtitle: бамбуковые панели (Golden / Light Gray) -->
+  <text x="178" y="108" font-family="'Outfit', 'Montserrat', 'Inter', -apple-system, sans-serif" font-size="16" font-weight="500" letter-spacing="11" fill="#dfb67c">бамбуковые панели</text>
+</svg>

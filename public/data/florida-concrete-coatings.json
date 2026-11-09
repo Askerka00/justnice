@@ -1,0 +1,140 @@
+{
+  "theme": "teal",
+  "themeColor": "#0d9488",
+  "font": "outfit",
+  "badgeStyle": "pill",
+  "meta": {
+    "title": "Florida Concrete Coatings | Garage Epoxy & Polyurea Tampa Bay",
+    "description": "Tampa's trusted concrete coating specialists with 25+ years experience. Polyurea, polyaspartic, and epoxy flake systems for garages, patios, and pool decks. Call (656) 244-5771.",
+    "image": "/img/demos/doctor-epoxy-hero.jpg"
+  },
+  "structure": [
+    {
+      "component": "VitalHeaderBlock",
+      "props": {
+        "logoText": "FLORIDA CONCRETE COATINGS",
+        "links": [
+          { "label": "Services", "url": "#services" },
+          { "label": "Flake Systems", "url": "#systems" },
+          { "label": "25-Yr Experience", "url": "#about" },
+          { "label": "Contact", "url": "#contact" }
+        ],
+        "buttonText": "(656) 244-5771",
+        "buttonUrl": "tel:+16562445771"
+      }
+    },
+    {
+      "component": "ShineHeroBlock",
+      "props": {
+        "bgColor": "#042f2e",
+        "textColor": "#ffffff",
+        "accentColor": "#2dd4bf",
+        "accentTextColor": "#042f2e",
+        "tagText": "25 YEARS EXPERIENCE • TAMPA BAY & CENTRAL FLORIDA",
+        "title": "Industrial-strength garage epoxy & polyurea by",
+        "highlightText": "Florida Concrete Coatings",
+        "subtitle": "4x stronger than standard epoxy. Engineered with commercial polyaspartic topcoats that resist hot tire pick-up, UV yellowing, chemical spills, and heavy Florida moisture.",
+        "ctaText": "Get Free Garage Estimate",
+        "ctaUrl": "tel:+16562445771",
+        "phoneLabel": "Direct Call / Text",
+        "phoneValue": "(656) 244-5771",
+        "imageUrl": "/img/demos/doctor-epoxy-hero.jpg",
+        "statsNumber": "2,500+",
+        "statsLabel": "Completed garage & patio transformations",
+        "trustBadges": [
+          {
+            "type": "google",
+            "name": "Durability",
+            "label": "Lifetime Warranty",
+            "starsCount": 5
+          },
+          {
+            "type": "trustpilot",
+            "name": "Tampa Bay",
+            "label": "25 Years Pro",
+            "starsCount": 5
+          }
+        ]
+      }
+    },
+    {
+      "component": "StructFeaturesBlock",
+      "props": {
+        "tagText": "THE FL COATINGS STANDARD",
+        "title": "Commercial Diamond Grinding & Zero Peeling Formula",
+        "subtitle": "Unlike DIY kits that bubble within 6 months, our multi-layer polyurea systems permanently bond directly into the concrete pores.",
+        "features": [
+          {
+            "icon": "sparkles",
+            "title": "Diamond Grinding Prep",
+            "description": "Every floor is mechanically ground with heavy industrial diamond planetary grinders to create the optimal CSP bonding profile."
+          },
+          {
+            "icon": "shield-check",
+            "title": "100% Hot-Tire Proof",
+            "description": "High thermal resistance prevents tires from lifting the coating during humid Florida summer heat."
+          },
+          {
+            "icon": "clock",
+            "title": "1-Day Rapid Cure",
+            "description": "Walk on your new floor within 6 hours and park your vehicles back inside the garage in only 24 hours."
+          }
+        ]
+      }
+    },
+    {
+      "component": "StructServicesListBlock",
+      "props": {
+        "tagText": "COATING SYSTEMS",
+        "title": "Full-Service Residential & Commercial Concrete Solutions",
+        "subtitle": "Choose from 57 designer flake blends, seamless metallic marbling, or heavy-duty commercial quartz.",
+        "services": [
+          {
+            "title": "Full Chip Flake Garage Flooring",
+            "price": "From $4.50 / sq ft",
+            "description": "Our most popular multi-layer system. Textured slip-resistant finish, hides concrete imperfections, and carries a lifetime warranty."
+          },
+          {
+            "title": "Patio & Lanai Polyurea Coatings",
+            "price": "Custom Estimate",
+            "description": "100% UV-stable aliphatic polyaspartic coatings that will never fade, chalk, or amber under direct Florida sunshine."
+          },
+          {
+            "title": "Pool Deck Cool-Touch Coatings",
+            "price": "Free On-Site Quote",
+            "description": "Barefoot-friendly, slip-resistant pool surround restoration engineered to resist pool chlorine, salt, and mildew."
+          },
+          {
+            "title": "Designer Metallic Epoxy Floors",
+            "price": "Premium System",
+            "description": "Flowing 3D marble and molten metal aesthetics ideal for man caves, showrooms, retail storefronts, and interior living spaces."
+          },
+          {
+            "title": "Commercial Kitchen & Warehouse Quartz",
+            "price": "Commercial Bid",
+            "description": "High-impact quartz broadcast systems built for extreme forklift traffic, anti-slip safety compliance, and aggressive chemical washing."
+          }
+        ]
+      }
+    },
+    {
+      "component": "VitalContactBlock",
+      "props": {
+        "title": "Get an Instant Estimate for Your Florida Garage",
+        "subtitle": "Speak directly with Steve at (656) 244-5771 to choose your flake blend and schedule a free in-person measurement.",
+        "phone": "(656) 244-5771",
+        "email": "tedescoenterprises@gmail.com",
+        "address": "Tampa, FL • Serving Hillsborough, Pinellas, Pasco & Central Florida",
+        "schedule": "Monday – Saturday: 7:30 AM – 7:00 PM • Weekend Consultations Available"
+      }
+    },
+    {
+      "component": "VitalFooterBlock",
+      "props": {
+        "logoText": "FLORIDA CONCRETE COATINGS",
+        "copyright": "© 2026 Florida Concrete Coatings. All rights reserved.",
+        "disclaimer": "Licensed & insured decorative concrete and polyurea coating contractor serving Tampa, St. Petersburg, Clearwater, and Central Florida communities."
+      }
+    }
+  ]
+}

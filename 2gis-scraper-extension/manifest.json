@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "2GIS Leads Exporter",
+  "version": "1.0",
+  "description": "Автоматический сбор и экспорт лидов (название, адрес, телефон, сайт) из 2ГИС в CSV.",
+  "permissions": [],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://2gis.kz/*",
+        "https://2gis.ru/*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_start",
+      "world": "MAIN"
+    }
+  ]
+}

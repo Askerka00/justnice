@@ -1,0 +1,151 @@
+{
+  "theme": "amber",
+  "themeColor": "#d97706",
+  "font": "outfit",
+  "badgeStyle": "pill",
+  "meta": {
+    "title": "The Orlando Roofing Co | Licensed Residential & Commercial Roofing Orlando FL",
+    "description": "Orlando's premier roofing contractor. Architectural shingle, tile roof replacement, storm leak detection, insurance claims. Call (407) 275-9444.",
+    "image": "/img/remont-kryshi-hero.jpg"
+  },
+  "structure": [
+    {
+      "component": "VitalHeaderBlock",
+      "props": {
+        "logoImage": "/img/logos/orlando-roofing-logo.png",
+        "logoText": "The Orlando Roofing Co",
+        "links": [
+          { "label": "Services", "url": "#services" },
+          { "label": "Why Us", "url": "#about" },
+          { "label": "Storm Claims", "url": "#claims" },
+          { "label": "Contact", "url": "#contact" }
+        ],
+        "buttonText": "(407) 275-9444",
+        "buttonUrl": "tel:+14072759444"
+      }
+    },
+    {
+      "component": "ShineHeroBlock",
+      "props": {
+        "bgColor": "#0c0a09",
+        "textColor": "#ffffff",
+        "accentColor": "#f59e0b",
+        "accentTextColor": "#0c0a09",
+        "tagText": "LICENSED & INSURED • ORLANDO & CENTRAL FLORIDA",
+        "title": "Premier residential tile & shingle roofing at",
+        "highlightText": "The Orlando Roofing Co",
+        "subtitle": "Trusted roof replacements, storm damage restoration, leak inspections, and commercial flat roofing across Orange and Seminole counties.",
+        "ctaText": "Get a Free Roof Inspection",
+        "ctaUrl": "tel:+14072759444",
+        "phoneLabel": "Direct Office Line",
+        "phoneValue": "(407) 275-9444",
+        "imageUrl": "/img/remont-kryshi-hero.jpg",
+        "statsNumber": "15+ Years",
+        "statsLabel": "Roofing excellence in Central Florida",
+        "trustBadges": [
+          {
+            "type": "google",
+            "name": "Google",
+            "label": "5.0 Star Rating",
+            "starsCount": 5
+          },
+          {
+            "type": "trustpilot",
+            "name": "BBB",
+            "label": "A+ Accredited",
+            "starsCount": 5
+          }
+        ]
+      }
+    },
+    {
+      "component": "StructFeaturesBlock",
+      "props": {
+        "id": "about",
+        "tagText": "OUR PROMISE",
+        "title": "Built for Florida sun, heavy rain & hurricane winds",
+        "subtitle": "Located at 6401 Hoffner Ave in Orlando, we deliver meticulous workmanship with GAF and Owens Corning certified roofing materials.",
+        "items": [
+          {
+            "title": "Free Drone & Physical Roof Inspection",
+            "text": "Detailed high-resolution photo assessments identifying hidden hail bruises, cracked tiles, and failing flashing."
+          },
+          {
+            "title": "Full Insurance Claim Assistance",
+            "text": "We meet directly with your insurance adjuster on the roof to ensure all storm damage is documented."
+          },
+          {
+            "title": "Spanish & English Speaking Crews",
+            "text": "Professional on-site project management with daily photographic updates and thorough magnetic nail sweeps."
+          },
+          {
+            "title": "Lifetime Material Warranties",
+            "text": "Backed by industry-leading 30-year to lifetime manufacturer warranties plus our 10-year workmanship guarantee."
+          }
+        ]
+      }
+    },
+    {
+      "component": "StructServicesListBlock",
+      "props": {
+        "id": "services",
+        "tagText": "ROOFING SERVICES",
+        "title": "Comprehensive roofing solutions across Central Florida",
+        "description": "From historic Spanish tile preservation to modern architectural shingles and commercial flat roofs.",
+        "buttonText": "Schedule Free Estimate",
+        "buttonUrl": "tel:+14072759444",
+        "contactPhone": "(407) 275-9444",
+        "contactTitle": "Office Consultation",
+        "services": [
+          {
+            "title": "Architectural Shingle Roofing",
+            "text": "High-wind rated shingle installations engineered for 130 mph tropical winds with maximum algae resistance.",
+            "price": "Free Estimate"
+          },
+          {
+            "title": "Spanish & Concrete Tile Roofing",
+            "text": "Specialized tile repairs, full re-felting, underlayment upgrades, and custom ridge mortar work.",
+            "price": "Custom Quote"
+          },
+          {
+            "title": "Emergency Leak Tarping & Repair",
+            "text": "Rapid response team stopping active leaks around chimneys, skylights, and valleys before interior damage spreads.",
+            "price": "Same Day Service"
+          },
+          {
+            "title": "Commercial TPO & Flat Roofs",
+            "text": "Energy-efficient cool roofs for strip malls, warehouses, and apartment communities across Orlando.",
+            "price": "Commercial Rates"
+          }
+        ]
+      }
+    },
+    {
+      "component": "VitalContactBlock",
+      "props": {
+        "tagText": "LET'S TALK ROOFS",
+        "title": "Ready for a solid new roof?",
+        "subtitle": "Call (407) 275-9444. Located at 6401 Hoffner Ave, Orlando, FL 32822. Serving Orlando, Winter Park, Kissimmee and Sanford.",
+        "phone": "(407) 275-9444",
+        "email": "info@theorlandoroofingco.com",
+        "address": "6401 Hoffner Ave, Orlando, FL 32822",
+        "ratingText": "5.0",
+        "ratingCount": "Central Florida Homeowners",
+        "buttonText": "Call the Office"
+      }
+    },
+    {
+      "component": "VitalFooterBlock",
+      "props": {
+        "logoImage": "/img/logos/orlando-roofing-logo.png",
+        "logoText": "The Orlando Roofing Co",
+        "description": "Orlando's trusted roofing specialists providing premium shingle and tile roof replacement, storm restoration, and commercial maintenance.",
+        "phone": "(407) 275-9444",
+        "address": "6401 Hoffner Ave, Orlando, FL 32822",
+        "copyright": "© 2026 The Orlando Roofing Co. All rights reserved.",
+        "subscriptionTitle": "Hurricane preparedness tips",
+        "subscriptionText": "Sign up for seasonal roof health reminders and post-storm inspection schedules."
+      }
+    }
+  ]
+}

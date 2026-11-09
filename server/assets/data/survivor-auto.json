@@ -1,0 +1,151 @@
+{
+  "theme": "red",
+  "themeColor": "#dc2626",
+  "font": "outfit",
+  "badgeStyle": "pill",
+  "meta": {
+    "title": "Survivor Auto Texas | Muscle Car & Classic Auto Restoration",
+    "description": "Full-service classic car restoration, muscle car engine builds, body repair, and rare parts in Fort Worth, TX. Call 682-285-1221.",
+    "image": "/img/demos/survivor-auto-hero.jpg"
+  },
+  "structure": [
+    {
+      "component": "VitalHeaderBlock",
+      "props": {
+        "logoImage": "/img/logos/survivor-auto-logo.png",
+        "logoText": "Survivor Auto Texas",
+        "links": [
+          { "label": "Services", "url": "#services" },
+          { "label": "About", "url": "#about" },
+          { "label": "Process", "url": "#process" },
+          { "label": "Contact", "url": "#contact" }
+        ],
+        "buttonText": "682-285-1221",
+        "buttonUrl": "tel:6822851221"
+      }
+    },
+    {
+      "component": "ShineHeroBlock",
+      "props": {
+        "bgColor": "#0b0c10",
+        "textColor": "#ffffff",
+        "accentColor": "#ef4444",
+        "accentTextColor": "#ffffff",
+        "tagText": "AUTO RESTORATION • FORT WORTH, TX",
+        "title": "Classic muscle car restoration at",
+        "highlightText": "Survivor Auto Texas",
+        "subtitle": "From total frame-off vehicle overhauls and high-performance engine tuning to get-it-running driver builds, we bring automotive legends back to life.",
+        "ctaText": "Request a Restoration Quote",
+        "ctaUrl": "tel:6822851221",
+        "phoneLabel": "Direct Shop Line",
+        "phoneValue": "682-285-1221",
+        "imageUrl": "/img/demos/survivor-auto-hero.jpg",
+        "statsNumber": "100+",
+        "statsLabel": "Classic muscle builds completed",
+        "trustBadges": [
+          {
+            "type": "google",
+            "name": "Quality",
+            "label": "Master Craft",
+            "starsCount": 5
+          },
+          {
+            "type": "trustpilot",
+            "name": "Community",
+            "label": "Fort Worth Built",
+            "starsCount": 5
+          }
+        ]
+      }
+    },
+    {
+      "component": "StructFeaturesBlock",
+      "props": {
+        "id": "about",
+        "tagText": "OUR CRAFTSMANSHIP",
+        "title": "Built with passion, engineered for performance",
+        "subtitle": "We treat every vintage muscle car, truck, and survivor chassis with obsessive attention to historical detail and mechanical precision.",
+        "items": [
+          {
+            "title": "Complete Frame-Off Builds",
+            "text": "Full disassembly, rust remediation, sandblasting, powder coating, and precision reassembly with modern reliability."
+          },
+          {
+            "title": "High-Output Engine & Drivetrain",
+            "text": "V8 crate engine swaps, carburetor tuning, transmission upgrades, performance suspension, and modern disc brake conversions."
+          },
+          {
+            "title": "Straightforward Process",
+            "text": "Regular photographic build logs and transparent billing so you are always connected to the progress of your vehicle."
+          },
+          {
+            "title": "Sale Cars & Rare Parts",
+            "text": "Curated selection of classic muscle cars ready for purchase, alongside hard-to-find vintage OEM parts."
+          }
+        ]
+      }
+    },
+    {
+      "component": "StructServicesListBlock",
+      "props": {
+        "id": "services",
+        "tagText": "RESTORATION SERVICES",
+        "title": "Tailored builds for collectors & enthusiasts",
+        "description": "Whether you want a turnkey show-winner or a dependable weekend cruiser, our Fort Worth facility handles it all.",
+        "buttonText": "Discuss Your Build",
+        "buttonUrl": "tel:6822851221",
+        "contactPhone": "682-285-1221",
+        "contactTitle": "Shop Consultation",
+        "services": [
+          {
+            "title": "Full Custom Restoration",
+            "text": "Complete nut-and-bolt restoration from bare metal to concourse paint finish and custom upholstery.",
+            "price": "Custom Estimate"
+          },
+          {
+            "title": "Driver Refresh & Mechanicals",
+            "text": "Fuel system flush, electrical rewiring, cooling overhaul, and engine revival to get barn finds safely on the road.",
+            "price": "From $1,500"
+          },
+          {
+            "title": "Brakes, Suspension & Handling",
+            "text": "Tubular A-arms, coilover conversion, rack-and-pinion steering, and multi-piston power brake setups.",
+            "price": "From $1,800"
+          },
+          {
+            "title": "Vehicle Consignment & Sourcing",
+            "text": "Professional valuation, marketing, and acquisition of authentic muscle cars across Texas and the US.",
+            "price": "Contact Shop"
+          }
+        ]
+      }
+    },
+    {
+      "component": "VitalContactBlock",
+      "props": {
+        "tagText": "LET'S TALK CARS",
+        "title": "Ready to build your dream machine?",
+        "subtitle": "Call 682-285-1221 or email info@survivorautotexas.com. Located at 7532 Pebble Dr, Fort Worth, TX 76118.",
+        "phone": "682-285-1221",
+        "email": "info@survivorautotexas.com",
+        "address": "7532 Pebble Dr, Fort Worth, TX 76118",
+        "ratingText": "5.0",
+        "ratingCount": "Fort Worth classic car community",
+        "buttonText": "Call the Shop"
+      }
+    },
+    {
+      "component": "VitalFooterBlock",
+      "props": {
+        "logoImage": "/img/logos/survivor-auto-logo.png",
+        "logoText": "Survivor Auto Texas",
+        "description": "Fort Worth's trusted restoration garage for classic muscle, vintage trucks, and custom high-performance builds.",
+        "phone": "682-285-1221",
+        "address": "7532 Pebble Dr, Fort Worth, TX 76118",
+        "copyright": "© 2026 Survivor Auto Texas. All rights reserved.",
+        "subscriptionTitle": "Follow our latest restorations",
+        "subscriptionText": "Get updates on newly listed project cars, completed customer builds, and exclusive parts inventory."
+      }
+    }
+  ]
+}

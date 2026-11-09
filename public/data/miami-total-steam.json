@@ -1,0 +1,184 @@
+{
+  "theme": "blue",
+  "themeColor": "#0284c7",
+  "font": "outfit",
+  "badgeStyle": "pill",
+  "meta": {
+    "title": "Miami Total Steam Auto Detailing Center | Biscayne Blvd, Miami",
+    "description": "Premium auto detailing, paint correction polishing, Kevlar ceramic protection coatings, and interior steam sanitation on Biscayne Blvd, Miami, FL.",
+    "image": "/img/demos/miami-detailing-hero.jpg"
+  },
+  "structure": [
+    {
+      "component": "VitalHeaderBlock",
+      "props": {
+        "logoImage": "/img/logos/miami-total-steam-logo.png",
+        "logoText": "Miami Total Steam",
+        "links": [
+          { "label": "Services", "url": "#services" },
+          { "label": "Why Us", "url": "#features" },
+          { "label": "Process", "url": "#advantages" },
+          { "label": "Contact", "url": "#contact" }
+        ],
+        "buttonText": "+1 (954) 526-6044",
+        "buttonUrl": "tel:+19545266044"
+      }
+    },
+    {
+      "component": "ShineHeroBlock",
+      "props": {
+        "bgColor": "#09090b",
+        "textColor": "#ffffff",
+        "accentColor": "#38bdf8",
+        "accentTextColor": "#09090b",
+        "tagText": "PREMIUM AUTO DETAILING & STEAM CARE • MIAMI, FL",
+        "title": "Luxury auto detailing & Kevlar ceramic in",
+        "highlightText": "Miami Total Steam",
+        "subtitle": "Specialized paint correction polishing, Kevlar ceramic protection coatings, mobile services, and deep interior steam sanitation on Biscayne Blvd.",
+        "ctaText": "Book Detailing Now",
+        "ctaUrl": "tel:+19545266044",
+        "phoneLabel": "Direct Line / WhatsApp",
+        "phoneValue": "+1 (954) 526-6044",
+        "heroImageUrl": "/img/demos/miami-detailing-hero.jpg",
+        "statsNumber": "1,400+",
+        "statsLabel": "Luxury vehicles treated in Miami",
+        "trustBadges": [
+          {
+            "type": "google",
+            "name": "Google",
+            "label": "Rating 4.9",
+            "starsCount": 5
+          },
+          {
+            "type": "trustpilot",
+            "name": "Facebook",
+            "label": "98% Recommended",
+            "starsCount": 5
+          }
+        ]
+      }
+    },
+    {
+      "component": "StructFeaturesBlock",
+      "props": {
+        "id": "features",
+        "tagText": "WHY MIAMI TOTAL STEAM",
+        "title": "Aerospace-grade protection with meticulous care",
+        "subtitle": "We combine industrial Fortador steam technology with Kevlar coatings and multi-stage paint correction right here in North Miami.",
+        "items": [
+          {
+            "title": "Kevlar Ceramic Protection",
+            "text": "Cutting-edge ceramic coating infused with Kevlar particles for extreme hydrophobicity, gloss depth, and scratch resistance against intense Florida UV."
+          },
+          {
+            "title": "Fortador Steam Sanitization",
+            "text": "High-temperature ecological steam extraction that penetrates deep into upholstery, killing 99.9% of bacteria, allergens, and mildew odors safely."
+          },
+          {
+            "title": "Multi-Stage Paint Correction",
+            "text": "Precision rotary and dual-action machine polishing that permanently removes swirl marks, oxidation, and scratches to achieve a flawless mirror reflection."
+          },
+          {
+            "title": "Mobile & Shop Experience",
+            "text": "Visit our Biscayne Boulevard facility or book our fully-equipped mobile detailing unit to your home or office anywhere across Miami."
+          }
+        ]
+      }
+    },
+    {
+      "component": "StructServicesListBlock",
+      "props": {
+        "tagText": "SERVICES & PACKAGES",
+        "title": "Meticulous treatments tailored for your car",
+        "description": "Every vehicle receives our undivided attention, hospital-grade sanitation, and long-lasting exterior shield.",
+        "buttonText": "Book Appointment",
+        "buttonUrl": "tel:+19545266044",
+        "contactPhone": "+1 (954) 526-6044",
+        "contactTitle": "Direct Booking Line",
+        "services": [
+          {
+            "title": "Full Exterior Paint Correction & Wax",
+            "description": "Hand wash, clay bar decontamination, 2-stage machine polish with premium @fortadorusa wax, wheel face & barrel deep cleaning, tire dressing.",
+            "price": "From $249"
+          },
+          {
+            "title": "Ceramic Kevlar Shield Coating",
+            "description": "Multi-year hydrophobic barrier protecting paint against Florida sun, UV radiation, salt air, acid rain, and environmental fallout.",
+            "price": "From $699"
+          },
+          {
+            "title": "Total Steam Interior Deep Sanitization",
+            "description": "Steam extraction of seats and carpets, premium leather conditioning, headliner cleaning, AC vents disinfection, and odor elimination.",
+            "price": "From $189"
+          },
+          {
+            "title": "Complete Concierge Detailing (In & Out)",
+            "description": "The ultimate transformation: full paint enhancement polish + complete interior steam disinfection + engine bay detailing + paint sealant.",
+            "price": "From $399"
+          }
+        ]
+      }
+    },
+    {
+      "component": "ShineWhyChooseUsBlock",
+      "props": {
+        "tagText": "OUR PROMISE",
+        "title": "Trusted by over 1,400 Miami drivers",
+        "subtitle": "Located at 11705 Biscayne Blvd, we treat every sports car, luxury SUV, and daily driver with museum-quality precision.",
+        "buttonText": "Call for an Estimate",
+        "buttonUrl": "tel:+19545266044",
+        "imageLargeUrl": "/img/demos/miami-detailing-hero.jpg",
+        "imageSmallUrl": "/img/logos/miami-total-steam-logo.png",
+        "featuresList": [
+          {
+            "title": "Certified Technicians",
+            "subtitle": "Trained in advanced paint restoration and ceramic application",
+            "iconType": "shield"
+          },
+          {
+            "title": "Eco-Friendly Steam",
+            "subtitle": "Safe for delicate leather, children, and pets without toxic chemicals",
+            "iconType": "leaf"
+          },
+          {
+            "title": "Transparent Pricing",
+            "subtitle": "Clear upfront quotes with zero hidden fees or surprises",
+            "iconType": "pricing"
+          },
+          {
+            "title": "Biscayne Blvd Location",
+            "subtitle": "Centrally positioned in North Miami with secure facility monitoring",
+            "iconType": "calendar"
+          }
+        ]
+      }
+    },
+    {
+      "component": "VitalContactBlock",
+      "props": {
+        "tagText": "BOOK YOUR VISIT",
+        "title": "Get your car showroom-ready",
+        "subtitle": "Reach out directly by phone, WhatsApp, or email. We are located at 11705 Biscayne Blvd, Miami, FL 33181.",
+        "phone": "+1 (954) 526-6044",
+        "email": "tsc.carwash@gmail.com",
+        "address": "11705 Biscayne Boulevard, Miami, FL 33181",
+        "ratingText": "4.9",
+        "ratingCount": "98% Positive Recommendations on Facebook",
+        "buttonText": "Call Now"
+      }
+    },
+    {
+      "component": "VitalFooterBlock",
+      "props": {
+        "logoImage": "/img/logos/miami-total-steam-logo.png",
+        "logoText": "Miami Total Steam",
+        "description": "North Miami's premier auto detailing center specializing in paint correction, ceramic Kevlar coatings, and high-temp interior steam sanitization.",
+        "phone": "+1 (954) 526-6044",
+        "address": "11705 Biscayne Boulevard, Miami, FL 33181",
+        "copyright": "© 2026 Miami Total Steam Auto Detailing Center. All rights reserved.",
+        "subscriptionTitle": "Stay connected with Miami Total Steam",
+        "subscriptionText": "Sign up for seasonal detailing specials, ceramic maintenance tips, and exclusive offers."
+      }
+    }
+  ]
+}

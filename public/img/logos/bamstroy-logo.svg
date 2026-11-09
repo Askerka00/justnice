@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 140" width="600" height="140" fill="none">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#cfab7a"/>
+      <stop offset="50%" stop-color="#b88e58"/>
+      <stop offset="100%" stop-color="#9a713e"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Bamboo Leaf on top-left -->
+  <path d="M 32 46 C 24 38 18 26 24 20 C 32 20 40 28 44 38 Z" fill="url(#goldGrad)" opacity="0.9"/>
+  <path d="M 28 48 C 16 48 10 42 12 36 C 18 36 24 40 30 46 Z" fill="url(#goldGrad)" opacity="0.8"/>
+
+  <!-- Bamboo stalk segments (vertical notches on left edge of frame) -->
+  <rect x="36" y="32" width="7" height="18" rx="2" fill="url(#goldGrad)" opacity="0.85"/>
+  <rect x="36" y="53" width="7" height="20" rx="2" fill="url(#goldGrad)" opacity="0.85"/>
+  <rect x="36" y="76" width="7" height="20" rx="2" fill="url(#goldGrad)" opacity="0.85"/>
+  <rect x="36" y="99" width="7" height="18" rx="2" fill="url(#goldGrad)" opacity="0.85"/>
+
+  <!-- Golden Square Frame -->
+  <rect x="42" y="24" width="94" height="94" rx="1" stroke="url(#goldGrad)" stroke-width="4.5" fill="none"/>
+
+  <!-- Inside Buildings Lines -->
+  <!-- Left Building -->
+  <path d="M 59 118 L 59 74 L 79 60 L 79 118" stroke="url(#goldGrad)" stroke-width="4" stroke-linejoin="round" fill="none"/>
+  
+  <!-- Right/Taller Building -->
+  <path d="M 83 118 L 83 50 L 112 32 L 112 118" stroke="url(#goldGrad)" stroke-width="4.5" stroke-linejoin="round" fill="none"/>
+
+  <!-- Internal dividing vertical accent line -->
+  <line x1="97" y1="56" x2="97" y2="118" stroke="url(#goldGrad)" stroke-width="3" opacity="0.6"/>
+
+  <!-- Brand Typography: BAMSTROY -->
+  <text x="175" y="76" font-family="'Outfit', 'Montserrat', 'Inter', -apple-system, sans-serif" font-size="52" font-weight="700" letter-spacing="9" fill="#18181b">BAMSTROY</text>
+
+  <!-- Subtitle: бамбуковые панели -->
+  <text x="178" y="108" font-family="'Outfit', 'Montserrat', 'Inter', -apple-system, sans-serif" font-size="16" font-weight="500" letter-spacing="11" fill="#52525b">бамбуковые панели</text>
+</svg>

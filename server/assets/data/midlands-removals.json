@@ -1,0 +1,149 @@
+{
+  "theme": "indigo",
+  "themeColor": "#4f46e5",
+  "font": "outfit",
+  "badgeStyle": "pill",
+  "meta": {
+    "title": "Midlands Removals & Storage | Birmingham & Solihull House Removals",
+    "description": "Family-run home and commercial removals across Birmingham, Solihull, and nationwide UK. Fully insured, 5-star rated, packing and storage services. Call 0121 707 9000.",
+    "image": "/img/demos/car-business.jpg"
+  },
+  "structure": [
+    {
+      "component": "VitalHeaderBlock",
+      "props": {
+        "logoText": "MIDLANDS REMOVALS",
+        "links": [
+          { "label": "Services", "url": "#services" },
+          { "label": "Why Us", "url": "#about" },
+          { "label": "Storage", "url": "#storage" },
+          { "label": "Contact", "url": "#contact" }
+        ],
+        "buttonText": "0121 707 9000",
+        "buttonUrl": "tel:01217079000"
+      }
+    },
+    {
+      "component": "ShineHeroBlock",
+      "props": {
+        "bgColor": "#0f172a",
+        "textColor": "#ffffff",
+        "accentColor": "#6366f1",
+        "accentTextColor": "#ffffff",
+        "tagText": "FAMILY RUN • BIRMINGHAM & SOLIHULL MOVERS",
+        "title": "Stress-free house and office moves at",
+        "highlightText": "Midlands Removals",
+        "subtitle": "Professional full-service home removals, secure containerized storage, and careful export packing across the West Midlands and nationwide UK.",
+        "ctaText": "Get a Free Removal Quote",
+        "ctaUrl": "tel:01217079000",
+        "phoneLabel": "Direct Dispatch Line",
+        "phoneValue": "0121 707 9000",
+        "imageUrl": "/img/demos/car-business.jpg",
+        "statsNumber": "20+ Years",
+        "statsLabel": "Trusted moving experience in the Midlands",
+        "trustBadges": [
+          {
+            "type": "google",
+            "name": "Google",
+            "label": "5.0 Star Rating",
+            "starsCount": 5
+          },
+          {
+            "type": "trustpilot",
+            "name": "Facebook",
+            "label": "96% Positive Reviews",
+            "starsCount": 5
+          }
+        ]
+      }
+    },
+    {
+      "component": "StructFeaturesBlock",
+      "props": {
+        "id": "about",
+        "tagText": "WHY MOVE WITH US",
+        "title": "Meticulous care for your home and belongings",
+        "subtitle": "Based at Fairgate House on Kings Road, we treat every piece of furniture, family heirloom, and office asset with total care and diligence.",
+        "items": [
+          {
+            "title": "Comprehensive Goods in Transit Insurance",
+            "text": "Every load is fully covered with goods in transit and public liability insurance for complete peace of mind."
+          },
+          {
+            "title": "Full Packing & Unpacking Service",
+            "text": "High quality double-walled boxes, wardrobe cartons, bubble wrap, and mattress covers handled by our trained team."
+          },
+          {
+            "title": "Secure Containerized Storage",
+            "text": "Clean, dry, and CCTV-monitored storage facilities for short and long-term storage between property moves."
+          },
+          {
+            "title": "Transparent Fixed Prices",
+            "text": "No hidden key waiting charges or surprise fees on moving day. Accurate fixed written estimates."
+          }
+        ]
+      }
+    },
+    {
+      "component": "StructServicesListBlock",
+      "props": {
+        "id": "services",
+        "tagText": "REMOVAL SOLUTIONS",
+        "title": "Tailored moving packages across the UK",
+        "description": "From local 1-bedroom flat moves in Solihull to full corporate office relocations across the UK.",
+        "buttonText": "Book a Free Home Survey",
+        "buttonUrl": "tel:01217079000",
+        "contactPhone": "0121 707 9000",
+        "contactTitle": "Office Line",
+        "services": [
+          {
+            "title": "Full House Removals",
+            "text": "Complete house packing, dismantling, transport, and reassembly with specialized protective floor coverings.",
+            "price": "Free Estimate"
+          },
+          {
+            "title": "Commercial & Office Relocations",
+            "text": "Weekend and evening office relocations minimizing downtime with crate hire, IT disconnect/reconnect, and archive moves.",
+            "price": "Custom Quote"
+          },
+          {
+            "title": "Secure Containerized Storage",
+            "text": "Direct loading from your door into sealed wooden storage containers with round-the-clock security monitoring.",
+            "price": "From £25/week"
+          },
+          {
+            "title": "Professional Packing Materials",
+            "text": "Heavy-duty moving kits, bubble wrap, packing paper, tape, and garment hanging wardrobes delivered in advance.",
+            "price": "Packages available"
+          }
+        ]
+      }
+    },
+    {
+      "component": "VitalContactBlock",
+      "props": {
+        "tagText": "GET IN TOUCH",
+        "title": "Plan your move today",
+        "subtitle": "Call 0121 707 9000 or email info@midlandsremovals.co.uk. Office: Fairgate House, 205 Kings Road, Birmingham B11 2AA.",
+        "phone": "0121 707 9000",
+        "email": "info@midlandsremovals.co.uk",
+        "address": "Fairgate House, 205 Kings Road, Birmingham B11 2AA",
+        "ratingText": "5.0",
+        "ratingCount": "96% Positive Recommendations",
+        "buttonText": "Call for Quote"
+      }
+    },
+    {
+      "component": "VitalFooterBlock",
+      "props": {
+        "logoText": "MIDLANDS REMOVALS",
+        "description": "Birmingham and Solihull's trusted family-run removals and storage company serving families and businesses across the UK.",
+        "phone": "0121 707 9000",
+        "address": "Fairgate House, 205 Kings Road, Birmingham B11 2AA",
+        "copyright": "© 2026 Midlands Removals & Storage Ltd. All rights reserved.",
+        "subscriptionTitle": "Moving house soon?",
+        "subscriptionText": "Get our free home moving checklist, packing tips, and exclusive removal discounts."
+      }
+    }
+  ]
+}

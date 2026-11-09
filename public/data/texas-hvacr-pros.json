@@ -1,0 +1,140 @@
+{
+  "theme": "sky",
+  "themeColor": "#0284c7",
+  "font": "outfit",
+  "badgeStyle": "pill",
+  "meta": {
+    "title": "TEXAS HVACR PROS | AC Repair, Heating & Commercial Refrigeration Granbury & DFW",
+    "description": "Licensed 24/7 HVAC and commercial refrigeration contractors in Granbury, Weatherford, and North Texas. AC repair, walk-in coolers, and heating maintenance. Call (682) 500-0105.",
+    "image": "/img/hvac/hero-ventilation-system.jpeg"
+  },
+  "structure": [
+    {
+      "component": "VitalHeaderBlock",
+      "props": {
+        "logoText": "TEXAS HVACR PROS",
+        "links": [
+          { "label": "Services", "url": "#services" },
+          { "label": "Commercial Cold", "url": "#commercial" },
+          { "label": "Why Us", "url": "#about" },
+          { "label": "Contact", "url": "#contact" }
+        ],
+        "buttonText": "(682) 500-0105",
+        "buttonUrl": "tel:+16825000105"
+      }
+    },
+    {
+      "component": "ShineHeroBlock",
+      "props": {
+        "bgColor": "#081b2e",
+        "textColor": "#ffffff",
+        "accentColor": "#38bdf8",
+        "accentTextColor": "#081b2e",
+        "tagText": "24/7 EMERGENCY REPAIR • GRANBURY, WEATHERFORD & DFW",
+        "title": "Precision AC, heating & commercial refrigeration by",
+        "highlightText": "TEXAS HVACR PROS",
+        "subtitle": "Keeping homes cool and commercial restaurant freezers at sub-zero temperatures. Licensed EPA-certified technicians providing same-day diagnostics, compressor overhauls, and preventative maintenance.",
+        "ctaText": "Call 24/7 Emergency Dispatch",
+        "ctaUrl": "tel:+16825000105",
+        "phoneLabel": "Dispatch Line",
+        "phoneValue": "(682) 500-0105",
+        "imageUrl": "/img/hvac/hero-ventilation-system.jpeg",
+        "statsNumber": "24/7",
+        "statsLabel": "Rapid commercial & residential dispatch",
+        "trustBadges": [
+          {
+            "type": "google",
+            "name": "Reliability",
+            "label": "Licensed & Insured",
+            "starsCount": 5
+          },
+          {
+            "type": "trustpilot",
+            "name": "North Texas",
+            "label": "EPA Certified Pros",
+            "starsCount": 5
+          }
+        ]
+      }
+    },
+    {
+      "component": "StructFeaturesBlock",
+      "props": {
+        "tagText": "WHY BUSINESSES & HOMEOWNERS COUNT ON US",
+        "title": "Industrial Expertise for Residential Comfort and B2B Cold Storage",
+        "subtitle": "From residential heat pumps to restaurant walk-in boxes, we fix what others cannot diagnose.",
+        "features": [
+          {
+            "icon": "clock",
+            "title": "Same-Day Emergency Dispatch",
+            "description": "When Texas summer heat hits triple digits or commercial food inventory is at risk, our service trucks arrive fully stocked."
+          },
+          {
+            "icon": "shield-check",
+            "title": "Transparent Upfront Pricing",
+            "description": "Detailed flat-rate diagnostic quotes before any wrench turns. No hidden fees or surprise hourly markups."
+          },
+          {
+            "icon": "sparkles",
+            "title": "Factory-Trained Diagnostics",
+            "description": "Advanced digital manifold testing, electronic leak sniffers, and micron evacuation protocols for maximum efficiency."
+          }
+        ]
+      }
+    },
+    {
+      "component": "StructServicesListBlock",
+      "props": {
+        "tagText": "HVAC & REFRIGERATION SERVICES",
+        "title": "Turnkey Heating, Cooling & Cold Chain Engineering",
+        "subtitle": "Complete service for residential homes, retail stores, convenience markets, and restaurants.",
+        "services": [
+          {
+            "title": "Residential AC Repair & Leak Detection",
+            "price": "Same-Day Dispatch",
+            "description": "Rapid troubleshooting of failing capacitors, frozen evaporator coils, blower motors, and eco-friendly refrigerant recharges."
+          },
+          {
+            "title": "Commercial Walk-In Coolers & Freezers",
+            "price": "Priority B2B",
+            "description": "Service, defrost timer replacement, condenser maintenance, and emergency repair for food service refrigeration."
+          },
+          {
+            "title": "Heating & Heat Pump Maintenance",
+            "price": "Tune-Up Special",
+            "description": "Safety inspection of electric heat strips, furnace gas valves, flame sensors, and reversing valves before freezing weather."
+          },
+          {
+            "title": "Commercial Ice Machines & Reach-Ins",
+            "price": "B2B Maintenance",
+            "description": "Deep sanitization, descaling, bin thermostat calibration, and compressor repair for commercial ice makers."
+          },
+          {
+            "title": "High-Efficiency System Replacement",
+            "price": "Free Estimate",
+            "description": "Proper Manual J load calculation and installation of ultra-quiet, energy-saving inverter heat pump systems."
+          }
+        ]
+      }
+    },
+    {
+      "component": "VitalContactBlock",
+      "props": {
+        "title": "Need Immediate AC or Refrigeration Service?",
+        "subtitle": "Contact our master dispatch line at (682) 500-0105 for priority response across North Texas.",
+        "phone": "(682) 500-0105",
+        "email": "dispatch@texashvacrpros.com",
+        "address": "Granbury, TX 76049 • Serving Weatherford, Burleson, Aledo & DFW",
+        "schedule": "Open 24 Hours / 7 Days a Week • Emergency Night & Weekend Service"
+      }
+    },
+    {
+      "component": "VitalFooterBlock",
+      "props": {
+        "logoText": "TEXAS HVACR PROS",
+        "copyright": "© 2026 TEXAS HVACR PROS. All rights reserved.",
+        "disclaimer": "Licensed, bonded, and insured HVAC and commercial refrigeration contractor serving Granbury, Parker, Hood, Johnson, and Tarrant Counties."
+      }
+    }
+  ]
+}

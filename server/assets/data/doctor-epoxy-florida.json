@@ -1,0 +1,151 @@
+{
+  "theme": "cyan",
+  "themeColor": "#0891b2",
+  "font": "outfit",
+  "badgeStyle": "pill",
+  "meta": {
+    "title": "Doctor Epoxy Florida | Garage Floor Epoxy & Polyaspartic Coatings South Florida",
+    "description": "1-Day garage floor epoxy, polyaspartic coatings, and commercial metallic flooring in Weston, Fort Lauderdale, and Miami. Call (786) 428-7293.",
+    "image": "/img/demos/doctor-epoxy-hero.jpg"
+  },
+  "structure": [
+    {
+      "component": "VitalHeaderBlock",
+      "props": {
+        "logoImage": "/img/logos/doctor-epoxy-logo.png",
+        "logoText": "Doctor Epoxy Florida",
+        "links": [
+          { "label": "Services", "url": "#services" },
+          { "label": "Systems", "url": "#systems" },
+          { "label": "Why Us", "url": "#about" },
+          { "label": "Contact", "url": "#contact" }
+        ],
+        "buttonText": "(786) 428-7293",
+        "buttonUrl": "tel:+17864287293"
+      }
+    },
+    {
+      "component": "ShineHeroBlock",
+      "props": {
+        "bgColor": "#0b121b",
+        "textColor": "#ffffff",
+        "accentColor": "#06b6d4",
+        "accentTextColor": "#0b121b",
+        "tagText": "1-DAY INSTALLATION • WESTON & SOUTH FLORIDA",
+        "title": "Designer garage epoxy & polyaspartic at",
+        "highlightText": "Doctor Epoxy Florida",
+        "subtitle": "Transform your garage, patio, or showroom with industrial 4-layer polyaspartic coatings, decorative flake blends, and seamless metallic finishes.",
+        "ctaText": "Request a Free Flooring Quote",
+        "ctaUrl": "tel:+17864287293",
+        "phoneLabel": "Direct Line / Free Estimate",
+        "phoneValue": "(786) 428-7293",
+        "imageUrl": "/img/demos/doctor-epoxy-hero.jpg",
+        "statsNumber": "350+",
+        "statsLabel": "Flooring projects completed in South Florida",
+        "trustBadges": [
+          {
+            "type": "google",
+            "name": "Quality",
+            "label": "100% UV Stable",
+            "starsCount": 5
+          },
+          {
+            "type": "trustpilot",
+            "name": "Community",
+            "label": "350+ Happy Clients",
+            "starsCount": 5
+          }
+        ]
+      }
+    },
+    {
+      "component": "StructFeaturesBlock",
+      "props": {
+        "id": "about",
+        "tagText": "THE DOCTOR EPOXY STANDARD",
+        "title": "Industrial strength meets luxury aesthetic",
+        "subtitle": "Engineered for South Florida heat, humidity, and chemical spills. Walk on your new floor in 24 hours.",
+        "items": [
+          {
+            "title": "Industrial Diamond Grinding",
+            "text": "Complete concrete mechanical profiling and moisture testing ensures maximum bond strength with zero peeling."
+          },
+          {
+            "title": "Polyaspartic Top Coat",
+            "text": "4x stronger than standard epoxy with 100% UV resistance preventing yellowing from intense Florida sunlight."
+          },
+          {
+            "title": "1-Day Turnaround",
+            "text": "Fast-curing proprietary chemistry allows complete garage floor transformations in a single day."
+          },
+          {
+            "title": "Stain & Chemical Proof",
+            "text": "Impervious to hot tire pickup, motor oil, brake fluid, salt, and heavy impact."
+          }
+        ]
+      }
+    },
+    {
+      "component": "StructServicesListBlock",
+      "props": {
+        "id": "services",
+        "tagText": "OUR FLOORING SYSTEMS",
+        "title": "Custom polymer solutions for residential & commercial",
+        "description": "Choose from hundreds of custom flake blends, solid pigments, and 3D metallic marble effects.",
+        "buttonText": "Get a Custom Quote",
+        "buttonUrl": "tel:+17864287293",
+        "contactPhone": "(786) 428-7293",
+        "contactTitle": "Flooring Consultation",
+        "services": [
+          {
+            "title": "Garage Flake System (1-Day)",
+            "text": "Full broadcast vinyl chips with high-solids polyaspartic clear coat. Slip-resistant and showroom ready.",
+            "price": "From $4.50/sq ft"
+          },
+          {
+            "title": "Commercial Metallic Marble",
+            "text": "Deep 3D reflective pigments for luxury boutiques, modern office lobbies, restaurants, and salons.",
+            "price": "Custom Estimate"
+          },
+          {
+            "title": "Patio & Pool Deck Coatings",
+            "text": "Cool-foot textures and non-slip outdoor polyurethane coatings designed for heavy rain and sun.",
+            "price": "Free Measure"
+          },
+          {
+            "title": "Industrial Warehouse Epoxy",
+            "text": "High-build 100% solids epoxy for heavy forklift traffic, automotive workshops, and manufacturing plants.",
+            "price": "Volume Pricing"
+          }
+        ]
+      }
+    },
+    {
+      "component": "VitalContactBlock",
+      "props": {
+        "tagText": "SCHEDULE YOUR MEASUREMENT",
+        "title": "Upgrade your floor this week",
+        "subtitle": "Serving Weston, Fort Lauderdale, Coral Springs, and Miami. Call (786) 428-7293 or email info@doctorepoxyflorida.com.",
+        "phone": "(786) 428-7293",
+        "email": "info@doctorepoxyflorida.com",
+        "address": "Weston, FL 33327",
+        "ratingText": "5.0",
+        "ratingCount": "South Florida Homeowners",
+        "buttonText": "Call the Shop"
+      }
+    },
+    {
+      "component": "VitalFooterBlock",
+      "props": {
+        "logoImage": "/img/logos/doctor-epoxy-logo.png",
+        "logoText": "Doctor Epoxy Florida",
+        "description": "South Florida's premier resinous flooring experts specializing in garage flake floors, metallic epoxy, and polyaspartic coatings.",
+        "phone": "(786) 428-7293",
+        "address": "Weston, Florida City, FL 33327",
+        "copyright": "© 2026 Doctor Epoxy Florida. All rights reserved.",
+        "subscriptionTitle": "Get sample color swatches",
+        "subscriptionText": "Sign up for seasonal flooring specials and explore our 40+ designer color blends."
+      }
+    }
+  ]
+}
