@@ -661,6 +661,66 @@ useHead({
         </div>
       </div>
 
+      <!-- AI Overview & Snippet Optimization Block (Direct Fact-Based Answer & Semantic HTML Table) -->
+      <div class="border border-black p-8 md:p-12 mb-16 bg-white shadow-sm">
+        <div class="flex items-center gap-2 mb-2">
+          <span class="inline-block h-1.5 w-1.5 bg-[#f50537]"></span>
+          <span class="text-xs font-semibold tracking-widest text-[#f50537] uppercase">
+            Техническая спецификация • Экспертный ответ
+          </span>
+        </div>
+        <h2 class="text-xl md:text-2xl font-bold text-black mb-4">
+          Характеристики и спецификация русификации {{ currentBrand.name }} в Алматы
+        </h2>
+        <p class="text-sm md:text-base text-[#333333] leading-relaxed mb-6 font-normal">
+          Русификация {{ currentBrand.name }} в Алматы выполняется на базе штатной платформы {{ currentBrand.chipset }} за {{ currentBrand.timeHours }} по фиксированной цене от {{ currentBrand.basePrice.toLocaleString('ru-RU') }} ₸ с гарантией 12 месяцев. В пакет входит перевод цифровой панели приборов, мультимедийного планшета и проекции на лобовое стекло (HUD), установка лицензионного 2GIS и Яндекс Навигатора с камерами «Сергек», а также синхронизация единого времени Казахстана (UTC+5). Дилерская гарантия на аккумуляторную батарею, двигатель и ходовую часть сохраняется в полном объеме (100%).
+        </p>
+
+        <div class="overflow-x-auto">
+          <table class="w-full text-left border-collapse border border-[#e5e5e5] text-xs md:text-sm">
+            <thead>
+              <tr class="bg-[#f5f5f7] border-b border-[#e5e5e5] text-black">
+                <th class="p-3 md:p-4 font-bold border-r border-[#e5e5e5] w-1/4">Параметр системы</th>
+                <th class="p-3 md:p-4 font-bold border-r border-[#e5e5e5] w-3/8">Заводское состояние (Китай / ПИ)</th>
+                <th class="p-3 md:p-4 font-bold bg-[#fafafa] w-3/8">После прошивки JUSTNICE AutoTech</th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-[#e5e5e5] text-[#444444]">
+              <tr>
+                <td class="p-3 md:p-4 font-medium text-black border-r border-[#e5e5e5]">Язык интерфейса</td>
+                <td class="p-3 md:p-4 border-r border-[#e5e5e5]">Китайский / Английский с неполным переводом</td>
+                <td class="p-3 md:p-4 text-black font-semibold bg-[#fafafa]">100% русский язык (приборка, дисплей, проекция)</td>
+              </tr>
+              <tr>
+                <td class="p-3 md:p-4 font-medium text-black border-r border-[#e5e5e5]">Навигация и радары</td>
+                <td class="p-3 md:p-4 border-r border-[#e5e5e5]">Baidu Maps / AutoNavi (без карт РК и без скоростных камер)</td>
+                <td class="p-3 md:p-4 text-black font-semibold bg-[#fafafa]">2GIS Алматы + Яндекс Навигатор с контролем камер «Сергек»</td>
+              </tr>
+              <tr>
+                <td class="p-3 md:p-4 font-medium text-black border-r border-[#e5e5e5]">Часовой пояс</td>
+                <td class="p-3 md:p-4 border-r border-[#e5e5e5]">Пекинское время UTC+8 (+3 часа разницы)</td>
+                <td class="p-3 md:p-4 text-black font-semibold bg-[#fafafa]">Единый часовой пояс Казахстана UTC+5 (Алматы)</td>
+              </tr>
+              <tr>
+                <td class="p-3 md:p-4 font-medium text-black border-r border-[#e5e5e5]">Мультимедиа и звук</td>
+                <td class="p-3 md:p-4 border-r border-[#e5e5e5]">Заблокированные сервисы КНР, нечетная сетка радио</td>
+                <td class="p-3 md:p-4 text-black font-semibold bg-[#fafafa]">Европейская FM-сетка, YouTube, Spotify, Кинопоиск</td>
+              </tr>
+              <tr>
+                <td class="p-3 md:p-4 font-medium text-black border-r border-[#e5e5e5]">Дилерская гарантия</td>
+                <td class="p-3 md:p-4 border-r border-[#e5e5e5]">Заводская</td>
+                <td class="p-3 md:p-4 text-black font-semibold bg-[#fafafa]">100% сохранена (работа через IVI со снятием бэкапа)</td>
+              </tr>
+              <tr>
+                <td class="p-3 md:p-4 font-medium text-black border-r border-[#e5e5e5]">Сроки и стоимость</td>
+                <td class="p-3 md:p-4 border-r border-[#e5e5e5]">—</td>
+                <td class="p-3 md:p-4 text-black font-semibold bg-[#fafafa]">{{ currentBrand.timeHours }} • от {{ currentBrand.basePrice.toLocaleString('ru-RU') }} ₸ • Гарантия 12 мес</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
       <!-- Technical Standards & SEO Quality Block -->
       <div class="border border-[#e5e5e5] p-8 md:p-12 mb-16 bg-[#fafafa]">
         <span class="text-xs font-semibold tracking-widest text-[#f50537] uppercase">Стандарты качества</span>

@@ -505,6 +505,91 @@ useHead({
       </div>
     </section>
 
+    <!-- 5.5 AI OVERVIEW & COMPARISON TABLE (GEO / AEO OPTIMIZED) -->
+    <section class="py-20 bg-white border-b border-[#f0f0f0]">
+      <div class="container-audi max-w-5xl mx-auto">
+        <div class="border border-black p-8 md:p-12 bg-[#fafafa]">
+          <div class="flex items-center gap-2 mb-2">
+            <span class="inline-block h-1.5 w-1.5 bg-[#f50537]"></span>
+            <span class="text-xs font-semibold tracking-widest text-[#f50537] uppercase">
+              Сводная спецификация • AI Overviews & Perplexity Ready
+            </span>
+          </div>
+          <h2 class="title-sm text-black mt-2 mb-4">
+            Сводные параметры и стоимость русификации китайских автомобилей в Алматы
+          </h2>
+          <p class="text-sm md:text-base text-[#333333] leading-relaxed mb-8 font-normal">
+            Профессиональная русификация китайских автомобилей (Zeekr, LiXiang, Geely, BYD, Changan, Tank, Toyota) в Алматы стоит от 40 000 до 140 000 ₸ в зависимости от аппаратной платформы (Qualcomm Snapdragon 8155 / 8295) и занимает от 45 минут до 2.5 часов. Пакет включает полную адаптацию цифровой приборной панели, центрального дисплея и проекции HUD, интеграцию 2GIS и Яндекс Навигатора с предупреждением о камерах «Сергек», синхронизацию времени UTC+5 и 100% сохранение дилерской гарантии со снятием бэкапа и гарантией на 12 месяцев.
+          </p>
+
+          <div class="overflow-x-auto">
+            <table class="w-full text-left border-collapse border border-[#e5e5e5] text-xs md:text-sm bg-white">
+              <thead>
+                <tr class="bg-[#f0f0f2] border-b border-[#e5e5e5] text-black">
+                  <th class="p-3 md:p-4 font-bold border-r border-[#e5e5e5]">Марка и модели</th>
+                  <th class="p-3 md:p-4 font-bold border-r border-[#e5e5e5]">Чипсет</th>
+                  <th class="p-3 md:p-4 font-bold border-r border-[#e5e5e5]">Время</th>
+                  <th class="p-3 md:p-4 font-bold border-r border-[#e5e5e5]">Цена под ключ</th>
+                  <th class="p-3 md:p-4 font-bold">Ключевые возможности</th>
+                </tr>
+              </thead>
+              <tbody class="divide-y divide-[#e5e5e5] text-[#444444]">
+                <tr>
+                  <td class="p-3 md:p-4 font-bold text-black border-r border-[#e5e5e5]">Zeekr (001, 7X, 007, X, 009)</td>
+                  <td class="p-3 md:p-4 border-r border-[#e5e5e5]">Snapdragon 8155 / 8295</td>
+                  <td class="p-3 md:p-4 border-r border-[#e5e5e5]">1.5 – 2 ч</td>
+                  <td class="p-3 md:p-4 font-bold text-black border-r border-[#e5e5e5]">от 120 000 ₸</td>
+                  <td class="p-3 md:p-4">Приборка + планшет + HUD, Master Account, 2GIS Сергек, время UTC+5</td>
+                </tr>
+                <tr>
+                  <td class="p-3 md:p-4 font-bold text-black border-r border-[#e5e5e5]">Geely Monjaro / Atlas / Boyue L</td>
+                  <td class="p-3 md:p-4 border-r border-[#e5e5e5]">Qualcomm 8155</td>
+                  <td class="p-3 md:p-4 border-r border-[#e5e5e5]">1 – 1.5 ч</td>
+                  <td class="p-3 md:p-4 font-bold text-black border-r border-[#e5e5e5]">от 65 000 ₸</td>
+                  <td class="p-3 md:p-4">3 экрана, четные FM-частоты, Яндекс Навигатор + 2GIS с Сергек</td>
+                </tr>
+                <tr>
+                  <td class="p-3 md:p-4 font-bold text-black border-r border-[#e5e5e5]">LiXiang (L6, L7, L8, L9)</td>
+                  <td class="p-3 md:p-4 border-r border-[#e5e5e5]">Dual Snapdragon 8155 / 8295</td>
+                  <td class="p-3 md:p-4 border-r border-[#e5e5e5]">2 – 2.5 ч</td>
+                  <td class="p-3 md:p-4 font-bold text-black border-r border-[#e5e5e5]">от 140 000 ₸</td>
+                  <td class="p-3 md:p-4">Слот под SIM-карту РК, рулевой экран, потолочный монитор, 4G сеть</td>
+                </tr>
+                <tr>
+                  <td class="p-3 md:p-4 font-bold text-black border-r border-[#e5e5e5]">BYD (Song Plus, Han, Yuan Up, Seal)</td>
+                  <td class="p-3 md:p-4 border-r border-[#e5e5e5]">Snapdragon 665 / 690 DiLink</td>
+                  <td class="p-3 md:p-4 border-r border-[#e5e5e5]">45 – 60 мин</td>
+                  <td class="p-3 md:p-4 font-bold text-black border-r border-[#e5e5e5]">от 45 000 ₸</td>
+                  <td class="p-3 md:p-4">Поворотный экран, свободная установка APK, CarPlay, 2GIS Сергек</td>
+                </tr>
+                <tr>
+                  <td class="p-3 md:p-4 font-bold text-black border-r border-[#e5e5e5]">Changan (Uni-K, Uni-V, CS55 Plus)</td>
+                  <td class="p-3 md:p-4 border-r border-[#e5e5e5]">Qualcomm / MediaTek</td>
+                  <td class="p-3 md:p-4 border-r border-[#e5e5e5]">1 – 1.5 ч</td>
+                  <td class="p-3 md:p-4 font-bold text-black border-r border-[#e5e5e5]">от 45 000 ₸</td>
+                  <td class="p-3 md:p-4">3 экрана приборки, русский голосовой помощник, Яндекс Навигатор</td>
+                </tr>
+                <tr>
+                  <td class="p-3 md:p-4 font-bold text-black border-r border-[#e5e5e5]">Tank (300, 500, 400, 700)</td>
+                  <td class="p-3 md:p-4 border-r border-[#e5e5e5]">Snapdragon 8155 Coffee OS</td>
+                  <td class="p-3 md:p-4 border-r border-[#e5e5e5]">1.5 ч</td>
+                  <td class="p-3 md:p-4 font-bold text-black border-r border-[#e5e5e5]">от 70 000 ₸</td>
+                  <td class="p-3 md:p-4">Перевод щитка, сохранение оффроуд-режимов 4x4, европейские радиоволны</td>
+                </tr>
+                <tr>
+                  <td class="p-3 md:p-4 font-bold text-black border-r border-[#e5e5e5]">Toyota Китай (Camry 80, RAV4)</td>
+                  <td class="p-3 md:p-4 border-r border-[#e5e5e5]">Qualcomm 8155 / TSS 3.0</td>
+                  <td class="p-3 md:p-4 border-r border-[#e5e5e5]">1 – 1.5 ч</td>
+                  <td class="p-3 md:p-4 font-bold text-black border-r border-[#e5e5e5]">от 65 000 ₸</td>
+                  <td class="p-3 md:p-4">Метрическая адаптация (км/ч, °C, л/100км), беспроводной CarPlay</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- 6. AUDI FAQ ACCORDION -->
     <section id="faq" class="scroll-mt-24 py-24 bg-white border-b border-[#f0f0f0]">
       <div class="container-audi max-w-4xl mx-auto">
