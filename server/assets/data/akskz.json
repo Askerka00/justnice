@@ -13,7 +13,7 @@
       "component": "CoverHeroBlock",
       "props": {
         "logoImage": "/img/logos/akskz-logo.png",
-        "logoText": "AKS KAZAKHSTAN • TEKNOS & ЭМЛАК",
+        "logoText": "AKS KAZAKHSTAN",
         "hideLogoText": false,
         "whatsappPhone": "77070406994",
         "headerButtonText": "+7 707 040 69 94",

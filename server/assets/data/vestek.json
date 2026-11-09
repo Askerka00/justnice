@@ -13,7 +13,7 @@
       "component": "CoverHeroBlock",
       "props": {
         "logoImage": "/img/logos/vestek-logo.png",
-        "logoText": "ВЕСТЭК • ЭТАЛОН ВЕС СЕРВИС",
+        "logoText": "ВЕСТЭК",
         "hideLogoText": false,
         "whatsappPhone": "77785751515",
         "headerButtonText": "+7 778 575 15 15",

@@ -21,7 +21,7 @@
       <header v-if="!hideNavbar && logoText" class="mt-6 w-full relative">
         <div class="w-full bg-white/10 backdrop-blur-xl border border-white/10 rounded-2xl px-6 py-4 flex items-center justify-between glass-header">
           <!-- Логотип -->
-          <a href="#" class="flex items-center space-x-2.5 group">
+          <a href="#" class="flex items-center space-x-2.5 group shrink-0">
             <template v-if="logoImage">
               <NuxtImg :src="logoImage" :alt="logoText || 'Logo'" :class="[logoClass || '', 'h-8 w-auto object-contain transition-transform duration-300 group-hover:scale-105']" format="webp" />
             </template>
@@ -30,34 +30,34 @@
               <Icon v-else-if="logoIcon" :name="logoIcon" class="w-6 h-6 text-primary shrink-0" />
               <Icon v-else name="lucide:leaf" class="w-6 h-6 text-primary shrink-0" />
             </template>
-            <span v-if="!hideLogoText" class="font-bold text-xl tracking-tight text-white transition-colors group-hover:text-primary">{{ logoText || 'Gardener' }}</span>
+            <span v-if="!hideLogoText" class="font-bold text-lg sm:text-xl tracking-tight text-white transition-colors group-hover:text-primary whitespace-nowrap">{{ logoText || 'Gardener' }}</span>
           </a>
           
           <!-- Навигация -->
-          <nav class="hidden md:flex items-center space-x-8 text-sm font-medium text-gray-200">
+          <nav class="hidden lg:flex items-center space-x-6 xl:space-x-8 text-sm font-medium text-gray-200">
             <a 
               v-for="link in links" 
               :key="link.label" 
               :href="link.url" 
-              class="hover:text-white transition-colors duration-200"
+              class="hover:text-white transition-colors duration-200 whitespace-nowrap"
             >
               {{ link.label }}
             </a>
           </nav>
 
           <!-- Кнопка действия -->
-          <div class="hidden md:block">
+          <div class="hidden md:block shrink-0">
             <a 
               v-if="headerButtonText"
               :href="headerButtonUrlFormatted"
-              class="bg-primary hover:bg-primary/95 text-white font-medium text-sm px-5 py-2.5 rounded-xl transition-all shadow-lg shadow-primary/20 block text-center"
+              class="bg-primary hover:bg-primary/95 text-white font-medium text-sm px-5 py-2.5 rounded-xl transition-all shadow-lg shadow-primary/20 block text-center whitespace-nowrap"
             >
               {{ headerButtonText }}
             </a>
           </div>
 
           <!-- Гамбургер меню для мобильных -->
-          <div class="flex md:hidden items-center">
+          <div class="flex lg:hidden items-center">
             <button @click="isMobileMenuOpen = !isMobileMenuOpen" class="text-gray-200 hover:text-white p-1.5 focus:outline-none transition-colors">
               <Icon v-if="!isMobileMenuOpen" name="lucide:menu" class="w-6 h-6" />
               <Icon v-else name="lucide:x" class="w-6 h-6" />
@@ -74,7 +74,7 @@
           leave-from-class="opacity-100 translate-y-0"
           leave-to-class="opacity-0 translate-y-[-10px]"
         >
-          <div v-if="isMobileMenuOpen" class="absolute top-full left-0 right-0 mt-2 bg-slate-950/95 backdrop-blur-xl border border-white/10 rounded-2xl p-6 flex flex-col space-y-4 shadow-xl z-50 glass-header md:hidden">
+          <div v-if="isMobileMenuOpen" class="absolute top-full left-0 right-0 mt-2 bg-slate-950/95 backdrop-blur-xl border border-white/10 rounded-2xl p-6 flex flex-col space-y-4 shadow-xl z-50 glass-header lg:hidden">
             <a 
               v-for="link in links" 
               :key="link.label" 

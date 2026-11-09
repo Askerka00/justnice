@@ -13,7 +13,7 @@
       "component": "CoverHeroBlock",
       "props": {
         "logoImage": "/img/logos/bpol-logo.png",
-        "logoText": "BPOL • НАЛИВНЫЕ И ПРОМЫШЛЕННЫЕ ПОЛЫ",
+        "logoText": "BPOL",
         "hideLogoText": false,
         "whatsappPhone": "77019780092",
         "headerButtonText": "+7 701 978 00 92",
