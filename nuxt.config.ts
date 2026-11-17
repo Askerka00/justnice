@@ -13,6 +13,12 @@ const prerenderRoutes = [
   '/brands/hongqi',
   '/brands/chevrolet-monza',
   '/brands/hyundai-kia',
+  '/models/li-auto',
+  '/models/zeekr',
+  '/models/geely-monjaro',
+  '/models/changan',
+  '/models/byd',
+  '/models/deepal',
   '/calculator',
   '/sitemap.xml',
   '/robots.txt'

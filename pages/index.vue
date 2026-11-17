@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { ref, computed } from 'vue'
 import { CAR_MODELS, FAQS, type CarModel } from '~/data/autoData'
+import { MODEL_PAGES } from '~/data/modelPages'
 
 // Filter tabs for Model range
 const activeBrandFilter = ref('all')
@@ -303,6 +304,41 @@ useHead({
               </NuxtLink>
             </div>
           </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 2.5 POPULAR MODEL PAGES IN KAZAKHSTAN -->
+    <section id="popular-models" class="scroll-mt-24 py-14 bg-[#fafafa] border-b border-[#f0f0f0]">
+      <div class="container-audi">
+        <div class="flex flex-col md:flex-row md:items-end justify-between mb-8 gap-4">
+          <div>
+            <span class="text-xs font-semibold tracking-widest text-[#f50537] uppercase">Отдельные страницы моделей</span>
+            <h2 class="title-sm text-black mt-1">Популярные модели в Казахстане</h2>
+          </div>
+          <p class="text-xs text-[#666666] font-light max-w-md">
+            Узнайте условия, ориентировочную стоимость и список возможностей русификации для вашей модели.
+          </p>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+          <NuxtLink
+            v-for="model in MODEL_PAGES"
+            :key="model.slug"
+            :to="`/models/${model.slug}`"
+            class="group bg-white border border-[#e5e5e5] p-5 flex items-center justify-between gap-4 hover:border-black transition-colors"
+          >
+            <div>
+              <div class="text-xs font-semibold uppercase tracking-wider text-[#777777]">{{ model.brand }}</div>
+              <div class="text-base font-bold text-black mt-0.5 group-hover:text-[#f50537] transition-colors">
+                {{ model.modelsLabel }}
+              </div>
+              <div class="text-xs text-[#555555] mt-1">
+                от {{ model.priceFrom.toLocaleString('ru-RU') }} ₸
+              </div>
+            </div>
+            <span class="text-lg text-[#777777] group-hover:text-black group-hover:translate-x-1 transition-all shrink-0">→</span>
+          </NuxtLink>
         </div>
       </div>
     </section>
