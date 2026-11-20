@@ -19,6 +19,7 @@ const prerenderRoutes = [
   '/models/changan',
   '/models/byd',
   '/models/deepal',
+  '/models/sim-internet',
   '/calculator',
   '/sitemap.xml',
   '/robots.txt'
